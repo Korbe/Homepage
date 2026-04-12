@@ -10,6 +10,7 @@
 
 <script setup>
 import { computed } from 'vue'
+import { usePage } from '@inertiajs/vue3'
 
 const props = defineProps({
     href: {
@@ -18,7 +19,11 @@ const props = defineProps({
     }
 })
 
-const isActive = computed(() => window.location.pathname === props.href)
+const page = usePage()
+
+const isActive = computed(() =>
+    page.url === props.href
+)
 
 const navItemClasses = computed(() => {
     return [

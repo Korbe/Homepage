@@ -37,8 +37,12 @@ import MobileNavigation from './MobileNavigation.vue';
 import DesktopNavigation from './DesktopNavigation.vue';
 import ThemeToggle from './ThemeToggle.vue';
 import Container from '@/Components/Container.vue';
+import { computed } from 'vue'
+import { usePage } from '@inertiajs/vue3'
 
-const isHomePage = ref(window.location.pathname === '/');
+const page = usePage()
+
+const isHomePage = computed(() => page.url === '/')
 const headerRef = ref(null);
 const avatarRef = ref(null);
 const isInitial = ref(true);

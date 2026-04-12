@@ -4,9 +4,11 @@
     "type": "module",
     "private": true,
     "scripts": {
-        "build": "vite build",
+        "build": "vite build && vite build --ssr",
         "dev": "vite",
-        "deploy": "dep deploy"
+        "deploy": "dep deploy",
+        "ssr": "php artisan inertia:start-ssr",
+        "devssr": "npm run build && npm run ssr"
     },
     "devDependencies": {
         "@inertiajs/vue3": "^2.0",
@@ -28,6 +30,7 @@
         "@fortawesome/fontawesome-free": "^6.7.2",
         "@headlessui/vue": "^1.7.23",
         "@heroicons/vue": "^2.2.0",
+        "@vue/server-renderer": "^3.5.32",
         "canvg": "^4.0.3",
         "html2canvas": "^1.4.1",
         "vue-router": "^4.5.0"

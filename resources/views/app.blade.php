@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="index, follow">
     
-    <meta name="description" content="IT-Dienstleister & Software Ingenieur aus Villach. PC-Notdienst, Smartphone-Hilfe & individuelle Webapps - verständlich, schnell & zuverlässig.">
+    <meta name="description" content="IT-Dienstleister & Software Ingenieur aus Villach. PC-Notdienst, PC Probleme, Smartphone-Hilfe & individuelle Webapps - verständlich, schnell & zuverlässig.">
 
     <meta property="og:title" content="IT-Dienstleister & PC Notdienst Villach - Ing. Lukas Korbitsch">
     <meta property="og:description" content="Schnelle Hilfe bei PC-Problemen, Smartphone-Support & individuelle Webapps.">
