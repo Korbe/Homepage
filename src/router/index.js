@@ -7,8 +7,8 @@ const routes = [
   
   { path: '/homevisits', name: 'HomeVisits', component: () => import('../views/homevisits/Homevisits.vue') },
   { path: '/contact', name: 'Contact', component: () => import('../views/contact/Contact.vue') },
-  { path: '/imprint', name: 'Imprint', component: () => import('../views/imprint.vue') },
-  { path: '/privacy', name: 'Privacy', component: () => import('../views/privacy.vue') },
+  { path: '/impressum', name: 'Imprint', component: () => import('../views/Imprint.vue') },
+  { path: '/datenschutz', name: 'Privacy', component: () => import('../views/Privacy.vue') },
   { path: '/:pathMatch(.*)*', name: 'NotFound', component: () => import('../views/NotFound.vue') }
 ]
 

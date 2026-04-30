@@ -28,6 +28,6 @@
 </template>
 
 <script setup>
-import Credit from './Credit.vue'
+import Credit from '../Credit.vue'
 const currentYear = new Date().getFullYear()
 </script>
