@@ -1,5 +1,11 @@
 <template>
-    <section id="webapps" class="relative py-24 bg-neutral-900/95 text-white overflow-visible">
+    <section id="webapps" class="relative py-24 bg-neutral-900/95 text-white overflow-hidden">
+
+        <div class="pointer-events-none absolute inset-0 z-0">
+            <div
+                class="absolute -bottom-50 -right-50 h-125 w-125 rounded-full bg-brand opacity-25 blur-[140px] mix-blend-screen">
+            </div>
+        </div>
 
         <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
 

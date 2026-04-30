@@ -2,7 +2,7 @@
     <Layout>
         <Hero />
 
-        <ServiceEntrySection />
+         <ServiceEntrySection />
 
         <ProblemSolutionSection />
 
@@ -18,7 +18,7 @@
 
         <Pricing />
 
-        <Faq />
+        <Faq /> 
 
         <Cta />
 

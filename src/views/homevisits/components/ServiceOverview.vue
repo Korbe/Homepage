@@ -1,5 +1,14 @@
 <template>
-    <section class="py-24 bg-neutral-900/95 text-white">
+    <section class="relative py-24 bg-neutral-900/95 text-white overflow-hidden">
+
+        <div class="pointer-events-none absolute inset-0 z-10">
+            <div
+                class="absolute -bottom-50 -right-50 h-125 w-125 rounded-full bg-brand opacity-30 blur-[160px] mix-blend-screen">
+            </div>
+        </div>
+
+
+
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
 
             <!-- Heading -->
@@ -47,7 +56,8 @@
                 </div>
 
                 <!-- Gaming PC -->
-                <div class="hover:bg-neutral-900/50 border border-neutral-800 rounded-2xl p-8 bg-neutral-800/60 hover:border-brand transition">
+                <div
+                    class="hover:bg-neutral-900/50 border border-neutral-800 rounded-2xl p-8 bg-neutral-800/60 hover:border-brand transition">
 
                     <p class="text-sm text-brand uppercase mb-2">
                         Gaming Setup
