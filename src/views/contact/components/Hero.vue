@@ -10,7 +10,7 @@
                 class="block xl:hidden w-full h-full object-cover object-right" />
 
             <!-- Dark Overlay -->
-            <div class="absolute inset-0 bg-neutral-950/80"></div>
+            <div class="absolute inset-0 bg-neutral-950/60"></div>
 
             <!-- Gradient -->
             <div class="absolute inset-0 bg-linear-to-r from-neutral-950 via-neutral-950/40 to-transparent"></div>
