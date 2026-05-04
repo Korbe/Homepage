@@ -52,7 +52,7 @@
         <router-link to="/homevisits"
           class="group border border-neutral-800 rounded-2xl p-8 bg-neutral-800/40 hover:border-neutral-600 transition shadow-md shadow-black/10">
 
-          <p class="text-sm text-neutral-500 uppercase mb-2 tracking-wide">
+          <p class="text-sm text-neutral-300 uppercase mb-2 tracking-wide">
             Vor Ort Service
           </p>
 

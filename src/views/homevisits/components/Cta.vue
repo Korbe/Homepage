@@ -41,7 +41,7 @@
 
                     <p>📞 +43 670 1923388</p>
 
-                    <p class="text-neutral-500 mt-4">
+                    <p class="text-neutral-300 mt-4">
                         Antwort meist innerhalb von 24 Stunden
                     </p>
 
@@ -50,7 +50,7 @@
             </div>
 
             <!-- Footer Note -->
-            <p class="text-neutral-600 text-xs mt-8">
+            <p class="text-neutral-400 text-xs mt-8">
                 Auch verfügbar für Gaming PC Builds & technische Beratung
             </p>
 

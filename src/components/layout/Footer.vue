@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-black py-12 text-center text-neutral-500 text-sm border-t border-neutral-800">
+    <footer class="bg-black py-12 text-center text-neutral-300 text-sm border-t border-neutral-800">
 
         <div class="flex justify-center pb-5">
             <RouterLink to="/" class="flex items-center gap-2">

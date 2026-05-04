@@ -59,7 +59,7 @@
                                 <div v-if="project.quote"
                                     class="border-l border-neutral-700 pl-4 text-sm text-neutral-400 mb-6">
                                     <p class="italic">"{{ project.quote.text }}"</p>
-                                    <p class="mt-2 text-neutral-500">
+                                    <p class="mt-2 text-neutral-300">
                                         {{ project.quote.author }}
                                     </p>
                                 </div>
@@ -68,7 +68,7 @@
 
                             <!-- FOOTER -->
                             <div>
-                                <p class="text-neutral-500 text-sm mb-2">
+                                <p class="text-neutral-300 text-sm mb-2">
                                     {{ project.role }}
                                 </p>
 

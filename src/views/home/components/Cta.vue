@@ -3,7 +3,7 @@
         <div class="max-w-5xl mx-auto px-6 lg:px-12 text-center">
 
 
-            <img src="@/assets/logo.png" class="h-32 mb-5 mx-auto" />
+            <img src="@/assets/logo.png" class="h-32 mb-5 mx-auto" alt="logo" />
 
             <!-- Heading -->
             <h2 class="text-3xl md:text-4xl font-bold mb-4">
@@ -52,7 +52,7 @@
                         📞 <span>+43 670 1923388</span>
                     </p>
 
-                    <p class="text-neutral-500 mt-3">
+                    <p class="text-neutral-300 mt-3">
                         Antwort meist innerhalb von 24 Stunden
                     </p>
 
@@ -61,7 +61,7 @@
             </div>
 
             <!-- Small note -->
-            <p class="text-neutral-600 text-xs mt-8">
+            <p class="text-neutral-400 text-xs mt-8">
                 Auch verfügbar für IT-Hausbesuche (PC, Smartphone, Drucker) - einfach anfragen!
             </p>
 

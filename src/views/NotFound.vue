@@ -68,7 +68,7 @@
                             <li>• URL manuell falsch eingegeben</li>
                         </ul>
 
-                        <p class="text-neutral-500 text-sm mt-6">
+                        <p class="text-neutral-300 text-sm mt-6">
                             Oder du hast einfach etwas entdeckt, das (noch) nicht existiert.
                         </p>
 

@@ -31,7 +31,7 @@
             <div class="text-neutral-400 text-sm mt-5 space-y-2">
                 <p>📧 info@korbitsch.at</p>
                 <p>📞 +43 670 1923388</p>
-                <p class="text-neutral-500 mt-4"> Antwort meist innerhalb von 24 Stunden </p>
+                <p class="text-neutral-300 mt-4"> Antwort meist innerhalb von 24 Stunden </p>
             </div>
 
         </div>

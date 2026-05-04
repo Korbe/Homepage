@@ -37,7 +37,7 @@
                         20% des Hardwarewerts
                     </p>
 
-                    <p class="text-neutral-500 text-sm">
+                    <p class="text-neutral-300 text-sm">
                         bezogen auf die Gesamtkosten der verbauten Komponenten (bis maximal 500€)
                     </p>
 

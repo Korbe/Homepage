@@ -26,7 +26,7 @@
                     Kontakt
                 </p>
 
-                <p class="text-md text-neutral-500 mt-1">
+                <p class="text-md text-neutral-300 mt-1">
                     📍 Villach, Österreich
                 </p>
 

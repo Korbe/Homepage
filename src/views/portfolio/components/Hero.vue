@@ -27,7 +27,7 @@
                 </p>
 
                 <!-- Mini Stats -->
-                <div class="flex flex-wrap gap-6 text-sm text-neutral-500">
+                <div class="flex flex-wrap gap-6 text-sm text-neutral-300">
                     <p><span class="text-brand text-xl">•</span> Vue & Laravel</p>
                     <p><span class="text-brand text-xl">•</span> Individuelle Entwicklung</p>
                     <p><span class="text-brand text-xl">•</span> Keine Baukästen</p>

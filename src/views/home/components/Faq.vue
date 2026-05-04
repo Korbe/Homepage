@@ -28,7 +28,7 @@
                                 {{ faq.q }}
                             </span>
 
-                            <span class="text-neutral-500">
+                            <span class="text-neutral-300">
                                 {{ openIndex === i ? '–' : '+' }}
                             </span>
                         </button>

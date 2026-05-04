@@ -4,7 +4,7 @@
         <div class="relative border border-neutral-800 bg-neutral-900/90 backdrop-blur rounded-2xl p-6 shadow-xl">
 
             <!-- Close -->
-            <button @click="accept" class="absolute top-3 right-3 text-neutral-500 hover:text-white transition">
+            <button @click="accept" class="absolute top-3 right-3 text-neutral-300 hover:text-white transition">
                 ✕
             </button>
 
