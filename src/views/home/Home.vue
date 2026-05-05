@@ -4,6 +4,8 @@
 
         <ServiceEntrySection />
 
+        <WebIntroSection />
+
         <ProblemSolutionSection />
 
         <TechStackSection />
@@ -37,6 +39,7 @@ import PhilosophySection from './components/PhilosophySection.vue';
 import Faq from './components/Faq.vue';
 import Pricing from './components/Pricing.vue';
 import Testimonial from './components/Testimonial.vue';
+import WebIntroSection from './components/WebIntroSection.vue';
 import { useHead } from '@unhead/vue'
 
 useHead({

@@ -1,9 +1,9 @@
 <template>
-    <section id="webapps" class="relative py-24 bg-neutral-900/95 text-white overflow-hidden">
+    <section class="relative py-24 bg-neutral-900/95 text-white overflow-hidden">
 
         <div class="pointer-events-none absolute inset-0 z-0">
             <div
-                class="absolute -bottom-50 -right-50 h-125 w-125 rounded-full bg-brand opacity-25 blur-[140px] mix-blend-screen">
+                class="absolute -bottom-[300px] -right-[300px] h-[700px] w-[700px] rounded-full bg-brand opacity-25 blur-[140px] mix-blend-screen">
             </div>
         </div>
 
@@ -37,6 +37,7 @@
                         <li>• Technische Limits bei individuellen Anforderungen</li>
                         <li>• Komplexe Workarounds statt sauberer Architektur</li>
                         <li>• Hohe Abhängigkeit von Drittanbietern</li>
+                        <li>• Schlechtere Google-Rankings durch limitierte SEO-Möglichkeiten</li>
                     </ul>
 
                 </div>
@@ -59,6 +60,7 @@
                             <li>• Skalierbare Systeme für echtes Wachstum</li>
                             <li>• Saubere Codebasis ohne technische Kompromisse</li>
                             <li>• Volle Kontrolle über Funktion & Erweiterung</li>
+                            <li>• Saubere Struktur für bessere Sichtbarkeit bei Google</li>
                         </ul>
                     </div>
 

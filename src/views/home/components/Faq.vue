@@ -49,9 +49,9 @@
 
 <script setup>
 import { ref } from 'vue'
-import { homevisitsFaqs } from '@/faqs.js'
+import { webappFaqs } from '@/faqs.js'
 
-const faqs = homevisitsFaqs
+const faqs = webappFaqs
 
 const openIndex = ref(null)
 

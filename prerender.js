@@ -6,7 +6,8 @@ const routes = [
     '/',
     '/about',
     '/portfolio',
-    '/homevisits',
+    '/it-hilfe',
+    '/pc-builds',
     '/contact',
     '/impressum',
     '/datenschutz'

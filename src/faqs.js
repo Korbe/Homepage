@@ -47,3 +47,34 @@ export const homevisitsFaqs = [
     a: 'Nein - genau das ist der Vorteil meines Services. Ich komme direkt zu dir nach Hause, sodass du nichts abbauen oder transportieren musst. Sollte ein Problem vor Ort nicht lösbar sein, finden wir gemeinsam eine passende Lösung.'
   }
 ]
+
+export const pcBuildFaqs = [
+  {
+    q: 'Was kostet ein Gaming PC Build?',
+    a: 'Die Kosten hängen von deinem Budget ab. Ich berechne 20% des Hardwarewerts (maximal 500€) für Planung, Auswahl und Umsetzung.'
+  },
+  {
+    q: 'Kann ich die Teile selbst kaufen?',
+    a: 'Ja. Ich stelle dir eine perfekt abgestimmte Komponentenliste zusammen. Auf Wunsch übernehme ich auch den kompletten Einkauf und Aufbau für dich.'
+  },
+  {
+    q: 'Warum nicht einfach einen Fertig-PC kaufen?',
+    a: 'Fertig-PCs sind oft schlecht abgestimmt - du zahlst für Marketing statt Performance. Ich stelle dir ein System zusammen, bei dem alle Komponenten perfekt zusammenpassen.'
+  },
+  {
+    q: 'Wie lange dauert ein PC Build?',
+    a: 'Die Planung dauert meist 1-2 Tage. Der Aufbau und die Einrichtung je nach System wenige Stunden bis maximal ein Tag.'
+  },
+  {
+    q: 'Bekomme ich Garantie auf die Komponenten?',
+    a: 'Ja. Die Garantie läuft direkt über die Hersteller der einzelnen Komponenten, sodass du vollständig abgesichert bist.'
+  },
+  {
+    q: 'Kannst du den PC auch vor Ort aufbauen?',
+    a: 'Ja. Ich komme zu dir, baue den PC auf und richte alles vollständig ein, damit du sofort loslegen kannst.'
+  },
+  {
+    q: 'Für wen lohnt sich ein Custom Gaming PC?',
+    a: 'Für alle, die maximale Performance wollen - egal ob Gaming, Streaming oder Content Creation. Besonders sinnvoll, wenn du keine Kompromisse eingehen willst.'
+  }
+]

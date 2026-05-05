@@ -5,7 +5,8 @@ const routes = [
   { path: '/about', name: 'About', component: () => import('../views/about/About.vue') },
   { path: '/portfolio', name: 'Portfolio', component: () => import('../views/portfolio/Portfolio.vue') },
   
-  { path: '/homevisits', name: 'HomeVisits', component: () => import('../views/homevisits/Homevisits.vue') },
+  { path: '/it-hilfe', name: 'HomeVisits', component: () => import('../views/homevisits/Homevisits.vue') },
+  { path: '/pc-builds', name: 'PCBuilds', component: () => import('../views/pcbuilds/PCBuilds.vue') },
   { path: '/contact', name: 'Contact', component: () => import('../views/contact/Contact.vue') },
   { path: '/impressum', name: 'Imprint', component: () => import('../views/Imprint.vue') },
   { path: '/datenschutz', name: 'Privacy', component: () => import('../views/Privacy.vue') },

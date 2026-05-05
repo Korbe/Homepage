@@ -59,14 +59,14 @@
                         </ul>
                     </div>
 
-                    <a href="#contact" :class="[
+                    <RouterLink to="contact" :class="[
                         tier.mostPopular
                             ? 'bg-brand text-black hover:opacity-90'
                             : 'border border-neutral-700 hover:border-brand hover:text-brand',
                         'mt-8 block rounded-xl px-4 py-3 text-center text-sm font-semibold transition'
                     ]">
                         Projekt anfragen
-                    </a>
+                    </RouterLink>
 
                 </div>
 
@@ -122,6 +122,7 @@ const tiers = [
             'Bis zu 40 Sections',
             'Individuelles UI/UX Design',
             'Mobil optimiert',
+            'SEO inklusive',
             'Laravel Backend möglich',
             'API / dynamische Inhalte',
             'Performance & Skalierbarkeit',

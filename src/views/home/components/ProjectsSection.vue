@@ -58,8 +58,8 @@
                         </h3>
 
                         <p class="text-neutral-400 text-sm mb-6">
-                            Unternehmensseite mit dynamischem Content-System für Predigten mit Audio-Upload
-                            und automatischer Darstellung auf der Startseite.
+                            Unternehmensseite mit dynamischem Content-System für Neuigkeiten undPredigten mit Audio-Upload
+                            sowie automatischer Darstellung auf der Startseite.
                         </p>
 
                         <ul class="text-neutral-300 text-sm space-y-2 mb-6">

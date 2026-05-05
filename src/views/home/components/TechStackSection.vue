@@ -3,7 +3,7 @@
 
         <div class="pointer-events-none absolute inset-0 z-0">
             <div
-                class="absolute -top-50 -right-50 h-125 w-125 rounded-full bg-brand opacity-25 blur-[140px] mix-blend-screen">
+                class="absolute -top-[300px] -right-[300px] h-[700px] w-[700px] rounded-full bg-brand opacity-25 blur-[140px] mix-blend-screen">
             </div>
         </div>
 

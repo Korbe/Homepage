@@ -60,11 +60,6 @@
 
             </div>
 
-            <!-- Small note -->
-            <p class="text-neutral-400 text-xs mt-8">
-                Auch verfügbar für IT-Hausbesuche (PC, Smartphone, Drucker) - einfach anfragen!
-            </p>
-
         </div>
     </section>
 </template>

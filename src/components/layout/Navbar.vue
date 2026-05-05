@@ -20,8 +20,12 @@
 					PORTFOLIO
 				</RouterLink>
 
-				<RouterLink to="/homevisits" :class="isActive('/homevisits')">
-					IT HILFE & GAMING PC BUILDS
+				<RouterLink to="/it-hilfe" :class="isActive('/it-hilfe')">
+					IT HILFE
+				</RouterLink>
+
+				<RouterLink to="/pc-builds" :class="isActive('/pc-builds')">
+					GAMING PC BUILDS
 				</RouterLink>
 
 				<RouterLink to="/about" :class="isActive('/about')">
@@ -64,9 +68,14 @@
 						PORTFOLIO
 					</RouterLink>
 
-					<RouterLink @click="mobileOpen = false" to="/homevisits" :class="isActive('/homevisits')"
+					<RouterLink @click="mobileOpen = false" to="/it-hilfe" :class="isActive('/it-hilfe')"
 						class="py-3 border-b border-neutral-800">
-						HAUSBESUCHE & GAMING PC BUILDS
+						IT HILFE
+					</RouterLink>
+
+					<RouterLink @click="mobileOpen = false" to="/pc-builds" :class="isActive('/pc-builds')"
+						class="py-3 border-b border-neutral-800">
+						GAMING PC BUILDS
 					</RouterLink>
 
 					<RouterLink @click="mobileOpen = false" to="/about" :class="isActive('/about')"

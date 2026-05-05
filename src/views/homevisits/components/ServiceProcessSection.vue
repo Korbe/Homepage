@@ -1,17 +1,11 @@
 <template>
     <section class="relative py-24 bg-neutral-900/95 text-white overflow-hidden">
 
-        <div class="pointer-events-none absolute inset-0 z-10">
-            <div
-                class="absolute -top-50 -right-50 h-125 w-125 rounded-full bg-brand opacity-30 blur-[160px] mix-blend-screen">
-            </div>
-        </div>
-
         <!-- CONTENT -->
         <div class="relative z-20 max-w-7xl mx-auto px-6 lg:px-12">
 
             <!-- Heading -->
-            <div class="max-w-2xl mb-16">
+            <div class="mx-auto text-center max-w-2xl mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4">
                     So läuft ein Hausbesuch ab
                 </h2>

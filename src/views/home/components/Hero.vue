@@ -3,8 +3,10 @@
 
         <!-- Background Image -->
         <div class="absolute inset-0">
-            <img src="@/assets/hero-me.png"  alt="Lukas Korbitsch"       class="hidden xl:block w-full h-full object-cover object-right" />
-            <img src="@/assets/hero-me-mobile.png" alt="Lukas Korbitsch" class="block xl:hidden w-full h-full object-cover object-right" />   
+            <img src="@/assets/hero-me.png" alt="Lukas Korbitsch"
+                class="hidden xl:block w-full h-full object-cover object-right" />
+            <img src="@/assets/hero-me-mobile.png" alt="Lukas Korbitsch"
+                class="block xl:hidden w-full h-full object-cover object-right" />
 
             <!-- Dark Overlay -->
             <div class="absolute inset-0 bg-neutral-950/60"></div>
@@ -35,8 +37,8 @@
 
                 <!-- Subtext -->
                 <p class="text-neutral-300 text-lg mb-8">
-                    Maßgeschneiderte Web-Apps mit Vue & Laravel - schnell,
-                    skalierbar und gebaut für echte Anforderungen.
+                    Moderne Websites & Web-Apps - individuell entwickelt mit Vue & Laravel für maximale Performance und
+                    echte Anforderungen.
                 </p>
 
                 <!-- CTA -->

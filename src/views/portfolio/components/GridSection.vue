@@ -142,14 +142,14 @@ const projects = [
         url: 'https://fcg-villach.at',
         tech: [VueLogo, LaravelLogo],
         quote: {
-            text: 'Die Homepage wurde modern und benutzerfreundlich umgesetzt – klar strukturiert und ansprechend.',
+            text: 'Die Homepage wurde modern und benutzerfreundlich umgesetzt - klar strukturiert und ansprechend.',
             author: 'Markus Kirisits, WebAdmin'
         }
     },
     {
         name: 'Petrilog',
         role: 'Founder & Creator',
-        long: 'Ich habe dieses Projekt gestartet, damit Angler ihre Fangerlebnisse sicher dokumentieren und ihre Erfolge mit anderen teilen können.',
+        long: 'Petrilog ist eine Webplattform für Angler, mit der sie ihre Fänge inklusive GPS-Daten dokumentieren und mit anderen teilen können.',
         image: PetrilogShowCase,
         logo: PetrilogLogo,
         url: 'https://petrilog.com',
