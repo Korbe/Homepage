@@ -3,17 +3,17 @@
 
     <Hero />
 
-    <ServiceOverview />
+    <HomeVisitProblemsSection />
+
+    <HomeVisitWhySection />
 
     <ServiceProcessSection />
 
-    <PricingHomevisits />
+    <HomeVisitTrustSection />
 
-    <GamingPCBuildsSection />
+    <HomeVisitPricingSection />
 
-    <PricingGamingPC />
-
-
+    <Faq />
 
     <Cta />
 
@@ -21,14 +21,15 @@
 </template>
 <script setup>
 import Layout from '@/components/layout/Layout.vue';
-import GamingPCBuildsSection from './components/GamingPCBuildsSection.vue';
 import Hero from './components/Hero.vue';
-import ServiceOverview from './components/ServiceOverview.vue';
 import ServiceProcessSection from './components/ServiceProcessSection.vue';
 import Cta from './components/Cta.vue';
-import PricingHomevisits from './components/PricingHomevisits.vue';
-import PricingGamingPC from './components/PricingGamingPC.vue';
+import HomeVisitPricingSection from './components/HomeVisitPricingSection.vue';
 import { useHead } from '@unhead/vue'
+import HomeVisitProblemsSection from './components/HomeVisitProblemsSection.vue';
+import HomeVisitWhySection from './components/HomeVisitWhySection.vue';
+import HomeVisitTrustSection from './components/HomeVisitTrustSection.vue';
+import Faq from './components/Faq.vue';
 
 useHead({
   title: 'PC Hilfe Villach - IT Hausbesuch & Gaming PC Builds | Ing. Korbitsch',
