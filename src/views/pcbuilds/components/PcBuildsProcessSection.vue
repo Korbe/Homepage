@@ -13,7 +13,7 @@
                 </h2>
 
                 <p class="text-neutral-300 text-lg">
-                    Klarer Prozess, keine Überraschungen – von der Anfrage bis zum fertigen Setup.
+                    Klarer Prozess, keine Überraschungen - von der Anfrage bis zum fertigen Setup.
                 </p>
             </div>
 
@@ -34,7 +34,7 @@
                     <p class="text-brand font-bold text-lg mb-2">02</p>
                     <h3 class="font-semibold mb-2">Planung</h3>
                     <p class="text-neutral-300 text-sm">
-                        Ich stelle dir ein perfekt abgestimmtes Setup zusammen – ohne Bottlenecks.
+                        Ich stelle dir ein perfekt abgestimmtes Setup zusammen - ohne Bottlenecks.
                     </p>
                 </div>
 

@@ -14,7 +14,7 @@
 
         <!-- Badge -->
         <p class="text-sm text-brand uppercase tracking-wide mb-4">
-          IT Hilfe & Gaming PC Builds
+          IT Hilfe
         </p>
 
         <!-- Headline -->
@@ -25,7 +25,7 @@
 
         <!-- Subtext -->
         <p class="text-neutral-300 text-lg mb-8">
-          Egal ob dein PC langsam ist, dein Smartphone nicht funktioniert oder dein Drucker streikt –
+          Egal ob dein PC langsam ist, dein Smartphone nicht funktioniert oder dein Drucker streikt -
           ich erkläre dir alles verständlich und ohne Fachchinesisch direkt bei dir vor Ort.
         </p>
 

@@ -1,6 +1,14 @@
 <template>
   <section class="relative py-24 bg-neutral-900/95 text-white overflow-visible">
 
+    <!-- Glow -->
+    <div class="pointer-events-none absolute inset-0 z-0 overflow-hidden">
+      <div class="absolute right-0 bottom-0 translate-x-1/2 translate-y-1/2
+           h-[900px] w-[900px] rounded-full
+           bg-brand opacity-25 blur-[140px] mix-blend-screen">
+      </div>
+    </div>
+
     <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
 
       <!-- Heading -->
@@ -20,7 +28,7 @@
       <div class="grid md:grid-cols-3 gap-6">
 
         <!-- Web Apps (PRIMARY) -->
-        <a href="#webapps"
+        <router-link to="/webapps"
           class="group border border-neutral-700 rounded-2xl p-8 bg-neutral-800/60 hover:border-brand transition relative overflow-hidden shadow-lg shadow-black/20">
 
           <div
@@ -37,14 +45,14 @@
             </h3>
 
             <p class="text-neutral-300 mb-6">
-              Maßgeschneiderte Systeme, SaaS-Plattformen und Tools – gebaut für Geschwindigkeit und Skalierung.
+              Maßgeschneiderte Websites, SaaS-Plattformen und Tools - gebaut für Geschwindigkeit und Skalierung.
             </p>
 
             <div class="text-brand font-medium">
               Mehr erfahren →
             </div>
           </div>
-        </a>
+        </router-link>
 
         <!-- IT Hilfe -->
         <router-link to="/it-hilfe"
@@ -59,7 +67,7 @@
           </h3>
 
           <p class="text-neutral-300 mb-6">
-            Hilfe bei PC, Smartphone und Technikproblemen – direkt bei dir vor Ort.
+            Hilfe bei PC, Smartphone und Technikproblemen - direkt bei dir vor Ort.
           </p>
 
           <div class="text-neutral-300 group-hover:text-white transition font-medium">
@@ -86,7 +94,7 @@
             </h3>
 
             <p class="text-neutral-300 mb-6">
-              Individuelle Gaming PCs ohne Bottlenecks – perfekt abgestimmt auf dein Budget und deine Games.
+              Individuelle Gaming PCs ohne Bottlenecks - perfekt abgestimmt auf dein Budget und deine Games.
             </p>
 
             <div class="text-neutral-300 group-hover:text-white transition font-medium">
@@ -100,3 +108,7 @@
     </div>
   </section>
 </template>
+<script setup lang="ts">
+import { RouterLink } from 'vue-router';
+
+</script>

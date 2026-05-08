@@ -18,7 +18,7 @@
 
           <p>
             Während meiner Schulzeit an der HTL Villach entdeckte ich meine Leidenschaft
-            für das Programmieren. Heute liebe ich es, Software zu entwickeln – auch wenn
+            für das Programmieren. Heute liebe ich es, Software zu entwickeln - auch wenn
             es manchmal herausfordernd sein kann.
           </p>
 

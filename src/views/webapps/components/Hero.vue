@@ -3,24 +3,22 @@
 
         <!-- Background Image -->
         <div class="absolute inset-0">
-            <img src="@/assets/hero-me-about.png" alt="Lukas Korbitsch" class="hidden xl:block w-full h-full object-cover object-right" />
-            <img src="@/assets/hero-me-about-mobile.png" alt="Lukas Korbitsch" class="block xl:hidden w-full h-full object-cover object-right" />
-
+            <img src="@/assets/hero-code.jpg" alt="Lukas Korbitsch"
+                class="w-full h-full object-cover object-right" />
             <!-- Dark Overlay -->
             <div class="absolute inset-0 bg-neutral-950/60"></div>
 
-            <!-- Gradient -->
+            <!-- Gradient für bessere Lesbarkeit links -->
             <div class="absolute inset-0 bg-linear-to-r from-neutral-950 via-neutral-950/40 to-transparent"></div>
         </div>
 
         <!-- Content -->
         <div class="relative mt-28 z-10 max-w-7xl mx-auto px-6 lg:px-12 w-full">
-
             <div class="max-w-2xl">
 
                 <!-- Badge -->
                 <p class="text-md text-brand mb-4 tracking-wide uppercase">
-                    Über mich
+                    Ing. Lukas Korbitsch
                 </p>
 
                 <p class="text-md text-neutral-300 mt-1">
@@ -29,15 +27,15 @@
 
                 <!-- Headline -->
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                    Technik ist<br /> mein  <span class="text-brand">Alltag</span>
-                    <br /> und mein <span class="text-brand">Werkzeug</span>
+                    Ich entwickle <br />
+                    <span class="text-brand">High-Performance</span><br />
+                    Websites & Web-Apps
                 </h1>
 
                 <!-- Subtext -->
                 <p class="text-neutral-300 text-lg mb-8">
-                    Hey, ich heiße Ing. Lukas Korbitsch und ich entwickle nicht nur High-Performance Webanwendungen,
-                    sondern helfe auch direkt vor Ort bei technischen Problemen -
-                    klar, verständlich und ohne Fachchinesisch.
+                    Moderne Websites & Web-Apps - individuell entwickelt mit Vue & Laravel für maximale Performance und
+                    echte Anforderungen. Kein Wordpress keine Baukasten-Systeme, sondern maßgeschneiderte Lösungen für dein Business.
                 </p>
 
                 <!-- CTA -->
@@ -45,7 +43,7 @@
 
                     <router-link to="contact"
                         class="bg-brand text-black font-medium px-6 py-3 rounded-xl hover:opacity-90 transition">
-                        Kontakt aufnehmen
+                        Projekt starten
                     </router-link>
 
                     <router-link to="portfolio"
@@ -55,19 +53,22 @@
 
                 </div>
 
-                <!-- Small Trust Line -->
-                <div class="hover:border-brand transition border border-neutral-800 rounded-xl p-4 bg-neutral-900/50 backdrop-blur">
+                <!-- Hausbesuch Hinweis (subtil) -->
+                <div class="border border-neutral-800 rounded-xl p-4 bg-neutral-900/50 backdrop-blur">
                     <p class="text-sm text-neutral-300">
-                        💡 Webentwicklung & IT-Hilfe - zwei Seiten derselben Sache: Probleme lösen.
+                        💡 Auch privat für dich da: Hilfe bei PC- & Smartphone-Problemen -
+                        direkt bei dir vor Ort.
                     </p>
+
+                    <a href="contact" class="text-brand text-sm mt-2 inline-block hover:underline">
+                        Hausbesuch anfragen →
+                    </a>
                 </div>
 
             </div>
-
         </div>
 
     </section>
 </template>
-
 <script setup>
 </script>

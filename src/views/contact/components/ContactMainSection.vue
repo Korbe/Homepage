@@ -34,23 +34,36 @@
             </div>
 
             <!-- RIGHT -->
-            <div class="hover:border-brand transition border border-neutral-800 rounded-2xl p-8 bg-neutral-800/60 backdrop-blur">
+            <div
+                class="hover:border-brand transition border border-neutral-800 rounded-2xl p-8 bg-neutral-800/60 backdrop-blur">
 
-                <!-- Primary CTA -->
-                <a href="mailto:info@korbitsch.at"
-                    class="block text-center bg-brand text-black font-medium px-6 py-4 rounded-xl hover:opacity-90 transition mb-4">
-                    info@korbitsch.at
-                </a>
+                <!-- Primary CTAs -->
+                <div class="flex gap-4 mb-4">
+
+                    <!-- Schreib mir -->
+                    <a href="mailto:info@korbitsch.at"
+                        class="flex-1 text-center bg-brand text-black font-medium px-6 py-4 rounded-xl hover:opacity-90 transition">
+                        Schreib mir
+                    </a>
+
+                    <!-- Call -->
+                    <a href="tel:+436701923388"
+                        class="flex-1 text-center border border-neutral-700 text-neutral-300 px-6 py-4 rounded-xl hover:border-brand hover:text-brand transition">
+                        Ruf mich an
+                    </a>
+
+                </div>
 
                 <!-- WhatsApp -->
                 <a href="https://wa.me/436701923388" target="_blank"
-                    class="block text-center border border-neutral-700 text-neutral-300 px-6 py-4 rounded-xl hover:border-green-500 hover:text-green-400 transition mb-6">
-                    WhatsApp schreiben
+                    class="block text-center bg-green-500 text-black font-medium px-6 py-4 rounded-xl hover:bg-green-400 transition mb-6">
+                    Schreib mir auf WhatsApp
                 </a>
 
                 <!-- Divider -->
                 <div class="border-t border-neutral-800 pt-6 text-center text-sm text-neutral-400 space-y-2">
 
+                    <p>📧 info@korbitsch.at</p>
                     <p>📞 +43 670 1923388</p>
                     <p>📍 Villach, Österreich</p>
 

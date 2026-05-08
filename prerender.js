@@ -4,6 +4,7 @@ import path from 'path'
 
 const routes = [
     '/',
+    '/webapps',
     '/about',
     '/portfolio',
     '/it-hilfe',

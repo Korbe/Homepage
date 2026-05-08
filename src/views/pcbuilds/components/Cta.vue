@@ -10,7 +10,7 @@
             <!-- Subtext -->
             <p class="text-neutral-300 text-lg mb-8">
                 Kein Zufall. Kein Bottleneck. Kein unnötiger Overkill.
-                Du bekommst ein System, das exakt zu dir passt – abgestimmt auf dein Budget und deine Anforderungen.
+                Du bekommst ein System, das exakt zu dir passt - abgestimmt auf dein Budget und deine Anforderungen.
             </p>
 
             <!-- CTA Buttons -->

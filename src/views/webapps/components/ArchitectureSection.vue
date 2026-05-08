@@ -1,5 +1,7 @@
 <template>
-    <section class="relative py-24 bg-neutral-900/95 text-white overflow-visible">
+    <section class="relative pt-10 pb-24 bg-neutral-900/95 text-white overflow-visible">
+
+        <img src="@/assets/section-architecture.png" class="w-full max-w-3xl h-auto mx-auto" />
 
         <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
 
@@ -10,7 +12,7 @@
                         Architektur entscheidet über die <span class="text-brand">Zukunft</span> deiner Anwendung
                     </h2>
                     <p class="text-neutral-400 text-lg">
-                        Ich setze auf Systeme, die sauber strukturiert, wartbar und skalierbar sind –
+                        Ich setze auf Systeme, die sauber strukturiert, wartbar und skalierbar sind -
                         ohne unnötige Komplexität.
                     </p>
                 </div>
@@ -62,7 +64,7 @@
                 class="mt-12 hover:bg-neutral-900/50 border border-brand/30 rounded-2xl p-6 bg-neutral-800/60 transition">
                 <p class="text-neutral-300">
                     <span class="text-brand font-medium">Kurz gesagt:</span>
-                    Ich baue keine getrennten Systeme – sondern geschlossene, saubere Anwendungen,
+                    Ich baue keine getrennten Systeme - sondern geschlossene, saubere Anwendungen,
                     die als Einheit funktionieren.
                 </p>
             </div>

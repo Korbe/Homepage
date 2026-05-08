@@ -18,7 +18,7 @@
                         </span>
 
                         <span class="text-neutral-300">
-                            {{ openIndex === i ? '–' : '+' }}
+                            {{ openIndex === i ? '-' : '+' }}
                         </span>
                     </button>
 

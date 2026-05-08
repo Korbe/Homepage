@@ -11,7 +11,7 @@
             <!-- Headline -->
             <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6">
                 Schöne Websites gibt es viele- <br />
-                ich entwickle welche, die <span class="text-brand">gefunden</span> werden und funktionieren
+                ich entwickle welche, die <span class="text-brand">gefunden</span> werden und <span class="text-brand">funktionieren</span>
             </h2>
 
             <!-- Text -->

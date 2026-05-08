@@ -21,7 +21,7 @@
                 </h2>
 
                 <p class="text-neutral-300 text-lg">
-                    Egal ob kleines Problem oder komplettes Chaos – ich helfe dir schnell und verständlich weiter.
+                    Egal ob kleines Problem oder komplettes Chaos - ich helfe dir schnell und verständlich weiter.
                 </p>
             </div>
 

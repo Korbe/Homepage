@@ -10,7 +10,7 @@
                     So läuft ein Hausbesuch ab
                 </h2>
                 <p class="text-neutral-400 text-lg">
-                    Einfach, transparent und ohne komplizierte Abläufe – damit du genau weißt, was passiert.
+                    Einfach, transparent und ohne komplizierte Abläufe - damit du genau weißt, was passiert.
                 </p>
             </div>
 
@@ -29,7 +29,7 @@
                     <p class="text-brand font-semibold mb-2">02</p>
                     <h3 class="font-semibold mb-3">Termin</h3>
                     <p class="text-neutral-400 text-sm">
-                        Wir vereinbaren einen passenden Termin – schnell und unkompliziert.
+                        Wir vereinbaren einen passenden Termin - schnell und unkompliziert.
                     </p>
                 </div>
 
@@ -45,7 +45,7 @@
                     <p class="text-brand font-semibold mb-2">04</p>
                     <h3 class="font-semibold mb-3">Lösung</h3>
                     <p class="text-neutral-400 text-sm">
-                        Ich löse das Problem direkt vor Ort – verständlich erklärt und sofort umgesetzt.
+                        Ich löse das Problem direkt vor Ort - verständlich erklärt und sofort umgesetzt.
                     </p>
                 </div>
 

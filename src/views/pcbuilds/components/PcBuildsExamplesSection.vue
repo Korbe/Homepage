@@ -9,6 +9,7 @@
         </div>
 
         <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
+
             <!-- Headline -->
             <div class="mx-auto text-center max-w-2xl mb-16">
                 <p class="text-brand text-sm uppercase tracking-wide mb-4">
@@ -20,7 +21,7 @@
                 </h2>
 
                 <p class="text-neutral-300 text-lg">
-                    Jeder PC wird individuell geplant – diese Beispiele geben dir eine realistische Orientierung.
+                    Jeder PC wird individuell geplant - diese Beispiele geben dir eine realistische Orientierung.
                 </p>
             </div>
 
@@ -36,34 +37,26 @@
                         ~1500€ Setup
                     </h3>
 
-                    <ul class="space-y-2 text-neutral-300 mb-6 text-sm">
-                        <li>• Perfekt für 1080p / 1440p Gaming</li>
+                    <ul class="space-y-2 text-neutral-300 text-sm">
+                        <li>• 1080p / 1440p Gaming</li>
                         <li>• Hohe FPS in aktuellen Spielen</li>
                         <li>• Sehr gutes Preis-Leistungs-Verhältnis</li>
                     </ul>
-
-                    <p class="text-neutral-400 text-sm">
-                        Planung: ~300€
-                    </p>
                 </div>
 
                 <!-- 2500€ -->
-                <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-brand transition">
+                <div class="bg-neutral-900 border border-brand rounded-2xl p-8 transition">
                     <p class="text-brand text-sm mb-2">Beliebt</p>
 
                     <h3 class="text-xl font-semibold mb-4">
                         ~2500€ Setup
                     </h3>
 
-                    <ul class="space-y-2 text-neutral-300 mb-6 text-sm">
+                    <ul class="space-y-2 text-neutral-300 text-sm">
                         <li>• High-End Performance</li>
                         <li>• Ideal für Streaming & Competitive Gaming</li>
                         <li>• Zukunftssicher für mehrere Jahre</li>
                     </ul>
-
-                    <p class="text-neutral-400 text-sm">
-                        Planung: ~500€
-                    </p>
                 </div>
 
                 <!-- 3000€+ -->
@@ -75,20 +68,20 @@
                         3000€+ Setup
                     </h3>
 
-                    <ul class="space-y-2 text-neutral-300 mb-6 text-sm">
+                    <ul class="space-y-2 text-neutral-300 text-sm">
                         <li>• 4K Gaming & maximale Details</li>
                         <li>• Extrem hohe FPS & Leistung</li>
                         <li>• Für Enthusiasten & Profis</li>
                     </ul>
-
-                    <p class="text-neutral-400 text-sm">
-                        Planung: max. 500€
-                    </p>
                 </div>
 
             </div>
 
         </div>
+
+        <p class="text-neutral-400 text-sm text-center mt-10">
+            💡 Die passende Konfiguration bekommst du bei mir bereits ab 99€
+        </p>
     </section>
 </template>
 

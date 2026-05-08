@@ -18,7 +18,7 @@
                 </p>
 
                 <h2 class="text-3xl md:text-4xl font-bold leading-tight mb-6">
-                    Fertig-PCs sparen Zeit – kosten dich Performance
+                    Fertig-PCs sparen Zeit - kosten dich Performance
                 </h2>
 
                 <p class="text-neutral-300 text-lg">

@@ -1,7 +1,7 @@
 export const webappFaqs = [
   {
     q: 'Welche Art von Software entwickelst du?',
-    a: 'Ich entwickle maßgeschneiderte Webanwendungen, die sich wie klassische Apps anfühlen, aber im Browser laufen. Jedes Projekt wird individuell auf deine Anforderungen abgestimmt – ohne Templates oder Baukasten-Systeme.'
+    a: 'Ich entwickle maßgeschneiderte Webanwendungen, die sich wie klassische Apps anfühlen, aber im Browser laufen. Jedes Projekt wird individuell auf deine Anforderungen abgestimmt - ohne Templates oder Baukasten-Systeme.'
   },
   {
     q: 'Was ist der Unterschied zwischen einer Web-App und einer klassischen App?',
@@ -9,7 +9,7 @@ export const webappFaqs = [
   },
   {
     q: 'Wie lange dauert die Entwicklung einer Web-App?',
-    a: 'Das hängt stark vom Umfang des Projekts ab und liegt meist zwischen einigen Wochen und mehreren Monaten. Da ich aktuell Vollzeit arbeite, kann es etwas länger dauern – dafür bleibt die Umsetzung effizient und ohne Agenturkosten.'
+    a: 'Das hängt stark vom Umfang des Projekts ab und liegt meist zwischen einigen Wochen und mehreren Monaten. Da ich aktuell Vollzeit arbeite, kann es etwas länger dauern - dafür bleibt die Umsetzung effizient und ohne Agenturkosten.'
   },
   {
     q: 'Unterstützt du auch bei Automatisierung und internen Tools?',
@@ -32,7 +32,7 @@ export const homevisitsFaqs = [
   },
   {
     q: 'Was kostet ein Hausbesuch?',
-    a: 'Der Preis beträgt 50€ pro angefangene halbe Stunde. Eine ganze Stunde kostet 90€. Zusätzlich fällt eine Anfahrtspauschale an: 10€ innerhalb von Villach Stadt und 20€ in Villach Land. Du zahlst nur die tatsächliche Arbeitszeit plus die einmalige Anfahrt. Sollte ich dein Problem nicht lösen können, fällt nur die Anfahrtspauschale an.'
+    a: 'Die erste Stunde kostet 90€ und beinhaltet Analyse sowie Problemlösung vor Ort. Danach werden 20€ pro angefangene 15 Minuten berechnet.\n\nDie Abrechnung erfolgt fair im 15-Minuten-Takt.\nBeispiel: 1h 26min → 1h 30min = 90€ + 40€ = 130€.\n\nDer Preis gilt ausschließlich für IT-Hausbesuche. Webentwicklung wird individuell kalkuliert.'
   },
   {
     q: 'Reparierst du auch Hardware oder rettest Daten?',
@@ -40,7 +40,7 @@ export const homevisitsFaqs = [
   },
   {
     q: 'Wie schnell bekomme ich einen Termin?',
-    a: 'In der Regel sehr schnell. Wenn du mich telefonisch nicht erreichst, schreib mir einfach eine Mail - ich melde mich so schnell wie möglich. Notfälle werden nach Möglichkeit bevorzugt behandelt.'
+    a: 'In der Regel sehr schnell - oft noch am selben oder nächsten Tag. Wenn du mich telefonisch nicht erreichst, schreib mir einfach auf Whatsapp oder per Mail - ich melde mich so schnell wie möglich. Notfälle werden nach Möglichkeit bevorzugt behandelt.'
   },
   {
     q: 'Muss ich meine Geräte vorbeibringen?',
@@ -51,7 +51,7 @@ export const homevisitsFaqs = [
 export const pcBuildFaqs = [
   {
     q: 'Was kostet ein Gaming PC Build?',
-    a: 'Die Kosten hängen von deinem Budget ab. Ich berechne 20% des Hardwarewerts (maximal 500€) für Planung, Auswahl und Umsetzung.'
+    a: 'Die Kosten hängen davon ab, wie viel du selbst übernehmen möchtest. Eine individuelle Planung bekommst du ab 99€. Für Aufbau und Einrichtung berechne ich 199€. Wenn du alles aus einer Hand willst, gibt es ein Komplettpaket ab 279€ - optional inkl. Bestellung & Abwicklung für 379€.'
   },
   {
     q: 'Kann ich die Teile selbst kaufen?',
@@ -63,7 +63,7 @@ export const pcBuildFaqs = [
   },
   {
     q: 'Wie lange dauert ein PC Build?',
-    a: 'Die Planung dauert meist 1-2 Tage. Der Aufbau und die Einrichtung je nach System wenige Stunden bis maximal ein Tag.'
+    a: 'Die Planung geht in der Regel recht schnell. Der Aufbau und die Einrichtung je nach System kann mehere Tage in Anspruch nehmen. Abhängig von der Verfügbarkeit der Komponenten kann es insgesamt 1-3 Wochen dauern, bis dein neuer PC einsatzbereit ist. Normalerweise dauert es aber nur wenige Tage. Ich halte dich während des gesamten Prozesses auf dem Laufenden.'
   },
   {
     q: 'Bekomme ich Garantie auf die Komponenten?',

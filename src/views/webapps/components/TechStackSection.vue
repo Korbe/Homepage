@@ -52,7 +52,7 @@
                     </h3>
 
                     <p class="text-neutral-400 mb-4">
-                        Robuste Systeme mit klarer Logik – ohne unnötige API-Komplexität.
+                        Robuste Systeme mit klarer Logik - ohne unnötige API-Komplexität.
                     </p>
 
                     <ul class="space-y-2 text-neutral-300 text-sm">
@@ -71,7 +71,7 @@
                     </h3>
 
                     <p class="text-neutral-400 mb-4">
-                        Systeme, die einfach wirken – aber sauber strukturiert und skalierbar sind.
+                        Systeme, die einfach wirken - aber sauber strukturiert und skalierbar sind.
                     </p>
 
                     <ul class="space-y-2 text-neutral-300 text-sm">

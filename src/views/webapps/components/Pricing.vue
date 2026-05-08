@@ -19,7 +19,7 @@
             </div>
 
             <p class="mx-auto mt-6 max-w-2xl text-center text-lg text-neutral-400">
-                Du bekommst keine Baukasten-Seite, sondern eine performante, moderne Website –
+                Du bekommst keine Baukasten-Seite, sondern eine performante, moderne Website -
                 strukturiert in klaren Sections und auf dein Business zugeschnitten.
             </p>
 

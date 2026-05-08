@@ -35,7 +35,7 @@
 
                 <!-- Subtext -->
                 <p class="text-neutral-300 text-lg mb-8">
-                    Individuell zusammengestellte Systeme für maximale Performance – perfekt abgestimmt auf dein Budget,
+                    Individuell zusammengestellte Systeme für maximale Performance - perfekt abgestimmt auf dein Budget,
                     deine Games und deine Anforderungen.
                 </p>
 

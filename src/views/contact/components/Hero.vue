@@ -38,7 +38,7 @@
 
                 <!-- Subtext -->
                 <p class="text-neutral-300 text-lg mb-8">
-                    Egal ob Webanwendung, IT-Hilfe oder Gaming Setup –
+                    Egal ob Webanwendung, IT-Hilfe oder Gaming Setup -
                     schreib mir einfach. Ich melde mich persönlich bei dir zurück.
                 </p>
 

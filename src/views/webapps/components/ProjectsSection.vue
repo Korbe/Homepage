@@ -15,7 +15,7 @@
                     Projekte, die echte <span class="text-brand">Probleme</span> lösen
                 </h2>
                 <p class="text-neutral-400 text-lg">
-                    Von SaaS-Plattformen bis individuellen Web-Systemen – jedes Projekt ist maßgeschneidert.
+                    Von SaaS-Plattformen bis individuellen Web-Systemen - jedes Projekt ist maßgeschneidert.
                 </p>
             </div>
 

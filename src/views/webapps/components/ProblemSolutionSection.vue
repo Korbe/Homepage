@@ -1,6 +1,9 @@
 <template>
     <section class="relative py-24 bg-neutral-900/95 text-white overflow-hidden">
 
+        <img src="@/assets/section-problemsolution.png" class="w-full max-w-3xl h-auto mx-auto" />
+
+        <!-- Glow -->
         <div class="pointer-events-none absolute inset-0 z-0">
             <div
                 class="absolute -bottom-[300px] -right-[300px] h-[700px] w-[700px] rounded-full bg-brand opacity-25 blur-[140px] mix-blend-screen">
@@ -15,8 +18,10 @@
                     <h2 class="text-3xl md:text-4xl font-bold mb-4">
                         Warum Standard-Lösungen dich <span class="text-brand">limitieren</span>
                     </h2>
+
                     <p class="text-neutral-400 text-lg">
-                        Viele Projekte scheitern nicht an der Idee - sondern an der technischen Umsetzung.
+                        Viele Projekte scheitern nicht an der Idee -
+                        sondern an der technischen Umsetzung.
                     </p>
                 </div>
             </div>
@@ -25,7 +30,7 @@
 
                 <!-- ❌ Problem -->
                 <div
-                    class="border border-neutral-700 rounded-2xl p-8 bg-neutral-800/60 shadow-md shadow-black/20 transition">
+                    class="border border-neutral-700 rounded-2xl p-8 bg-neutral-900/70 backdrop-blur shadow-md shadow-black/20 transition">
 
                     <h3 class="text-xl font-semibold mb-6 text-red-400">
                         Das Problem mit Baukasten-Systemen
@@ -44,7 +49,7 @@
 
                 <!-- ✅ Solution -->
                 <div
-                    class="border border-brand/50 rounded-2xl p-8 bg-neutral-800/70 relative overflow-hidden shadow-lg shadow-black/30 transition hover:shadow-brand/20">
+                    class="border border-brand/50 rounded-2xl p-8 bg-neutral-900/75 backdrop-blur relative overflow-hidden shadow-lg shadow-black/30 transition hover:shadow-brand/20">
 
                     <!-- Accent Glow -->
                     <div class="absolute inset-0 bg-linear-to-br from-brand/10 to-transparent opacity-80"></div>

@@ -29,7 +29,7 @@
 
                     <!-- Subtext -->
                     <p class="text-neutral-400 text-lg mb-10">
-                        Sieht so aus, als hätte sich diese Seite verabschiedet – oder sie hat nie existiert.
+                        Sieht so aus, als hätte sich diese Seite verabschiedet - oder sie hat nie existiert.
                     </p>
 
                     <!-- CTA -->

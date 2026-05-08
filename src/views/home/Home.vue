@@ -4,21 +4,17 @@
 
         <ServiceEntrySection />
 
-        <WebIntroSection />
+        <LocalTrust />
 
-        <ProblemSolutionSection />
+        <QuickAvailability />
 
-        <TechStackSection />
+        <WhyMeSection />
 
-        <ArchitectureSection />
-
-        <ProjectsSection />
-
-        <PhilosophySection />
+        <ProcessSection />
 
         <Testimonial />
 
-        <Pricing />
+        <SoundsGoodCta />
 
         <Faq />
 
@@ -30,34 +26,33 @@
 import Layout from '@/components/layout/Layout.vue';
 import Hero from './components/Hero.vue';
 import ServiceEntrySection from './components/ServiceEntrySection.vue';
-import ProblemSolutionSection from './components/ProblemSolutionSection.vue';
-import TechStackSection from './components/TechStackSection.vue';
-import ArchitectureSection from './components/ArchitectureSection.vue';
-import ProjectsSection from './components/ProjectsSection.vue';
 import Cta from './components/Cta.vue';
-import PhilosophySection from './components/PhilosophySection.vue';
 import Faq from './components/Faq.vue';
-import Pricing from './components/Pricing.vue';
 import Testimonial from './components/Testimonial.vue';
-import WebIntroSection from './components/WebIntroSection.vue';
 import { useHead } from '@unhead/vue'
+import WhyMeSection from './components/WhyMeSection.vue';
+import LocalTrust from './components/LocalTrust.vue';
+import SoundsGoodCta from './components/SoundsGoodCta.vue';
+import QuickAvailability from './components/QuickAvailability.vue';
+import ProcessSection from './components/ProcessSection.vue';
 
 useHead({
-    title: 'Webanwendungen & IT-Dienstleister Villach - Ing. Lukas Korbitsch',
+    title: 'IT Hilfe, Webentwicklung & Gaming PC Builds in Villach | Lukas Korbitsch',
+
     meta: [
         {
             name: 'description',
-            content: 'High-Performance Webanwendungen & IT-Service in Villach. Maßgeschneiderte Web-Apps sowie PC-Notdienst & Vor-Ort Hilfe - schnell, skalierbar und zuverlässig.'
+            content: 'IT Hilfe in Villach, individuelle Websites & Web-Apps sowie Gaming PC Builds. Vor-Ort Service für PC & Smartphone - schnell, verständlich und ohne Baukastensysteme.'
         },
 
         // Open Graph
         {
             property: 'og:title',
-            content: 'Webanwendungen & IT-Dienstleister Villach - Ing. Lukas Korbitsch'
+            content: 'IT Hilfe, Webentwicklung & Gaming PC Builds in Villach'
         },
         {
             property: 'og:description',
-            content: 'Individuelle Web-Apps für Unternehmen + IT-Hilfe bei dir vor Ort. Performance, Skalierung und echte Lösungen statt Baukasten-Systeme.'
+            content: 'Schnelle IT Hilfe vor Ort in Villach, maßgeschneiderte Websites & Gaming PC Builds - alles aus einer Hand.'
         },
         {
             property: 'og:image',
@@ -72,6 +67,24 @@ useHead({
             content: 'website'
         },
 
+        // Twitter
+        {
+            name: 'twitter:card',
+            content: 'summary_large_image'
+        },
+        {
+            name: 'twitter:title',
+            content: 'IT Hilfe, Webentwicklung & PC Builds in Villach'
+        },
+        {
+            name: 'twitter:description',
+            content: 'IT Hilfe vor Ort, Websites & Gaming PCs - persönlich und ohne Baukastensysteme.'
+        },
+        {
+            name: 'twitter:image',
+            content: 'https://korbitsch.at/images/logo.png'
+        },
+
         // SEO Basics
         {
             name: 'robots',
@@ -83,7 +96,7 @@ useHead({
         },
         {
             name: 'keywords',
-            content: 'Webentwicklung Villach, Website erstellen, SaaS Entwicklung Österreich, IT Dienstleister Villach, PC Hilfe Villach'
+            content: 'IT Hilfe Villach, PC Hilfe Villach, Gaming PC Villach, PC Build Villach, Webentwicklung Villach, Website erstellen Villach, Web Apps Österreich'
         }
     ],
     link: [
@@ -91,7 +104,6 @@ useHead({
             rel: 'canonical',
             href: 'https://korbitsch.at/'
         }
-
     ]
 })
 </script>

@@ -4,13 +4,15 @@ const routes = [
   { path: '/', name: 'Home', component: () => import('../views/home/Home.vue') },
   { path: '/about', name: 'About', component: () => import('../views/about/About.vue') },
   { path: '/portfolio', name: 'Portfolio', component: () => import('../views/portfolio/Portfolio.vue') },
-  
+  { path: '/webapps', name: 'Webapps', component: () => import('../views/webapps/Webapps.vue') },
   { path: '/it-hilfe', name: 'HomeVisits', component: () => import('../views/homevisits/Homevisits.vue') },
   { path: '/pc-builds', name: 'PCBuilds', component: () => import('../views/pcbuilds/PCBuilds.vue') },
   { path: '/contact', name: 'Contact', component: () => import('../views/contact/Contact.vue') },
   { path: '/impressum', name: 'Imprint', component: () => import('../views/Imprint.vue') },
   { path: '/datenschutz', name: 'Privacy', component: () => import('../views/Privacy.vue') },
-  { path: '/:pathMatch(.*)*', name: 'NotFound', component: () => import('../views/NotFound.vue') }
+  { path: '/:pathMatch(.*)*', name: 'NotFound', component: () => import('../views/NotFound.vue') },
+  { path: '/homevisits', redirect: '/it-hilfe' },
+  { path: '/projects', redirect: '/portfolio' },
 ]
 
 const router = createRouter({

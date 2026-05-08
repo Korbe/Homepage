@@ -21,7 +21,7 @@
                 </h2>
 
                 <p class="text-neutral-300 text-lg">
-                    Ich baue keine Systeme nach Trends – sondern nach Logik, Erfahrung und echter Performance.
+                    Ich baue keine Systeme nach Trends - sondern nach Logik, Erfahrung und echter Performance.
                 </p>
             </div>
 
@@ -33,7 +33,7 @@
                     <p class="text-brand text-lg mb-3">🧠</p>
                     <h3 class="font-semibold mb-2">Technisches Verständnis</h3>
                     <p class="text-neutral-300 text-sm">
-                        Erfahrung in Softwareentwicklung & Systemarchitektur – nicht nur „PC zusammenstecken“.
+                        Erfahrung in Softwareentwicklung & Systemarchitektur - nicht nur „PC zusammenstecken“.
                     </p>
                 </div>
 
@@ -42,7 +42,7 @@
                     <p class="text-brand text-lg mb-3">⚙️</p>
                     <h3 class="font-semibold mb-2">Keine Bottlenecks</h3>
                     <p class="text-neutral-300 text-sm">
-                        Jede Komponente wird aufeinander abgestimmt – für maximale Leistung ohne Schwachstellen.
+                        Jede Komponente wird aufeinander abgestimmt - für maximale Leistung ohne Schwachstellen.
                     </p>
                 </div>
 
@@ -51,7 +51,7 @@
                     <p class="text-brand text-lg mb-3">💰</p>
                     <h3 class="font-semibold mb-2">Ehrliche Beratung</h3>
                     <p class="text-neutral-300 text-sm">
-                        Kein Upselling, keine unnötigen Teile – du bekommst genau das, was du brauchst.
+                        Kein Upselling, keine unnötigen Teile - du bekommst genau das, was du brauchst.
                     </p>
                 </div>
 
@@ -69,7 +69,7 @@
             <!-- Bottom Statement -->
             <div class="mt-16 border border-neutral-800 rounded-2xl p-6 bg-neutral-900/60 backdrop-blur">
                 <p class="text-neutral-300 text-center text-lg">
-                    Ich baue keine PCs für Marketing – sondern Systeme, die in der Praxis funktionieren.
+                    Ich baue keine PCs für Marketing - sondern Systeme, die in der Praxis funktionieren.
                 </p>
             </div>
 

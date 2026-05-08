@@ -20,6 +20,10 @@
 					PORTFOLIO
 				</RouterLink>
 
+				<RouterLink to="/webapps" :class="isActive('/webapps')">
+					WEBSITES & WEBAPPS
+				</RouterLink>
+
 				<RouterLink to="/it-hilfe" :class="isActive('/it-hilfe')">
 					IT HILFE
 				</RouterLink>
@@ -66,6 +70,11 @@
 					<RouterLink @click="mobileOpen = false" to="/portfolio" :class="isActive('/portfolio')"
 						class="py-3 border-b border-neutral-800">
 						PORTFOLIO
+					</RouterLink>
+
+					<RouterLink @click="mobileOpen = false" to="/webapps" :class="isActive('/webapps')"
+						class="py-3 border-b border-neutral-800">
+						WEBSITES & WEBAPPS
 					</RouterLink>
 
 					<RouterLink @click="mobileOpen = false" to="/it-hilfe" :class="isActive('/it-hilfe')"

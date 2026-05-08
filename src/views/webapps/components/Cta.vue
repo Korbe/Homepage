@@ -7,32 +7,22 @@
 
             <!-- Heading -->
             <h2 class="text-3xl md:text-4xl font-bold mb-4">
-                Ich kümmere mich darum
+                Lass uns dein Projekt umsetzen
             </h2>
 
             <p class="text-neutral-400 text-lg mb-12">
-                Schreib mir dein Problem oder dein Projekt - ich melde mich persönlich bei dir und sage dir, wie wir es
-                am besten lösen.
+                Ob Web-Anwendung oder technische Unterstützung - ich melde mich persönlich bei dir zurück.
             </p>
 
             <!-- CTA Box -->
             <div class="border border-neutral-800 rounded-2xl p-10 bg-neutral-800/60">
 
-                <!-- Primary CTAs -->
-                <div class="flex flex-wrap justify-center gap-4 mb-6">
-
-                    <!-- Mail -->
+                <!-- Primary CTA -->
+                <div class="mb-4">
                     <a href="mailto:info@korbitsch.at"
                         class="inline-block bg-brand text-black font-medium px-8 py-4 rounded-xl hover:opacity-90 transition">
-                        Mail schreiben
+                        Projekt anfragen
                     </a>
-
-                    <!-- Call -->
-                    <a href="tel:+436701923388"
-                        class="inline-block border border-neutral-700 text-neutral-300 font-medium px-8 py-4 rounded-xl hover:border-brand hover:text-brand transition">
-                        Ruf mich an
-                    </a>
-
                 </div>
 
                 <!-- Secondary CTA -->

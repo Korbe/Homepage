@@ -1,5 +1,8 @@
 <template>
     <section class="py-28 bg-neutral-900/95 text-white">
+
+        <img src="@/assets/section-notemplates.png" class="w-full max-w-3xl h-auto mx-auto" />
+
         <div class="max-w-5xl mx-auto px-6 lg:px-12 text-center">
 
             <!-- Brand Statement -->
@@ -9,7 +12,7 @@
 
             <p class="text-neutral-400 text-lg md:text-xl leading-relaxed mb-12">
                 Ich entwickle keine Baukasten-Lösungen und keine überladenen Systeme.
-                Jedes Projekt wird von Grund auf geplant, strukturiert und gebaut –
+                Jedes Projekt wird von Grund auf geplant, strukturiert und gebaut -
                 mit Fokus auf Performance, Skalierbarkeit und Klarheit.
             </p>
 
@@ -30,7 +33,7 @@
                         Performance First
                     </h3>
                     <p class="text-neutral-400 text-sm">
-                        Geschwindigkeit ist kein Feature – sondern Standard.
+                        Geschwindigkeit ist kein Feature - sondern Standard.
                     </p>
                 </div>
 
