@@ -4,7 +4,7 @@ $port = 4000
 $remote = "deployer@217.154.67.144"
 $remotePath = "/var/www/korbitsch.at/current"
 
-Write-Host "Build läuft..." -ForegroundColor Cyan
+Write-Host "Build startet..." -ForegroundColor Cyan
 npm run build
 
 if (!(Test-Path "dist")) {

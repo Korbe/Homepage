@@ -27,9 +27,9 @@
 
                 <!-- First Hour -->
                 <div class="text-center mb-10">
-                    <p class="text-neutral-400 text-sm mb-2">Erste Stunde</p>
+                    <p class="text-neutral-400 text-sm mb-2">Erste halbe Stunde</p>
                     <p class="text-4xl font-bold mb-2">
-                        90€
+                        50€
                     </p>
                     <p class="text-neutral-400">
                         inkl. Analyse & Problemlösung vor Ort
@@ -61,7 +61,7 @@
                     </p>
 
                     <p class="text-white font-semibold mt-2">
-                        = 90€ + 40€ = 130€
+                        = 50€ + 4 x 20€ (80€) = 130€
                     </p>
                 </div>
 
