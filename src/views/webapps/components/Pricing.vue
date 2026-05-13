@@ -70,7 +70,11 @@
 
                 </div>
 
+                
+
             </div>
+
+            <p class="mx-auto text-center text-sm text-neutral-400 mt-5">Jedes Projekt ist individuell - Umfang und Preis können je nach Anforderungen variieren. Die Preise dienen als Orientierung.</p>
         </div>
     </section>
 </template>
