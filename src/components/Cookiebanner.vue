@@ -11,7 +11,7 @@
 
                         <!-- Cookie Placeholder -->
                         <div
-                            class="flex items-center justify-center h-14 w-14 rounded-xl bg-white bg-neutral-100 border border-neutral-200 shrink-0 text-2xl">
+                            class="flex items-center justify-center h-14 w-14 rounded-xl bg-white border border-neutral-200 shrink-0 text-2xl">
                             🍪
                         </div>
 
