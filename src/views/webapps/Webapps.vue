@@ -22,6 +22,8 @@
 
         <Cta />
 
+        <SocialSection />
+
     </Layout>
 </template>
 <script setup>
@@ -38,6 +40,7 @@ import Pricing from './components/Pricing.vue';
 import Testimonial from './components/Testimonial.vue';
 import WebIntroSection from './components/WebIntroSection.vue';
 import { useHead } from '@unhead/vue'
+import SocialSection from '../../components/SocialSection.vue';
 
 useHead({
     title: 'Webentwicklung in Villach | Websites & Web-Apps ohne Baukasten - Lukas Korbitsch',

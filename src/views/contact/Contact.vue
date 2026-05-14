@@ -11,6 +11,7 @@ import Hero from './components/Hero.vue';
 import Layout from '@/components/layout/Layout.vue';
 import Faq from './components/Faq.vue';
 import { useHead } from '@unhead/vue'
+import SocialSection from '../../components/SocialSection.vue';
 
 useHead({
     title: 'Kontakt - Webentwicklung & IT Hilfe Villach | Korbitsch',

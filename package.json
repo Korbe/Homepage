@@ -10,6 +10,7 @@
     "deploy": "powershell ./deploy.ps1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.2.0",
     "@heroicons/vue": "^2.2.0",
     "@tailwindcss/vite": "^4.2.4",
     "@unhead/vue": "^1.11.20",

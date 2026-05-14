@@ -17,6 +17,8 @@
 
     <Cta />
 
+    <SocialSection />
+
   </Layout>
 </template>
 <script setup>
@@ -30,6 +32,7 @@ import HomeVisitProblemsSection from './components/HomeVisitProblemsSection.vue'
 import HomeVisitWhySection from './components/HomeVisitWhySection.vue';
 import HomeVisitTrustSection from './components/HomeVisitTrustSection.vue';
 import Faq from './components/Faq.vue';
+import SocialSection from '../../components/SocialSection.vue';
 
 useHead({
   title: 'PC Hilfe Villach - IT Hausbesuch & Gaming PC Builds | Ing. Korbitsch',

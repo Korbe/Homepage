@@ -17,6 +17,8 @@
         <Faq />
 
         <Cta />
+
+        <SocialSection />
     </Layout>
 </template>
 <script setup>
@@ -31,6 +33,7 @@ import PcBuildsTrustSection from "./components/PcBuildsTrustSection.vue";
 import Cta from "./components/Cta.vue";
 import { useHead } from '@unhead/vue'
 import Faq from "./components/Faq.vue";
+import SocialSection from "../../components/SocialSection.vue";
 
 useHead({
   title: 'Gaming PC bauen lassen - Custom Builds ohne Kompromisse | Korbitsch',

@@ -3,6 +3,7 @@
         <Hero />
         <GridSection />
         <Cta />
+        <SocialSection />
     </Layout>
 
 </template>
@@ -12,6 +13,7 @@ import Hero from './components/Hero.vue'
 import GridSection from './components/GridSection.vue'
 import Cta from './components/Cta.vue'
 import { useHead } from '@unhead/vue'
+import SocialSection from '../../components/SocialSection.vue'
 
 useHead({
     title: 'Portfolio - Webanwendungen & Projekte | Ing. Lukas Korbitsch',

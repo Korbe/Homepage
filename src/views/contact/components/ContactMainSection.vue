@@ -60,8 +60,41 @@
                     Schreib mir auf WhatsApp
                 </a>
 
+                <!-- Socials -->
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/profile.php?id=61589133460488" target="_blank"
+                        class="border border-neutral-800 bg-neutral-800/60 hover:border-brand transition rounded-2xl px-6 py-4 flex items-center justify-center gap-3">
+
+                        <span class="text-xl"><i class="fa-brands fa-facebook"></i></span>
+
+                        <div class="text-left">
+                            <p class="font-medium">
+                                Facebook
+                            </p>
+                        </div>
+
+                    </a>
+
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/korbitsch.it" target="_blank"
+                        class="border border-neutral-800 bg-neutral-800/60 hover:border-brand transition rounded-2xl px-6 py-4 flex items-center justify-center gap-3">
+
+                        <span class="text-xl"><i class="fa-brands fa-instagram"></i></span>
+
+                        <div class="text-left">
+                            <p class="font-medium">
+                                Instagram
+                            </p>
+                        </div>
+
+                    </a>
+
+                </div>
+
                 <!-- Divider -->
-                <div class="border-t border-neutral-800 pt-6 text-center text-sm text-neutral-400 space-y-2">
+                <div class="mt-5 border-t border-neutral-800 pt-6 text-center text-sm text-neutral-400 space-y-2">
 
                     <p>📧 info@korbitsch.at</p>
                     <p>📞 +43 670 1923388</p>

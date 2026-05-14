@@ -5,6 +5,7 @@
         <WorkSection />
         <PersonalSection />
         <Cta />
+        <SocialSection />
     </Layout>
     
 </template>
@@ -16,6 +17,7 @@ import WorkSection from './components/WorkSection.vue';
 import PersonalSection from './components/PersonalSection.vue';
 import Cta from './components/Cta.vue';
 import { useHead } from '@unhead/vue'
+import SocialSection from '../../components/SocialSection.vue';
 
 useHead({
     title: 'Über mich - Lukas Korbitsch | Webentwickler & IT-Dienstleister Villach',

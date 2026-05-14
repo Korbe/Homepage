@@ -20,6 +20,8 @@
 
         <Cta />
 
+        <SocialSection />
+
     </Layout>
 </template>
 <script setup>
@@ -35,6 +37,7 @@ import LocalTrust from './components/LocalTrust.vue';
 import SoundsGoodCta from './components/SoundsGoodCta.vue';
 import QuickAvailability from './components/QuickAvailability.vue';
 import ProcessSection from './components/ProcessSection.vue';
+import SocialSection from '../../components/SocialSection.vue';
 
 useHead({
     title: 'IT Hilfe, Webentwicklung & Gaming PC Builds in Villach | Lukas Korbitsch',
