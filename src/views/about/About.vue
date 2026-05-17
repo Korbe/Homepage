@@ -1,17 +1,19 @@
 <template>
     <Layout>
         <Hero />
+        <ImageSection />
         <StorySection />
         <WorkSection />
         <PersonalSection />
         <Cta />
         <SocialSection />
     </Layout>
-    
+
 </template>
 <script setup>
 import Layout from '@/components/layout/Layout.vue'
 import Hero from './components/Hero.vue';
+import ImageSection from './components/ImageSection.vue';
 import StorySection from './components/StorySection.vue';
 import WorkSection from './components/WorkSection.vue';
 import PersonalSection from './components/PersonalSection.vue';
