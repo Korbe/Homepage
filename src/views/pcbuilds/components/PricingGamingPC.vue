@@ -23,13 +23,13 @@
 
         <!-- 🟢 Planung -->
         <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 flex flex-col">
-          <p class="text-neutral-400 text-sm mb-2">Einsteiger</p>
+          <p class="text-neutral-400 text-sm mb-2">Bastler</p>
 
           <h3 class="text-xl font-semibold mb-4">
             Planung & Teileliste
           </h3>
 
-          <p class="text-4xl font-bold mb-4">
+          <p class="text-4xl font-bold mb-4 text-brand">
             99€
           </p>
 
@@ -42,6 +42,7 @@
             <li>• Keine Bottlenecks</li>
             <li>• Optimales Preis-Leistungs-Verhältnis</li>
             <li>• Direkte Kaufempfehlungen</li>
+            <li>• Geizhals Liste zum direkten Kauf</li>
           </ul>
 
           <div class="mt-auto">
@@ -57,21 +58,20 @@
           <p class="text-neutral-400 text-sm mb-2">Beliebt</p>
 
           <h3 class="text-xl font-semibold mb-4">
-            Aufbau & Einrichtung
+            Umbau oder Einrichtung
           </h3>
 
-          <p class="text-4xl font-bold mb-4">
-            199€
+          <p class="text-4xl font-bold mb-4 text-brand">
+            99€
           </p>
 
           <p class="text-neutral-300 text-sm mb-6">
-            Ich baue dein System zusammen und richte alles sauber für dich ein.
+            Ich baue dein System um und/oder richte alles sauber für dich ein.
           </p>
 
           <ul class="space-y-2 text-neutral-300 text-sm mb-8">
             <li>• Fachgerechter Zusammenbau</li>
-            <li>• Kabelmanagement & Kühlung</li>
-            <li>• Installation & Einrichtung</li>
+            <li>• Installationen & Einrichtung</li>
             <li>• Sofort einsatzbereit</li>
           </ul>
 
@@ -92,48 +92,21 @@
           </div>
 
           <h3 class="text-xl font-semibold mb-4">
-            All-in-One Setup
+            All-in-One Gaming Setup
           </h3>
 
-          <!-- Standard -->
-          <div class="mb-6">
-            <p class="text-neutral-400 text-sm">Standard</p>
-
-            <p class="text-neutral-500 line-through text-sm">
-              298€
-            </p>
-
-            <p class="text-3xl font-bold">
-              279€
-            </p>
-
-            <p class="text-green-400 text-sm mb-2">
-              Du sparst 19€
-            </p>
-
-            <p class="text-neutral-400 text-sm">
-              Planung + Aufbau + Einrichtung
-            </p>
-          </div>
 
           <!-- Premium -->
           <div class="mb-6">
-            <p class="text-neutral-400 text-sm">inkl. Bestellung & Handling</p>
+            <p class="text-neutral-400 text-sm">Einkauf, Aufbau und Einrichtung</p>
 
-            <p class="text-neutral-500 line-through text-sm">
-              398€
+
+            <p class="mt-5">
+              <span class="text-3xl font-bold text-brand">20%</span> des Hardwarewerts
             </p>
 
-            <p class="text-3xl font-bold text-brand">
-              369€
-            </p>
-
-            <p class="text-green-400 text-sm mb-2">
-              Du sparst 29€
-            </p>
-
-            <p class="text-neutral-400 text-sm">
-              Ich übernehme alles - von der Planung bis zum fertigen Setup
+            <p class="text-neutral-400 text-sm mt-2">
+              Ich übernehme alles - von der Planung bis zum fertigen Setup sowie die Einrichtung deines Betriebssystems. Du bekommst ein komplett einsatzbereites Gaming PC Setup, ohne dich um irgendetwas kümmern zu müssen.
             </p>
           </div>
 
@@ -168,8 +141,7 @@
         </p>
 
         <ul class="space-y-2 text-sm text-neutral-300">
-          <li>• Für den Aufbau bringst du die Komponenten selbst mit</li>
-          <li>• Alternativ übernehme ich im Premium Paket die komplette Bestellung</li>
+          <li>• 20% von einem 1500€ Setup sind 300€ Provision</li>
           <li>• Bitte gib bei der Anfrage dein gewünschtes Betriebssystem an (z. B. Windows 11 oder Linux)</li>
         </ul>
 

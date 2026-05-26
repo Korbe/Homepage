@@ -51,7 +51,7 @@ export const homevisitsFaqs = [
 export const pcBuildFaqs = [
   {
     q: 'Was kostet ein Gaming PC Build?',
-    a: 'Die Kosten hängen davon ab, wie viel du selbst übernehmen möchtest. Eine individuelle Planung bekommst du ab 99€. Für Aufbau und Einrichtung berechne ich 199€. Wenn du alles aus einer Hand willst, gibt es ein Komplettpaket ab 279€ - optional inkl. Bestellung & Abwicklung für 379€.'
+    a: 'Die Kosten hängen davon ab, wie viel du selbst übernehmen möchtest. Eine individuelle Planung bekommst du ab 99€. Für Umbau oder Einrichtung berechne ich 99€. Wenn du alles aus einer Hand willst, gibt es ein Komplettpaket ab 20% des Hardwarewerts - inklusive Planung, Einkauf, Aufbau und Einrichtung.'
   },
   {
     q: 'Kann ich die Teile selbst kaufen?',
