@@ -161,7 +161,7 @@
                         </p>
 
                         <p class="text-neutral-300 mt-4 leading-relaxed">
-                            Weitere Informationen finden Sie in den Datenschutzerklärungen der Anbieter:
+                            Weitere Informationen finden Sie in den Datenschutzerklärungen der Anbieter.
                         </p>
 
                         <p class="text-neutral-300 mt-4 leading-relaxed">
