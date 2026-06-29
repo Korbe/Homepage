@@ -96,6 +96,16 @@
 
                     <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
                         <h2 class="text-lg font-semibold text-brand mb-4">
+                            GISA Zahl
+                        </h2>
+
+                        <p class="text-neutral-300 leading-relaxed">
+                            38890017
+                        </p>
+                    </div>
+
+                    <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
+                        <h2 class="text-lg font-semibold text-brand mb-4">
                             Aufsichtsbehörde gem. ECG (E-Commerce Gesetz)
                         </h2>
 
