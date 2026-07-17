@@ -1,5 +1,5 @@
 <template>
-    <section class="relative bg-neutral-900/95 py-24 sm:py-32 overflow-visible">
+    <section id="pricing" class="relative bg-neutral-900/95 py-24 sm:py-32 overflow-visible">
 
         <div class="pointer-events-none absolute inset-0 z-0">
             <div
@@ -24,7 +24,7 @@
             </p>
 
             <!-- Cards -->
-            <div class="isolate mx-auto mt-16 grid max-w-md grid-cols-1 gap-y-8 gap-x-5 lg:max-w-none lg:grid-cols-3">
+            <div class="isolate mx-auto mt-16 grid max-w-md grid-cols-1 gap-y-8 gap-x-5 lg:max-w-none lg:grid-cols-4">
 
                 <div v-for="(tier, tierIdx) in tiers" :key="tier.id" :class="[
                     tier.mostPopular ? 'lg:z-10' : 'lg:mt-8',
@@ -70,11 +70,12 @@
 
                 </div>
 
-                
+
 
             </div>
 
-            <p class="mx-auto text-center text-sm text-neutral-400 mt-5">Jedes Projekt ist individuell - Umfang und Preis können je nach Anforderungen variieren. Die Preise dienen als Orientierung.</p>
+            <p class="mx-auto text-center text-sm text-neutral-400 mt-5">Jedes Projekt ist individuell - Umfang und
+                Preis können je nach Anforderungen variieren. Die Preise dienen als Orientierung.</p>
         </div>
     </section>
 </template>
@@ -84,55 +85,73 @@ import { CheckIcon } from '@heroicons/vue/20/solid'
 
 const tiers = [
     {
-        name: 'Starter',
-        id: 'starter',
-        price: '2.500 €',
-        description: 'Perfekt für kleine Unternehmen, die online sichtbar werden wollen.',
+        name: 'One Pager',
+        id: 'one-pager',
+        price: '1.000 €',
+        description: 'Eine moderne Landingpage oder Unternehmenswebsite mit einer einzelnen Seite – ideal für Selbstständige, Vereine und kleine Unternehmen.',
         features: [
-            'Bis zu 5 Seiten',
-            'Bis zu 10 Sections',
-            'Individuelles UI/UX Design',
-            'Mobil optimiert',
-            'SEO inklusive',
-            'Schnelle Ladezeiten',
-            'Hosting & Deployment',
+            '1 Seite',
+            'Bis zu 8 Inhaltsbereiche',
+            'Individuelles UI/UX-Design',
+            'Responsive für Smartphone, Tablet & Desktop',
+            'SEO-Basisoptimierung',
+            'Optimierte Ladezeiten',
+            'Static Site Generation (SSG)',
+            'Optimiert für Google & Suchmaschinen',
         ],
         mostPopular: false,
     },
     {
-        name: 'Business',
-        id: 'business',
-        price: '3.900 €',
-        description: 'Für Unternehmen, die aktiv Kunden über ihre Website gewinnen wollen.',
+        name: 'Starter Website',
+        id: 'starter',
+        price: '2.500 €',
+        description: 'Mehrseitige Website auf Basis von Vue.js – schnell, sicher und wartungsarm.',
         features: [
-            'Bis zu 7 Seiten',
-            'Bis zu 25 Sections',
-            'Individuelles UI/UX Design',
-            'Mobil optimiert',
-            'Conversion-optimierte Struktur',
-            'SEO inklusive',
-            'Schnelle Ladezeiten',
-            'Hosting & Deployment',
+            'Bis zu 5 Unterseiten',
+            'Bis zu 15 Inhaltsbereiche',
+            'Individuelles UI/UX-Design',
+            'Responsive Design',
+            'SEO-Basisoptimierung',
+            'Optimierte Ladezeiten',
+            'Static Site Generation (SSG)',
+            'Optimiert für Google & Suchmaschinen',
         ],
         mostPopular: true,
     },
     {
-        name: 'Pro',
-        id: 'pro',
-        price: 'ab 4.900 €',
-        description: 'Für komplexere Projekte mit Logik, Wachstum und Skalierung.',
+        name: 'Business Website',
+        id: 'business',
+        price: '3.500 €',
+        description: 'Professionelle Unternehmenswebsite mit erweitertem Umfang und Fokus auf Neukundengewinnung.',
         features: [
-            'Bis zu 10 Seiten',
-            'Bis zu 40 Sections',
-            'Individuelles UI/UX Design',
-            'Mobil optimiert',
-            'SEO inklusive',
-            'Laravel Backend möglich',
-            'API / dynamische Inhalte',
-            'Performance & Skalierbarkeit',
-            'Komplexe Logik & Funktionen',
+            'Bis zu 10 Unterseiten',
+            'Bis zu 30 Inhaltsbereiche',
+            'Individuelles UI/UX-Design',
+            'Responsive Design',
+            'Conversion-optimierte Struktur',
+            'SEO-Basisoptimierung',
+            'Performance-Optimierung',
+            'Static Site Generation (SSG)',
+            'Optimiert für Google & Suchmaschinen',
+        ],
+        mostPopular: false,
+    },
+    {
+        name: 'Webanwendung',
+        id: 'webapp',
+        price: 'Auf Anfrage',
+        description: 'Individuelle Laravel-Webanwendung mit Datenbank, Benutzerverwaltung und maßgeschneiderter Funktionalität.',
+        features: [
+            'Laravel Backend',
+            'Server-Side Rendering (SSR)',
+            'Optimiert für Google & Suchmaschinen',
             'Datenbank-Integration',
-            'SSR möglich',
+            'Benutzer- & Rollenverwaltung',
+            'Individuelle Geschäftslogik',
+            'Adminbereich',
+            'Dynamische Inhalte',
+            'Anbindung externer Systeme',
+            'Performance & Skalierbarkeit',
             'Hosting & Deployment',
         ],
         mostPopular: false,
