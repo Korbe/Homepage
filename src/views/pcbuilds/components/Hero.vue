@@ -3,13 +3,16 @@
 
         <!-- Background Image -->
         <div class="absolute inset-0">
-            <img src="@/assets/gaming-pc.png" alt="Lukas Korbitsch"
-                class="hidden xl:block w-full h-full object-cover object-right" />
-            <img src="@/assets/gaming-pc-mobile.png" alt="Lukas Korbitsch"
-                class="block xl:hidden w-full h-full object-cover object-right" />
 
-
-
+            <figure>
+                <img src="@/assets/gaming-pc.png" alt="Lukas Korbitsch"
+                    class="hidden xl:block w-full h-full object-cover object-right" />
+                <img src="@/assets/gaming-pc-mobile.png" alt="Lukas Korbitsch"
+                    class="block xl:hidden w-full h-full object-cover object-right" />
+                <figcaption>
+                    KI-generiertes Bild.
+                </figcaption>
+            </figure>
 
             <!-- Dark Overlay -->
             <div class="absolute inset-0 bg-neutral-950/70"></div>

@@ -56,7 +56,7 @@
 
                         <p class="text-neutral-300 leading-relaxed">
                             Ing. Lukas Korbitsch<br />
-                            Villach, Österreich<br />
+                            Kiesweg 19, 9500 Villach, Österreich<br />
                             E-Mail: info@korbitsch.at
                         </p>
                     </div>
@@ -83,12 +83,12 @@
                     <!-- Google Analytics -->
                     <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
                         <h2 class="text-lg font-semibold text-brand mb-4">
-                            Google Analytics
+                            Google Analytics Cookie
                         </h2>
 
                         <p class="text-neutral-300 leading-relaxed">
                             Diese Website verwendet Google Analytics, einen Webanalysedienst der
-                            <span class="text-white">Google LLC</span>.
+                            <span class="text-white">Google LLC</span> ausnahmlos nur wenn Sie dem zustimmen.
                         </p>
 
                         <p class="text-neutral-300 mt-4 leading-relaxed">

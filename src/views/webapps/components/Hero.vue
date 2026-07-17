@@ -3,6 +3,7 @@
 
         <!-- Background Image -->
         <div class="absolute inset-0">
+
             <img src="@/assets/hero-code.jpg" alt="Lukas Korbitsch"
                 class="w-full h-full object-cover object-right" />
             <!-- Dark Overlay -->

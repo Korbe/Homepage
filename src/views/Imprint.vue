@@ -122,7 +122,9 @@
                         <p class="text-neutral-300 leading-relaxed">
                             Die Bilder sind KI generiert und unterliegen keinem Urheberrecht. Sie wurden mit <a
                                 href="https://chatgpt.com" target="_blank"
-                                class="text-brand hover:underline">ChatGPT</a> erstellt.
+                                class="text-brand hover:underline">ChatGPT</a> erstellt. Oder sie sind lizenzfreie Bilder von <a href="https://unsplash.com" target="_blank"
+                                class="text-brand hover:underline">Unsplash</a> und <a href="https://pexels.com" target="_blank"
+                                class="text-brand hover:underline">Pexels</a>.
                         </p>
                     </div>
 

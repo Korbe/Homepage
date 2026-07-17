@@ -1,9 +1,15 @@
 <template>
     <section class="relative pt-10 pb-24 bg-neutral-900/95 text-white overflow-visible">
 
-        <img src="@/assets/section-architecture.png" class="w-full max-w-3xl h-auto mx-auto" />
+        <figure>
+            <img src="@/assets/section-architecture.png" class="w-full max-w-3xl h-auto mx-auto" />
+            <figcaption class="text-center text-xs text-gray-400 italic">
+                KI-generiertes Bild
+            </figcaption>
+        </figure>
 
-        <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
+
+        <div class="relative z-10 max-w-7xl mt-16 mx-auto px-6 lg:px-12">
 
             <!-- Heading -->
             <div class="mx-auto flex justify-center">

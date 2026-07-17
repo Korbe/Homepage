@@ -1,7 +1,12 @@
 <template>
     <section class="relative py-24 bg-neutral-900/95 text-white overflow-hidden">
 
-        <img src="@/assets/section-problemsolution.png" class="w-full max-w-3xl h-auto mx-auto" />
+        <figure>
+            <img src="@/assets/section-problemsolution.png" class="w-full max-w-3xl h-auto mx-auto" />
+            <figcaption class="text-center text-xs text-gray-400 italic">
+                KI-generiertes Bild
+            </figcaption>
+        </figure>
 
         <!-- Glow -->
         <div class="pointer-events-none absolute inset-0 z-0">
@@ -10,7 +15,7 @@
             </div>
         </div>
 
-        <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
+        <div class="relative z-10 max-w-7xl mx-auto mt-16 px-6 lg:px-12">
 
             <!-- Heading -->
             <div class="flex justify-center">

@@ -3,8 +3,16 @@
 
         <!-- Background Image -->
         <div class="absolute inset-0">
-            <img src="@/assets/hero-me-about.png" alt="Lukas Korbitsch" class="hidden xl:block w-full h-full object-cover object-right" />
-            <img src="@/assets/hero-me-about-mobile.png" alt="Lukas Korbitsch" class="block xl:hidden w-full h-full object-cover object-right" />
+
+            <figure>
+                <img src="@/assets/hero-me-about.png" alt="Lukas Korbitsch"
+                    class="hidden xl:block w-full h-full object-cover object-right" />
+                <img src="@/assets/hero-me-about-mobile.png" alt="Lukas Korbitsch"
+                    class="block xl:hidden w-full h-full object-cover object-right" />
+                <figcaption>
+                    KI-generiertes Bild.
+                </figcaption>
+            </figure>
 
             <!-- Dark Overlay -->
             <div class="absolute inset-0 bg-neutral-950/60"></div>
@@ -29,7 +37,7 @@
 
                 <!-- Headline -->
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                    Technik ist<br /> mein  <span class="text-brand">Alltag</span>
+                    Technik ist<br /> mein <span class="text-brand">Alltag</span>
                     <br /> und mein <span class="text-brand">Werkzeug</span>
                 </h1>
 
@@ -56,7 +64,8 @@
                 </div>
 
                 <!-- Small Trust Line -->
-                <div class="hover:border-brand transition border border-neutral-800 rounded-xl p-4 bg-neutral-900/50 backdrop-blur">
+                <div
+                    class="hover:border-brand transition border border-neutral-800 rounded-xl p-4 bg-neutral-900/50 backdrop-blur">
                     <p class="text-sm text-neutral-300">
                         💡 Webentwicklung & IT-Hilfe - zwei Seiten derselben Sache: Probleme lösen.
                     </p>

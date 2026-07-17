@@ -3,10 +3,16 @@
 
         <!-- Background -->
         <div class="absolute inset-0">
-            <img src="@/assets/hero-me.png" alt="Lukas Korbitsch"
-                class="hidden xl:block w-full h-full object-cover object-right" />
-            <img src="@/assets/hero-me-mobile.png" alt="Lukas Korbitsch"
-                class="block xl:hidden w-full h-full object-cover object-right" />
+
+            <figure>
+                <img src="@/assets/hero-me.png" alt="Lukas Korbitsch"
+                    class="hidden xl:block w-full h-full object-cover object-right" />
+                <img src="@/assets/hero-me-mobile.png" alt="Lukas Korbitsch"
+                    class="block xl:hidden w-full h-full object-cover object-right" />
+                <figcaption>
+                    KI-generiertes Bild.
+                </figcaption>
+            </figure>
 
             <!-- Dark Overlay -->
             <div class="absolute inset-0 bg-neutral-950/60"></div>
@@ -73,6 +79,5 @@
 
     </section>
 </template>
-
 <script setup>
 </script>

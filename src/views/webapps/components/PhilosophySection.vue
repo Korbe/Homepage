@@ -1,9 +1,16 @@
 <template>
     <section class="py-28 bg-neutral-900/95 text-white">
 
-        <img src="@/assets/section-notemplates.png" class="w-full max-w-3xl h-auto mx-auto" />
+        <figure>
+            <img src="@/assets/section-notemplates.png" class="w-full max-w-3xl h-auto mx-auto" />
+            <figcaption class="text-center text-xs text-gray-400 italic">
+                KI-generiertes Bild
+            </figcaption>
+        </figure>
 
-        <div class="max-w-5xl mx-auto px-6 lg:px-12 text-center">
+
+
+        <div class="max-w-5xl mx-auto mt-16 px-6 lg:px-12 text-center">
 
             <!-- Brand Statement -->
             <h2 class="text-3xl md:text-5xl font-bold mb-8">

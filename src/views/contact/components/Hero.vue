@@ -3,11 +3,17 @@
 
         <!-- Background Image -->
         <div class="absolute inset-0">
-            <img src="@/assets/hero-me-contact.png" alt="Lukas Korbitsch"
-                class="hidden xl:block w-full h-full object-cover object-right" />
 
-            <img src="@/assets/hero-me-contact-mobile.png" alt="Lukas Korbitsch"
-                class="block xl:hidden w-full h-full object-cover object-right" />
+            <figure>
+                <img src="@/assets/hero-me-contact.png" alt="Lukas Korbitsch"
+                    class="hidden xl:block w-full h-full object-cover object-right" />
+
+                <img src="@/assets/hero-me-contact-mobile.png" alt="Lukas Korbitsch"
+                    class="block xl:hidden w-full h-full object-cover object-right" />
+                <figcaption>
+                    KI-generiertes Bild.
+                </figcaption>
+            </figure>
 
             <!-- Dark Overlay -->
             <div class="absolute inset-0 bg-neutral-950/60"></div>
@@ -18,7 +24,7 @@
 
         <!-- Content -->
         <div class="relative mt-48 lg:mt-28 z-10 max-w-7xl mx-auto px-6 lg:px-12 w-full">
-            
+
             <div class="max-w-2xl">
 
                 <!-- Badge -->
@@ -33,7 +39,8 @@
                 <!-- Headline -->
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                     Lass uns über dein<br />
-                    <span class="text-brand">Projekt</span> oder deine <span class="text-brand">Technikprobleme</span><br /> sprechen
+                    <span class="text-brand">Projekt</span> oder deine <span
+                        class="text-brand">Technikprobleme</span><br /> sprechen
                 </h1>
 
                 <!-- Subtext -->
@@ -58,7 +65,8 @@
                 </div>
 
                 <!-- Trust Note -->
-                <div class="hover:border-brand transition border border-neutral-800 rounded-xl p-4 bg-neutral-900/50 backdrop-blur">
+                <div
+                    class="hover:border-brand transition border border-neutral-800 rounded-xl p-4 bg-neutral-900/50 backdrop-blur">
                     <p class="text-sm text-neutral-300">
                         💡 Meist bekommst du innerhalb von 24 Stunden eine Antwort.
                     </p>
