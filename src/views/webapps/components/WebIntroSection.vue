@@ -11,7 +11,8 @@
             <!-- Headline -->
             <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6">
                 Schöne Websites gibt es viele- <br />
-                ich entwickle welche, die <span class="text-brand">gefunden</span> werden und <span class="text-brand">funktionieren</span>
+                ich entwickle welche, die <span class="text-brand">gefunden</span> werden und <span
+                    class="text-brand">funktionieren</span>
             </h2>
 
             <!-- Text -->
@@ -23,10 +24,9 @@
             <!-- Optional CTA -->
             <div class="flex justify-center gap-4 flex-wrap">
 
-                <RouterLink to="contact"
-                    class="bg-brand text-black px-6 py-3 rounded-xl font-medium hover:opacity-90 transition">
-                    Projekt starten
-                </RouterLink>
+                <a href="#pricing" class="bg-brand text-black px-6 py-3 rounded-xl">
+                    Preise ansehen
+                </a>
 
                 <RouterLink to="portfolio"
                     class="border border-neutral-700 px-6 py-3 rounded-xl hover:border-brand hover:text-brand transition">

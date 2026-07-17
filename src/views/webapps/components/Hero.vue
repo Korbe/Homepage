@@ -4,8 +4,7 @@
         <!-- Background Image -->
         <div class="absolute inset-0">
 
-            <img src="@/assets/hero-code.jpg" alt="Lukas Korbitsch"
-                class="w-full h-full object-cover object-right" />
+            <img src="@/assets/hero-code.jpg" alt="Lukas Korbitsch" class="w-full h-full object-cover object-right" />
             <!-- Dark Overlay -->
             <div class="absolute inset-0 bg-neutral-950/60"></div>
 
@@ -36,7 +35,8 @@
                 <!-- Subtext -->
                 <p class="text-neutral-300 text-lg mb-8">
                     Moderne Websites & Web-Apps - individuell entwickelt mit Vue & Laravel für maximale Performance und
-                    echte Anforderungen. Kein Wordpress keine Baukasten-Systeme, sondern maßgeschneiderte Lösungen für dein Business.
+                    echte Anforderungen. Kein Wordpress keine Baukasten-Systeme, sondern maßgeschneiderte Lösungen für
+                    dein Business.
                 </p>
 
                 <!-- CTA -->
@@ -47,10 +47,10 @@
                         Projekt starten
                     </router-link>
 
-                    <router-link to="portfolio"
+                    <a href="#pricing"
                         class="border border-neutral-700 px-6 py-3 rounded-xl hover:border-brand hover:text-brand transition">
-                        Projekte ansehen
-                    </router-link>
+                        Preise ansehen
+                    </a>
 
                 </div>
 

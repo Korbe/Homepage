@@ -54,7 +54,7 @@
                         <p class="text-sm text-brand uppercase mb-2">Content / CMS System</p>
 
                         <h3 class="text-xl font-semibold mb-4">
-                            FCG Villach - Webplattform
+                            FCG Villach - WebApp
                         </h3>
 
                         <p class="text-neutral-400 text-sm mb-6">
@@ -79,7 +79,7 @@
                         <p class="text-sm text-brand uppercase mb-2">Landingpage</p>
 
                         <h3 class="text-xl font-semibold mb-4">
-                            Dronenservice Gilgenreiner
+                            Dronenservice Gilgenreiner - Landingpage
                         </h3>
 
                         <p class="text-neutral-400 text-sm mb-6">

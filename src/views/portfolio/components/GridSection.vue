@@ -149,7 +149,7 @@ const projects = [
     {
         name: 'Petrilog',
         role: 'Founder & Creator',
-        long: 'Petrilog ist eine Webplattform für Angler, mit der sie ihre Fänge inklusive GPS-Daten dokumentieren und mit anderen teilen können.',
+        long: 'Petrilog ist eine WebApp für Angler, mit der sie ihre Fänge inklusive GPS-Daten dokumentieren und mit anderen teilen können.',
         image: PetrilogShowCase,
         logo: PetrilogLogo,
         url: 'https://petrilog.com',
