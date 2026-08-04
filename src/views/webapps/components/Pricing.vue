@@ -91,8 +91,8 @@ const tiers = [
         description: 'Eine moderne Landingpage oder Unternehmenswebsite mit einer einzelnen Seite - ideal für Selbstständige, Vereine und kleine Unternehmen.',
         features: [
             '1 Seite',
-            'Basis Impressum & Datenschutz',
             'Bis zu 8 Inhaltsbereiche',
+            'Basis Impressum & Datenschutz',
             'Individuelles UI/UX-Design',
             'Responsive für Smartphone, Tablet & Desktop',
             'SEO-Basisoptimierung',
