@@ -88,9 +88,10 @@ const tiers = [
         name: 'One Pager',
         id: 'one-pager',
         price: '1.000 €',
-        description: 'Eine moderne Landingpage oder Unternehmenswebsite mit einer einzelnen Seite – ideal für Selbstständige, Vereine und kleine Unternehmen.',
+        description: 'Eine moderne Landingpage oder Unternehmenswebsite mit einer einzelnen Seite - ideal für Selbstständige, Vereine und kleine Unternehmen.',
         features: [
             '1 Seite',
+            'Basis Impressum & Datenschutz',
             'Bis zu 8 Inhaltsbereiche',
             'Individuelles UI/UX-Design',
             'Responsive für Smartphone, Tablet & Desktop',
@@ -105,10 +106,11 @@ const tiers = [
         name: 'Starter Website',
         id: 'starter',
         price: '2.500 €',
-        description: 'Mehrseitige Website auf Basis von Vue.js – schnell, sicher und wartungsarm.',
+        description: 'Mehrseitige Website auf Basis von Vue.js - schnell, sicher und wartungsarm.',
         features: [
             'Bis zu 5 Unterseiten',
             'Bis zu 15 Inhaltsbereiche',
+            'Basis Impressum & Datenschutz',
             'Individuelles UI/UX-Design',
             'Responsive Design',
             'SEO-Basisoptimierung',
@@ -126,6 +128,7 @@ const tiers = [
         features: [
             'Bis zu 10 Unterseiten',
             'Bis zu 30 Inhaltsbereiche',
+            'Basis Impressum & Datenschutz',
             'Individuelles UI/UX-Design',
             'Responsive Design',
             'Conversion-optimierte Struktur',
@@ -142,6 +145,7 @@ const tiers = [
         price: 'Auf Anfrage',
         description: 'Individuelle Laravel-Webanwendung mit Datenbank, Benutzerverwaltung und maßgeschneiderter Funktionalität.',
         features: [
+            'Basis Impressum & Datenschutz',
             'Laravel Backend',
             'Server-Side Rendering (SSR)',
             'Optimiert für Google & Suchmaschinen',
