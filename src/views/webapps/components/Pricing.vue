@@ -99,6 +99,7 @@ const tiers = [
             'Optimierte Ladezeiten',
             'Static Site Generation (SSG)',
             'Optimiert für Google & Suchmaschinen',
+            'Google Analytics + Cookie Banner'
         ],
         mostPopular: false,
     },
@@ -117,6 +118,7 @@ const tiers = [
             'Optimierte Ladezeiten',
             'Static Site Generation (SSG)',
             'Optimiert für Google & Suchmaschinen',
+            'Google Analytics + Cookie Banner'
         ],
         mostPopular: true,
     },
@@ -136,6 +138,7 @@ const tiers = [
             'Performance-Optimierung',
             'Static Site Generation (SSG)',
             'Optimiert für Google & Suchmaschinen',
+            'Google Analytics + Cookie Banner'
         ],
         mostPopular: false,
     },
@@ -157,6 +160,7 @@ const tiers = [
             'Anbindung externer Systeme',
             'Performance & Skalierbarkeit',
             'Hosting & Deployment',
+            'Google Analytics + Cookie Banner'
         ],
         mostPopular: false,
     },
