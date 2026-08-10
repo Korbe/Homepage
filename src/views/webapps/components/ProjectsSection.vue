@@ -12,7 +12,7 @@
                blur-[140px]
                mix-blend-screen">
             </div>
-        </div>FIn nur
+        </div>
 
         <!-- Content -->
         <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
