@@ -2,17 +2,21 @@
     <Layout>
         <Hero />
 
-        <WebIntroSection />
-
         <ProblemSolutionSection />
 
-        <TechStackSection />
+        <WhenCustomDevelopment />
 
-        <ArchitectureSection />
+        <WhyDifferentSection />
+
+        <BenefitsSection />
 
         <ProjectsSection />
 
-        <PhilosophySection />
+        <ProcessSection />
+
+        <HostingSection />
+
+        <TechStackSection />
 
         <Testimonial />
 
@@ -31,16 +35,18 @@ import Layout from '@/components/layout/Layout.vue';
 import Hero from './components/Hero.vue';
 import ProblemSolutionSection from './components/ProblemSolutionSection.vue';
 import TechStackSection from './components/TechStackSection.vue';
-import ArchitectureSection from './components/ArchitectureSection.vue';
 import ProjectsSection from './components/ProjectsSection.vue';
 import Cta from './components/Cta.vue';
-import PhilosophySection from './components/PhilosophySection.vue';
 import Faq from './components/Faq.vue';
 import Pricing from './components/Pricing.vue';
 import Testimonial from './components/Testimonial.vue';
-import WebIntroSection from './components/WebIntroSection.vue';
 import { useHead } from '@unhead/vue'
 import SocialSection from '../../components/SocialSection.vue';
+import WhyDifferentSection from './components/WhyDifferentSection.vue';
+import BenefitsSection from './components/BenefitsSection.vue';
+import ProcessSection from './components/ProcessSection.vue';
+import HostingSection from './components/HostingSection.vue';
+import WhenCustomDevelopment from './components/WhenCustomDevelopment.vue';
 
 useHead({
     title: 'Webentwicklung in Villach | Websites & Web-Apps ohne Baukasten - Lukas Korbitsch',

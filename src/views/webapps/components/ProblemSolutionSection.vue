@@ -1,17 +1,16 @@
 <template>
     <section class="relative py-24 bg-neutral-900/95 text-white overflow-hidden">
 
-        <figure>
-            <img src="@/assets/section-problemsolution.png" class="w-full max-w-3xl h-auto mx-auto" />
-            <figcaption class="text-center text-xs text-gray-400 italic">
-                KI-generiertes Bild
-            </figcaption>
-        </figure>
-
         <!-- Glow -->
-        <div class="pointer-events-none absolute inset-0 z-0">
-            <div
-                class="absolute -bottom-[300px] -right-[300px] h-[700px] w-[700px] rounded-full bg-brand opacity-25 blur-[140px] mix-blend-screen">
+        <div class="pointer-events-none absolute inset-0 z-0 overflow-hidden">
+            <div class="absolute bottom-0 right-0
+               translate-x-1/2 translate-y-1/2
+               h-[900px] w-[900px]
+               rounded-full
+               bg-brand
+               opacity-25
+               blur-[140px]
+               mix-blend-screen">
             </div>
         </div>
 
@@ -21,12 +20,12 @@
             <div class="flex justify-center">
                 <div class="max-w-3xl text-center mb-16">
                     <h2 class="text-3xl md:text-4xl font-bold mb-4">
-                        Warum Standard-Lösungen dich <span class="text-brand">limitieren</span>
+                        Warum viele Unternehmenswebsites nie <span class="text-brand">erfolgreich</span> werden
                     </h2>
 
                     <p class="text-neutral-400 text-lg">
-                        Viele Projekte scheitern nicht an der Idee -
-                        sondern an der technischen Umsetzung.
+                        Viele Websites sehen zwar gut aus, sind aber langsam, technisch eingeschränkt oder kaum bei
+                        Google sichtbar. Das Ergebnis: Weniger Besucher, weniger Anfragen und unnötige laufende Kosten.
                     </p>
                 </div>
             </div>
@@ -38,16 +37,91 @@
                     class="border border-neutral-700 rounded-2xl p-8 bg-neutral-900/70 backdrop-blur shadow-md shadow-black/20 transition">
 
                     <h3 class="text-xl font-semibold mb-6 text-red-400">
-                        Das Problem mit Baukasten-Systemen
+                        Typische Standardlösung
                     </h3>
 
                     <ul class="space-y-4 text-neutral-300">
-                        <li>• Eingeschränkte Flexibilität durch Templates</li>
-                        <li>• Performance-Probleme bei Wachstum</li>
-                        <li>• Technische Limits bei individuellen Anforderungen</li>
-                        <li>• Komplexe Workarounds statt sauberer Architektur</li>
-                        <li>• Hohe Abhängigkeit von Drittanbietern</li>
-                        <li>• Schlechtere Google-Rankings durch limitierte SEO-Möglichkeiten</li>
+
+                        <li class="flex items-center gap-3">
+                            <span class="flex h-5 w-5 items-center justify-center rounded-full bg-red-500/15">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-red-400" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18" />
+                                </svg>
+                            </span>
+                            WordPress
+                        </li>
+
+                        <li class="flex items-center gap-3">
+                            <span class="flex h-5 w-5 items-center justify-center rounded-full bg-red-500/15">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-red-400" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18" />
+                                </svg>
+                            </span>
+                            Baukastensysteme
+                        </li>
+
+                        <li class="flex items-center gap-3">
+                            <span class="flex h-5 w-5 items-center justify-center rounded-full bg-red-500/15">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-red-400" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18" />
+                                </svg>
+                            </span>
+                            Immer die gleichen Themes
+                        </li>
+
+                        <li class="flex items-center gap-3">
+                            <span class="flex h-5 w-5 items-center justify-center rounded-full bg-red-500/15">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-red-400" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18" />
+                                </svg>
+                            </span>
+                            Langsame Ladezeiten
+                        </li>
+
+                        <li class="flex items-center gap-3">
+                            <span class="flex h-5 w-5 items-center justify-center rounded-full bg-red-500/15">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-red-400" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18" />
+                                </svg>
+                            </span>
+                            Plugins
+                        </li>
+
+                        <li class="flex items-center gap-3">
+                            <span class="flex h-5 w-5 items-center justify-center rounded-full bg-red-500/15">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-red-400" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18" />
+                                </svg>
+                            </span>
+                            Regelmäßige Sicherheitsupdates
+                        </li>
+
+                        <li class="flex items-center gap-3">
+                            <span class="flex h-5 w-5 items-center justify-center rounded-full bg-red-500/15">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-red-400" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18" />
+                                </svg>
+                            </span>
+                            Hoher Wartungsaufwand
+                        </li>
+
+                        <li class="flex items-center gap-3">
+                            <span class="flex h-5 w-5 items-center justify-center rounded-full bg-red-500/15">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-red-400" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18" />
+                                </svg>
+                            </span>
+                            Schlechte Erweiterbarkeit
+                        </li>
+
                     </ul>
 
                 </div>
@@ -61,16 +135,71 @@
 
                     <div class="relative">
                         <h3 class="text-xl font-semibold mb-6 text-brand">
-                            Die Lösung: Custom Web Applications
+                            Individuelle Entwicklung
                         </h3>
 
                         <ul class="space-y-4 text-neutral-200">
-                            <li>• Architektur speziell für dein Produkt entwickelt</li>
-                            <li>• Maximale Performance ohne Overhead</li>
-                            <li>• Skalierbare Systeme für echtes Wachstum</li>
-                            <li>• Saubere Codebasis ohne technische Kompromisse</li>
-                            <li>• Volle Kontrolle über Funktion & Erweiterung</li>
-                            <li>• Saubere Struktur für bessere Sichtbarkeit bei Google</li>
+
+                            <li class="flex items-center gap-3">
+                                <span class="flex h-5 w-5 items-center justify-center rounded-full bg-brand/15">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-brand" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                </span>
+                                Maximale Performance
+                            </li>
+
+                            <li class="flex items-center gap-3">
+                                <span class="flex h-5 w-5 items-center justify-center rounded-full bg-brand/15">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-brand" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                </span>
+                                Höhere Sicherheit
+                            </li>
+
+                            <li class="flex items-center gap-3">
+                                <span class="flex h-5 w-5 items-center justify-center rounded-full bg-brand/15">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-brand" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                </span>
+                                Individuell entwickelt
+                            </li>
+
+                            <li class="flex items-center gap-3">
+                                <span class="flex h-5 w-5 items-center justify-center rounded-full bg-brand/15">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-brand" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                </span>
+                                Für Google optimiert
+                            </li>
+
+                            <li class="flex items-center gap-3">
+                                <span class="flex h-5 w-5 items-center justify-center rounded-full bg-brand/15">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-brand" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                </span>
+                                Zukunftssicher & erweiterbar
+                            </li>
+
+                            <li class="flex items-center gap-3">
+                                <span class="flex h-5 w-5 items-center justify-center rounded-full bg-brand/15">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-brand" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                </span>
+                                Keine unnötigen Plugins
+                            </li>
+
                         </ul>
                     </div>
 

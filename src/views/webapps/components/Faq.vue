@@ -1,5 +1,19 @@
 <template>
-    <section class="py-24 bg-neutral-900/95 text-white border-t border-neutral-900">
+    <section class="relative bg-neutral-900/95 text-white">
+
+        <!-- Glow -->
+        <div class="pointer-events-none absolute inset-0 z-0 overflow-hidden">
+            <div class="absolute top-0 right-0
+               translate-x-1/2 -translate-y-1/2
+               h-[900px] w-[900px]
+               rounded-full
+               bg-brand
+               opacity-25
+               blur-[140px]
+               mix-blend-screen">
+            </div>
+        </div>
+
         <div class="max-w-4xl mx-auto px-6">
 
             <!-- Heading -->

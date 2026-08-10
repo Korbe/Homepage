@@ -1,10 +1,18 @@
 <template>
     <section class="relative py-24 bg-neutral-900/95 text-white overflow-hidden">
 
-        <!-- 🌟 Center Glow -->
-<div class="pointer-events-none absolute inset-0 z-0 flex items-center justify-center">
-  <div class="h-[500px] w-[500px] rounded-full bg-brand opacity-10 blur-[200px]"></div>
-</div>
+        <!-- Glow -->
+        <div class="pointer-events-none absolute inset-0 z-0 overflow-hidden">
+            <div class="absolute top-0 left-0
+               -translate-x-1/2 -translate-y-1/2
+               h-[900px] w-[900px]
+               rounded-full
+               bg-brand
+               opacity-25
+               blur-[140px]
+               mix-blend-screen">
+            </div>
+        </div>FIn nur
 
         <!-- Content -->
         <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
@@ -58,7 +66,8 @@
                         </h3>
 
                         <p class="text-neutral-400 text-sm mb-6">
-                            Unternehmensseite mit dynamischem Content-System für Neuigkeiten undPredigten mit Audio-Upload
+                            Unternehmensseite mit dynamischem Content-System für Neuigkeiten undPredigten mit
+                            Audio-Upload
                             sowie automatischer Darstellung auf der Startseite.
                         </p>
 

@@ -27,16 +27,13 @@
 
                 <!-- Headline -->
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                    Ich entwickle <br />
-                    <span class="text-brand">High-Performance</span><br />
-                    Websites & Web-Apps
+                    Deine Website sollte <span class="text-brand">Kunden</span> bringen - nicht nur gut aussehen.
                 </h1>
 
                 <!-- Subtext -->
                 <p class="text-neutral-300 text-lg mb-8">
-                    Moderne Websites & Web-Apps - individuell entwickelt mit Vue & Laravel für maximale Performance und
-                    echte Anforderungen. Kein Wordpress keine Baukasten-Systeme, sondern maßgeschneiderte Lösungen für
-                    dein Business.
+                    Ich entwickle moderne Unternehmenswebsites und Web-Apps, die schnell laden, bei Google gefunden
+                    werden und auf dein Unternehmen zugeschnitten sind - ohne WordPress oder Baukastensysteme.
                 </p>
 
                 <!-- CTA -->
@@ -44,7 +41,7 @@
 
                     <router-link to="contact"
                         class="bg-brand text-black font-medium px-6 py-3 rounded-xl hover:opacity-90 transition">
-                        Projekt starten
+                        Kostenloses Erstgespräch
                     </router-link>
 
                     <a href="#pricing"
