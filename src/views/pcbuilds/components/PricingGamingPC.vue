@@ -19,7 +19,7 @@
       </div>
 
       <!-- Grid -->
-      <div class="grid md:grid-cols-3 gap-6">
+      <div class="grid md:grid-cols-2 gap-6">
 
         <!-- 🟢 Planung -->
         <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 flex flex-col">
@@ -30,7 +30,7 @@
           </h3>
 
           <p class="text-4xl font-bold mb-4 text-brand">
-            99€
+            199€
           </p>
 
           <p class="text-neutral-300 text-sm mb-6">
@@ -58,11 +58,11 @@
           <p class="text-neutral-400 text-sm mb-2">Beliebt</p>
 
           <h3 class="text-xl font-semibold mb-4">
-            Umbau oder Einrichtung
+            Zusammen-/Umbau und/oder Einrichtung
           </h3>
 
           <p class="text-4xl font-bold mb-4 text-brand">
-            99€
+            199€
           </p>
 
           <p class="text-neutral-300 text-sm mb-6">
@@ -83,55 +83,7 @@
           </div>
         </div>
 
-        <!-- 🟣 All-in-One -->
-        <div class="relative bg-neutral-900 border border-brand rounded-2xl p-8 flex flex-col">
-
-          <!-- Badge -->
-          <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-brand text-black text-xs px-3 py-1 rounded-full">
-            Komplettlösung
-          </div>
-
-          <h3 class="text-xl font-semibold mb-4">
-            All-in-One Gaming Setup
-          </h3>
-
-
-          <!-- Premium -->
-          <div class="mb-6">
-            <p class="text-neutral-400 text-sm">Einkauf, Aufbau und Einrichtung</p>
-
-
-            <p class="mt-5">
-              <span class="text-3xl font-bold text-brand">20%</span> des Hardwarewerts
-            </p>
-
-            <p class="text-neutral-400 text-sm mt-2">
-              Ich übernehme alles - von der Planung bis zum fertigen Setup sowie die Einrichtung deines Betriebssystems. Du bekommst ein komplett einsatzbereites Gaming PC Setup, ohne dich um irgendetwas kümmern zu müssen.
-            </p>
-          </div>
-
-          <ul class="space-y-2 text-neutral-300 text-sm mb-8">
-            <li>• Individuelle Planung</li>
-            <li>• Perfekt abgestimmte Komponenten</li>
-            <li>• Zusammenbau & Setup</li>
-            <li>• Komplettlösung ohne Stress</li>
-          </ul>
-
-          <div class="mt-auto">
-            <RouterLink to="/contact"
-              class="block text-center bg-brand text-black rounded-xl py-3 font-medium hover:opacity-90 transition">
-              Setup anfragen
-            </RouterLink>
-          </div>
-
-        </div>
-
       </div>
-
-      <!-- Dauer -->
-      <p class="text-neutral-500 text-sm text-center mt-12">
-        💬 Umsetzung je nach Verfügbarkeit der Komponenten meist innerhalb von 3-5 Tagen
-      </p>
 
       <!-- Hinweis -->
       <div class="mt-12 max-w-3xl mx-auto border border-neutral-800 rounded-2xl p-6 bg-neutral-900/60 backdrop-blur">
@@ -141,7 +93,6 @@
         </p>
 
         <ul class="space-y-2 text-sm text-neutral-300">
-          <li>• 20% von einem 1500€ Setup sind 300€ Provision</li>
           <li>• Bitte gib bei der Anfrage dein gewünschtes Betriebssystem an (z. B. Windows 11 oder Linux)</li>
         </ul>
 

@@ -51,11 +51,11 @@ export const homevisitsFaqs = [
 export const pcBuildFaqs = [
   {
     q: 'Was kostet ein Gaming PC Build?',
-    a: 'Die Kosten hängen davon ab, wie viel du selbst übernehmen möchtest. Eine individuelle Planung bekommst du ab 99€. Für Umbau oder Einrichtung berechne ich 99€. Wenn du alles aus einer Hand willst, gibt es ein Komplettpaket ab 20% des Hardwarewerts - inklusive Planung, Einkauf, Aufbau und Einrichtung.'
+    a: 'Die Kosten hängen davon ab, wie viel du selbst übernehmen möchtest. Eine individuelle Planung bekommst du ab 199€. Für Umbau oder Einrichtung berechne ich 199€.'
   },
   {
     q: 'Kann ich die Teile selbst kaufen?',
-    a: 'Ja. Ich stelle dir eine perfekt abgestimmte Komponentenliste zusammen. Auf Wunsch übernehme ich auch den kompletten Einkauf und Aufbau für dich.'
+    a: 'Ja. Ich stelle dir eine perfekt abgestimmte Komponentenliste zusammen. Meistens eine Willhaben Liste. Du kannst die Teile dann selbst beim Händler kaufen.'
   },
   {
     q: 'Warum nicht einfach einen Fertig-PC kaufen?',
@@ -63,11 +63,11 @@ export const pcBuildFaqs = [
   },
   {
     q: 'Wie lange dauert ein PC Build?',
-    a: 'Die Planung geht in der Regel recht schnell. Der Aufbau und die Einrichtung je nach System kann mehere Tage in Anspruch nehmen. Abhängig von der Verfügbarkeit der Komponenten kann es insgesamt 1-3 Wochen dauern, bis dein neuer PC einsatzbereit ist. Normalerweise dauert es aber nur wenige Tage. Ich halte dich während des gesamten Prozesses auf dem Laufenden.'
+    a: 'Die Planung geht in der Regel recht schnell. Der Aufbau und die Einrichtung je nach System kann mehere Tage in Anspruch nehmen. Normalerweise dauert es aber nur wenige Tage. Ich halte dich während des gesamten Prozesses auf dem Laufenden.'
   },
   {
     q: 'Bekomme ich Garantie auf die Komponenten?',
-    a: 'Ja. Die Garantie läuft direkt über die Hersteller der einzelnen Komponenten, sodass du vollständig abgesichert bist.'
+    a: 'Ja, da du selbst die Teile kaufst hast du die Rechnung und Garantie des Händlers. Die Garantie läuft direkt über die Hersteller der einzelnen Komponenten, sodass du vollständig abgesichert bist.'
   },
   {
     q: 'Kannst du den PC auch vor Ort aufbauen?',
