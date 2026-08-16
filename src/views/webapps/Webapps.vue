@@ -22,6 +22,10 @@
 
         <Pricing />
 
+        <WebAppPricingSection />
+
+        <PricingCta />
+
         <Faq />
 
         <Cta />
@@ -47,6 +51,8 @@ import BenefitsSection from './components/BenefitsSection.vue';
 import ProcessSection from './components/ProcessSection.vue';
 import HostingSection from './components/HostingSection.vue';
 import WhenCustomDevelopment from './components/WhenCustomDevelopment.vue';
+import WebAppPricingSection from './components/WebAppPricingSection.vue';
+import PricingCta from './components/PricingCta.vue';
 
 useHead({
     title: 'Webentwicklung in Villach | Websites & Web-Apps ohne Baukasten - Lukas Korbitsch',
