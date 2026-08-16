@@ -14,6 +14,19 @@
             </div>
         </div>
 
+                <!-- Glow -->
+        <div class="pointer-events-none absolute inset-0 z-0 overflow-hidden">
+            <div class="absolute bottom-0 right-0
+               translate-x-1/2 translate-y-1/2
+               h-[900px] w-[900px]
+               rounded-full
+               bg-brand
+               opacity-25
+               blur-[140px]
+               mix-blend-screen">
+            </div>
+        </div>
+
         <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
 
             <!-- Kategorie-Label -->
