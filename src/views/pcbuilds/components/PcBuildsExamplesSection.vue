@@ -78,10 +78,6 @@
             </div>
 
         </div>
-
-        <p class="text-neutral-400 text-sm text-center mt-10">
-            💡 Die passende Konfiguration bekommst du bei mir bereits ab 99€
-        </p>
     </section>
 </template>
 
