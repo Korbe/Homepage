@@ -49,6 +49,18 @@
 
             </div>
 
+            <!-- Kategorie-Label: statische Websites -->
+            <div class="flex items-center gap-4 mb-8">
+                <span
+                    class="inline-flex items-center rounded-full border border-neutral-700 bg-neutral-800/60 px-4 py-1.5 text-xs uppercase tracking-wide text-neutral-300">
+                    Statische Websites
+                </span>
+                <span class="h-px flex-1 bg-neutral-800"></span>
+                <span class="text-sm text-neutral-500 hidden sm:block">
+                    Ohne Datenbank & Backend-Logik
+                </span>
+            </div>
+
             <!-- Pricing Cards -->
             <div class="grid lg:grid-cols-3 gap-8">
 
@@ -134,7 +146,7 @@
                     <RouterLink to="/contact"
                         class="mt-10 bg-neutral-900 border border-neutral-700 rounded-xl py-3 text-center hover:border-brand transition">
 
-                        Landingpage anfragen
+                        One Pager anfragen
 
                     </RouterLink>
 
@@ -257,13 +269,14 @@
                     <RouterLink to="/contact"
                         class="mt-10 bg-neutral-900 border border-neutral-700 rounded-xl py-3 text-center hover:border-brand transition">
 
-                        Business Website planen
+                        Business Website anfragen
 
                     </RouterLink>
 
                 </div>
 
             </div>
+
             <!-- In jedem Projekt enthalten -->
             <div class="mt-24">
 
@@ -335,32 +348,6 @@
                     </div>
 
                 </div>
-
-            </div>
-
-            <!-- Bottom CTA -->
-            <div class="mt-20 rounded-3xl border border-brand/30 bg-neutral-800/60 backdrop-blur p-10 text-center">
-
-                <h3 class="text-3xl font-bold mb-4">
-                    Nicht sicher, welches Paket zu dir passt?
-                </h3>
-
-                <p class="max-w-2xl mx-auto text-neutral-400 text-lg mb-8">
-                    Kein Problem. Im kostenlosen Erstgespräch finden wir gemeinsam
-                    heraus, welche Lösung für dein Unternehmen sinnvoll ist.
-                </p>
-
-                <RouterLink to="/contact"
-                    class="inline-flex items-center rounded-xl bg-brand px-8 py-4 font-semibold text-black transition hover:opacity-90">
-
-                    Kostenlos beraten lassen
-
-                </RouterLink>
-
-                <p class="mt-6 text-sm text-neutral-500">
-                    Alle Preise verstehen sich als Richtwerte.
-                    Umfang und Preis werden individuell auf dein Projekt abgestimmt.
-                </p>
 
             </div>
 

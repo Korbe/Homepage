@@ -39,7 +39,7 @@
                 <!-- CTA -->
                 <div class="flex flex-wrap gap-4 mb-8">
 
-                    <router-link to="contact"
+                    <router-link to="/contact"
                         class="bg-brand text-black font-medium px-6 py-3 rounded-xl hover:opacity-90 transition">
                         Kostenloses Erstgespräch
                     </router-link>
