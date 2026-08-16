@@ -40,7 +40,7 @@ import ProcessSection from './components/ProcessSection.vue';
 import SocialSection from '../../components/SocialSection.vue';
 
 useHead({
-    title: 'IT Hilfe, Webentwicklung & Gaming PC Builds in Villach | Lukas Korbitsch',
+    title: 'Webentwicklung, IT Hilfe & Gaming PC Builds in Villach | Lukas Korbitsch',
 
     meta: [
         {
@@ -51,11 +51,11 @@ useHead({
         // Open Graph
         {
             property: 'og:title',
-            content: 'IT Hilfe, Webentwicklung & Gaming PC Builds in Villach'
+            content: 'Webentwicklung, IT Hilfe & Gaming PC Builds in Villach'
         },
         {
             property: 'og:description',
-            content: 'Schnelle IT Hilfe vor Ort in Villach, maßgeschneiderte Websites & Gaming PC Builds - alles aus einer Hand.'
+            content: 'Webentwicklung, schnelle IT Hilfe & Gaming PC Builds in Villach - alles aus einer Hand.'
         },
         {
             property: 'og:image',
@@ -77,11 +77,11 @@ useHead({
         },
         {
             name: 'twitter:title',
-            content: 'IT Hilfe, Webentwicklung & PC Builds in Villach'
+            content: 'Webentwicklung, IT Hilfe & PC Builds in Villach'
         },
         {
             name: 'twitter:description',
-            content: 'IT Hilfe vor Ort, Websites & Gaming PCs - persönlich und ohne Baukastensysteme.'
+            content: 'Webentwicklung, schnelle IT Hilfe & Gaming PC Builds in Villach - alles aus einer Hand.'
         },
         {
             name: 'twitter:image',
