@@ -11,6 +11,7 @@ const routes = [
     '/pc-builds',
     '/contact',
     '/impressum',
+    '/terms',
     '/datenschutz'
 ]
 

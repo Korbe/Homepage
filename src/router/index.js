@@ -9,6 +9,7 @@ const routes = [
   { path: '/pc-builds', name: 'PCBuilds', component: () => import('../views/pcbuilds/PCBuilds.vue') },
   { path: '/contact', name: 'Contact', component: () => import('../views/contact/Contact.vue') },
   { path: '/impressum', name: 'Imprint', component: () => import('../views/Imprint.vue') },
+  { path: '/terms', name: 'Terms', component: () => import('../views/Terms.vue') },
   { path: '/datenschutz', name: 'Privacy', component: () => import('../views/Privacy.vue') },
   { path: '/:pathMatch(.*)*', name: 'NotFound', component: () => import('../views/NotFound.vue') },
   { path: '/homevisits', redirect: '/it-hilfe' },

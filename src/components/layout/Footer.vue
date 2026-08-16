@@ -19,6 +19,10 @@
                     Impressum
                 </router-link>
 
+                <router-link to="/terms" class="hover:text-neutral-300">
+                    Nutzungsbedingungen
+                </router-link>
+
                 <router-link to="/datenschutz" class="hover:text-neutral-300">
                     Datenschutz
                 </router-link>

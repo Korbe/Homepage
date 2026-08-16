@@ -60,6 +60,13 @@
   </url>
 
   <url>
+    <loc>https://korbitsch.at/terms</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+  <url>
     <loc>https://korbitsch.at/datenschutz</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>yearly</changefreq>
