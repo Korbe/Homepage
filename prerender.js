@@ -12,7 +12,12 @@ const routes = [
     '/contact',
     '/impressum',
     '/terms',
-    '/datenschutz'
+    '/datenschutz',
+    '/blog',
+    '/blog/web-app-oder-klassische-website',
+    '/blog/excel-chaos-zur-web-app',
+    '/blog/schnelle-website-mehr-kunden',
+    '/blog/fehler-bei-website-neuentwicklung'
 ]
 
 const baseUrl = 'http://localhost:4000'
