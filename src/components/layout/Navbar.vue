@@ -36,6 +36,10 @@
 					ÜBER MICH
 				</RouterLink>
 
+				<RouterLink to="/blog" :class="isActive('/blog')">
+					BLOG
+				</RouterLink>
+
 				<RouterLink to="/contact" :class="isActive('/contact')">
 					KONTAKT
 				</RouterLink>
@@ -90,6 +94,11 @@
 					<RouterLink @click="mobileOpen = false" to="/about" :class="isActive('/about')"
 						class="py-3 border-b border-neutral-800">
 						ÜBER MICH
+					</RouterLink>
+
+					<RouterLink @click="mobileOpen = false" to="/blog" :class="isActive('/blog')"
+						class="py-3 border-b border-neutral-800">
+						BLOG
 					</RouterLink>
 
 					<RouterLink @click="mobileOpen = false" to="/contact" :class="isActive('/contact')" class="py-3">

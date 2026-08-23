@@ -8,12 +8,25 @@ const routes = [
   { path: '/it-hilfe', name: 'HomeVisits', component: () => import('../views/homevisits/Homevisits.vue') },
   { path: '/pc-builds', name: 'PCBuilds', component: () => import('../views/pcbuilds/PCBuilds.vue') },
   { path: '/contact', name: 'Contact', component: () => import('../views/contact/Contact.vue') },
+
+  // Blog
+  { path: '/blog', name: 'Blog', component: () => import('../views/blog/Blog.vue') },
+  { path: '/blog/web-app-oder-klassische-website', name: 'BlogWebAppOderWebsite', component: () => import('../views/blog/WebAppOderKlassischeWebsite.vue') },
+  { path: '/blog/excel-chaos-zur-web-app', name: 'BlogExcelChaosZurWebApp', component: () => import('../views/blog/ExcelChaosZurWebApp.vue') },
+  { path: '/blog/schnelle-website-mehr-kunden', name: 'BlogSchnelleWebsiteMehrKunden', component: () => import('../views/blog/SchnelleWebsiteMehrKunden.vue') },
+  { path: '/blog/fehler-bei-website-neuentwicklung', name: 'BlogFehlerBeiWebsiteNeuentwicklung', component: () => import('../views/blog/FehlerBeiWebsiteNeuentwicklung.vue') },
+
+  // Rechtliches
   { path: '/impressum', name: 'Imprint', component: () => import('../views/Imprint.vue') },
   { path: '/terms', name: 'Terms', component: () => import('../views/Terms.vue') },
   { path: '/datenschutz', name: 'Privacy', component: () => import('../views/Privacy.vue') },
-  { path: '/:pathMatch(.*)*', name: 'NotFound', component: () => import('../views/NotFound.vue') },
+
+  // Redirects
   { path: '/homevisits', redirect: '/it-hilfe' },
   { path: '/projects', redirect: '/portfolio' },
+
+  // 404
+  { path: '/:pathMatch(.*)*', name: 'NotFound', component: () => import('../views/NotFound.vue') },
 ]
 
 const router = createRouter({

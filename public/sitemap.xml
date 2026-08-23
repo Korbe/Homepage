@@ -73,4 +73,34 @@
     <priority>0.2</priority>
   </url>
 
+
+
+  <url>
+      <loc>https://korbitsch.at/blog/web-app-oder-klassische-website</loc>
+      <lastmod>2026-08-23</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+  </url>
+
+  <url>
+      <loc>https://korbitsch.at/blog/excel-chaos-zur-web-app</loc>
+      <lastmod>2026-08-23</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+  </url>
+
+  <url>
+      <loc>https://korbitsch.at/blog/schnelle-website-mehr-kunden</loc>
+      <lastmod>2026-08-23</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+  </url>
+
+  <url>
+      <loc>https://korbitsch.at/blog/fehler-bei-website-neuentwicklung</loc>
+      <lastmod>2026-08-23</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+  </url>
+
 </urlset>
