@@ -22,10 +22,10 @@
                     </div>
                 </div>
 
-                <!-- IT Hilfe -->
+                <!-- PC Hilfe -->
                 <div>
                     <h3 class="text-xl font-semibold mb-6 text-brand">
-                        IT Hilfe
+                        PC Hilfe
                     </h3>
 
                     <div class="space-y-4">

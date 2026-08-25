@@ -19,7 +19,7 @@
                     </p>
 
                     <h2 class="text-3xl md:text-4xl font-bold mb-6">
-                        IT Hilfe in <span class="text-brand">Villach & Umgebung</span>
+                        PC Hilfe in <span class="text-brand">Villach & Umgebung</span>
                     </h2>
 
                     <p class="text-neutral-400 text-lg mb-8">

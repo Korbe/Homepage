@@ -14,7 +14,7 @@ import { useHead } from '@unhead/vue'
 import SocialSection from '../../components/SocialSection.vue';
 
 useHead({
-    title: 'Kontakt - Webentwicklung & IT Hilfe Villach | Korbitsch',
+    title: 'Kontakt - Webentwicklung & PC Hilfe Villach | Korbitsch',
     meta: [
         {
             name: 'description',
@@ -24,7 +24,7 @@ useHead({
         // Open Graph
         {
             property: 'og:title',
-            content: 'Kontakt - Webentwicklung & IT Hilfe Villach'
+            content: 'Kontakt - Webentwicklung & PC Hilfe Villach'
         },
         {
             property: 'og:description',

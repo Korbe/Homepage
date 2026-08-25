@@ -54,7 +54,7 @@
           </div>
         </router-link>
 
-        <!-- IT Hilfe -->
+        <!-- PC Hilfe -->
         <router-link to="/it-hilfe"
           class="group border border-neutral-800 rounded-2xl p-8 bg-neutral-800/40 hover:border-neutral-600 transition shadow-md shadow-black/10">
 
@@ -63,7 +63,7 @@
           </p>
 
           <h3 class="text-2xl font-semibold mb-3">
-            IT Hilfe bei dir zu Hause
+            PC Hilfe bei dir zu Hause
           </h3>
 
           <p class="text-neutral-300 mb-6">

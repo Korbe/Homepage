@@ -40,22 +40,22 @@ import ProcessSection from './components/ProcessSection.vue';
 import SocialSection from '../../components/SocialSection.vue';
 
 useHead({
-    title: 'Webentwicklung, IT Hilfe & Gaming PC Builds in Villach | Lukas Korbitsch',
+    title: 'Webentwicklung, PC Hilfe & Gaming PC Builds in Villach | Lukas Korbitsch',
 
     meta: [
         {
             name: 'description',
-            content: 'IT Hilfe in Villach, individuelle Websites & Web-Apps sowie Gaming PC Builds. Vor-Ort Service für PC & Smartphone - schnell, verständlich und ohne Baukastensysteme.'
+            content: 'PC Hilfe in Villach, individuelle Websites & Web-Apps sowie Gaming PC Builds. Vor-Ort Service für PC & Smartphone - schnell, verständlich und ohne Baukastensysteme.'
         },
 
         // Open Graph
         {
             property: 'og:title',
-            content: 'Webentwicklung, IT Hilfe & Gaming PC Builds in Villach'
+            content: 'Webentwicklung, PC Hilfe & Gaming PC Builds in Villach'
         },
         {
             property: 'og:description',
-            content: 'Webentwicklung, schnelle IT Hilfe & Gaming PC Builds in Villach - alles aus einer Hand.'
+            content: 'Webentwicklung, schnelle PC Hilfe & Gaming PC Builds in Villach - alles aus einer Hand.'
         },
         {
             property: 'og:image',
@@ -77,11 +77,11 @@ useHead({
         },
         {
             name: 'twitter:title',
-            content: 'Webentwicklung, IT Hilfe & PC Builds in Villach'
+            content: 'Webentwicklung, PC Hilfe & PC Builds in Villach'
         },
         {
             name: 'twitter:description',
-            content: 'Webentwicklung, schnelle IT Hilfe & Gaming PC Builds in Villach - alles aus einer Hand.'
+            content: 'Webentwicklung, schnelle PC Hilfe & Gaming PC Builds in Villach - alles aus einer Hand.'
         },
         {
             name: 'twitter:image',
@@ -99,7 +99,7 @@ useHead({
         },
         {
             name: 'keywords',
-            content: 'IT Hilfe Villach, PC Hilfe Villach, Gaming PC Villach, PC Build Villach, Webentwicklung Villach, Website erstellen Villach, Web Apps Österreich'
+            content: 'PC Hilfe Villach, PC Hilfe Villach, Gaming PC Villach, PC Build Villach, Webentwicklung Villach, Website erstellen Villach, Web Apps Österreich'
         }
     ],
     link: [

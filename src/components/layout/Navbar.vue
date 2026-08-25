@@ -25,7 +25,7 @@
 				</RouterLink>
 
 				<RouterLink to="/it-hilfe" :class="isActive('/it-hilfe')">
-					IT HILFE
+					PC HILFE
 				</RouterLink>
 
 				<RouterLink to="/pc-builds" :class="isActive('/pc-builds')">
@@ -83,7 +83,7 @@
 
 					<RouterLink @click="mobileOpen = false" to="/it-hilfe" :class="isActive('/it-hilfe')"
 						class="py-3 border-b border-neutral-800">
-						IT HILFE
+						PC HILFE
 					</RouterLink>
 
 					<RouterLink @click="mobileOpen = false" to="/pc-builds" :class="isActive('/pc-builds')"

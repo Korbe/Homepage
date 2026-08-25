@@ -49,7 +49,7 @@ useHead({
     },
     {
       property: 'og:description',
-      content: 'IT Hilfe bei dir vor Ort in Villach + individuelle Gaming PCs ohne Kompromisse. Schnell, verständlich und direkt gelöst.'
+      content: 'PC Hilfe bei dir vor Ort in Villach + individuelle Gaming PCs ohne Kompromisse. Schnell, verständlich und direkt gelöst.'
     },
     {
       property: 'og:image',

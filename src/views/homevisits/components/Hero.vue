@@ -14,7 +14,7 @@
 
         <!-- Badge -->
         <p class="text-sm text-brand uppercase tracking-wide mb-4">
-          IT Hilfe
+          PC Hilfe
         </p>
 
         <!-- Headline -->

@@ -62,7 +62,7 @@
 
                     <router-link to="/it-hilfe"
                         class="border border-neutral-700 px-6 py-3 rounded-xl hover:border-brand hover:text-brand transition">
-                        IT Hilfe vor Ort
+                        PC Hilfe vor Ort
                     </router-link>
                 </div>
 
