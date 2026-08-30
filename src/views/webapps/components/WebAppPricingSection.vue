@@ -14,7 +14,7 @@
             </div>
         </div>
 
-                <!-- Glow -->
+        <!-- Glow -->
         <div class="pointer-events-none absolute inset-0 z-0 overflow-hidden">
             <div class="absolute bottom-0 right-0
                translate-x-1/2 translate-y-1/2
@@ -49,7 +49,7 @@
                 </h2>
 
                 <p class="text-neutral-400 text-lg">
-                    Kontaktformulare mit Datenbank-Anbindung, Benutzerverwaltung,
+                    Funnel bzw. verbesserte Kontaktformulare mit Datenbank-Anbindung, Benutzerverwaltung,
                     individuelle Logik oder eigene Systeme – dafür entwickle ich
                     eine vollwertige Web-App statt einer klassischen Website.
                 </p>
@@ -80,7 +80,7 @@
                         </p>
 
                         <p class="text-5xl font-bold mb-2">
-                            ab 3.900€
+                            ab 3.500€
                         </p>
 
                         <p class="text-sm text-neutral-500 mb-8">
@@ -107,7 +107,12 @@
 
                             <li class="flex gap-3">
                                 <CheckIcon class="w-5 h-5 text-brand shrink-0" />
-                                Kontaktformular mit Datenbank-Anbindung
+                                1 Custom Funktion oder Feature nach Wahl
+                            </li>
+
+                            <li class="flex gap-3">
+                                <CheckIcon class="w-5 h-5 text-brand shrink-0" />
+                                Kontaktformular oder Funnel mit Datenbank-Anbindung
                             </li>
 
                             <li class="flex gap-3">
@@ -122,17 +127,12 @@
 
                             <li class="flex gap-3">
                                 <CheckIcon class="w-5 h-5 text-brand shrink-0" />
-                                Datenbank (MySQL) statt statischer Inhalte
+                                Datenbank (MySQL)
                             </li>
 
                             <li class="flex gap-3">
                                 <CheckIcon class="w-5 h-5 text-brand shrink-0" />
                                 Eigenes Content-Management möglich
-                            </li>
-
-                            <li class="flex gap-3">
-                                <CheckIcon class="w-5 h-5 text-brand shrink-0" />
-                                Anbindung externer Schnittstellen (APIs)
                             </li>
 
                             <li class="flex gap-3">

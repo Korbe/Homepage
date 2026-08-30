@@ -51,7 +51,7 @@
             </div>
 
             <!-- Pricing Cards -->
-            <div class="grid lg:grid-cols-3 gap-8">
+            <div class="grid lg:grid-cols-2 gap-8">
 
                 <!-- ONE PAGER -->
                 <div
@@ -73,7 +73,7 @@
                         </p>
 
                         <p class="text-5xl font-bold mb-8">
-                            ab 1.000€
+                            1.000€
                         </p>
 
                         <ul class="space-y-4 text-neutral-300">
@@ -85,7 +85,7 @@
 
                             <li class="flex gap-3">
                                 <CheckIcon class="w-5 h-5 text-brand shrink-0" />
-                                Eine Seite mit bis zu 6 Inhaltsbereichen
+                                Eine Seite mit mindestens 5 Inhaltsbereichen
                             </li>
 
                             <li class="flex gap-3">
@@ -141,7 +141,7 @@
 
                 </div>
 
-                <!-- STARTER -->
+                <!-- WEBSITE -->
                 <div
                     class="relative rounded-3xl border border-brand bg-neutral-800/70 backdrop-blur p-8 flex flex-col shadow-xl shadow-brand/10">
 
@@ -161,7 +161,7 @@
                         </p>
 
                         <h3 class="text-2xl font-bold mb-3">
-                            Starter Website
+                            Website
                         </h3>
 
                         <p class="text-neutral-400 mb-6">
@@ -184,12 +184,12 @@
 
                             <li class="flex gap-3">
                                 <CheckIcon class="w-5 h-5 text-brand shrink-0" />
-                                Bis zu 5 Unterseiten
+                                Unterseiten werden auf dein Unternehmen zugeschnitten
                             </li>
 
                             <li class="flex gap-3">
                                 <CheckIcon class="w-5 h-5 text-brand shrink-0" />
-                                Bis zu 8 Inhaltsbereichen pro Seite
+                                Individuelle Unterseiten mit eigenem Design
                             </li>
 
                         </ul>
@@ -200,65 +200,6 @@
                         class="mt-10 bg-brand text-black rounded-xl py-3 text-center font-semibold hover:opacity-90 transition">
 
                         Website anfragen
-
-                    </RouterLink>
-
-                </div>
-
-                <!-- BUSINESS -->
-                <div
-                    class="rounded-3xl border border-neutral-800 bg-neutral-800/60 backdrop-blur p-8 hover:border-brand transition flex flex-col">
-
-                    <div>
-
-                        <p class="text-brand text-sm uppercase tracking-wide mb-2">
-                            Für Wachstum
-                        </p>
-
-                        <h3 class="text-2xl font-bold mb-3">
-                            Business Website
-                        </h3>
-
-                        <p class="text-neutral-400 mb-6">
-                            Für Unternehmen,
-                            die langfristig wachsen und ihre Website aktiv als
-                            Vertriebswerkzeug nutzen möchten.
-                        </p>
-
-                        <p class="text-5xl font-bold mb-8">
-                            ab 3.500€
-                        </p>
-
-                        <ul class="space-y-4 text-neutral-300">
-
-                            <li class="flex gap-3">
-                                <CheckIcon class="w-5 h-5 text-brand shrink-0" />
-                                Alles aus dem Starter Paket
-                            </li>
-
-                            <li class="flex gap-3">
-                                <CheckIcon class="w-5 h-5 text-brand shrink-0" />
-                                Bis zu 10 Unterseiten
-                            </li>
-
-                            <li class="flex gap-3">
-                                <CheckIcon class="w-5 h-5 text-brand shrink-0" />
-                                Bis zu 10 Inhaltsbereichen pro Seite
-                            </li>
-
-                            <li class="flex gap-3">
-                                <CheckIcon class="w-5 h-5 text-brand shrink-0" />
-                                Priorisierter Support
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-                    <RouterLink to="/contact"
-                        class="mt-10 bg-neutral-900 border border-neutral-700 rounded-xl py-3 text-center hover:border-brand transition">
-
-                        Business Website anfragen
 
                     </RouterLink>
 
