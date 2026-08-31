@@ -61,57 +61,10 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { computed } from 'vue'
+import { useCookieConsent } from '@/composables/useCookieConsent'
 
-const visible = ref(false)
+const { consent, accept, reject } = useCookieConsent()
 
-const GA_ID = 'G-162ZVL3ZBV'
-
-onMounted(() => {
-    const consent = localStorage.getItem('cookie-consent')
-
-    if (consent === 'accepted') {
-        initAnalytics()
-    } else if (!consent) {
-        visible.value = true
-    }
-})
-
-function accept() {
-    localStorage.setItem('cookie-consent', 'accepted')
-
-    initAnalytics()
-
-    visible.value = false
-}
-
-function reject() {
-    localStorage.setItem('cookie-consent', 'rejected')
-
-    visible.value = false
-}
-
-function initAnalytics() {
-    if (window.gtag) return
-
-    const script = document.createElement('script')
-    script.async = true
-    script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`
-
-    document.head.appendChild(script)
-
-    window.dataLayer = window.dataLayer || []
-
-    function gtag() {
-        window.dataLayer.push(arguments)
-    }
-
-    window.gtag = gtag
-
-    gtag('js', new Date())
-
-    gtag('config', GA_ID, {
-        anonymize_ip: true
-    })
-}
+const visible = computed(() => !consent.value)
 </script>

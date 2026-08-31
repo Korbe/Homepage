@@ -26,6 +26,10 @@
                 <router-link to="/datenschutz" class="hover:text-neutral-300">
                     Datenschutz
                 </router-link>
+
+                <button type="button" @click="resetCookieConsent" class="hover:text-neutral-300">
+                    Cookie-Einstellungen
+                </button>
             </div>
         </div>
     </footer>
@@ -33,5 +37,8 @@
 
 <script setup>
 import Credit from '../Credit.vue'
+import { useCookieConsent } from '@/composables/useCookieConsent'
+
 const currentYear = new Date().getFullYear()
+const { reset: resetCookieConsent } = useCookieConsent()
 </script>
