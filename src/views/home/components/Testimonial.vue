@@ -81,7 +81,7 @@ const testimonials = [
     },
     {
         name: "Alex",
-        text: "Ich bin absolut begeistert! Die PetriLog-App ist extrem benutzerfreundlich und läuft technisch einwandfrei. Zusätzlich hat mir Lukas schnell und kompetent bei PC- und Smartphone-Problemen geholfen - verständlich erklärt und absolut zuverlässig."
+        text: "Ich bin absolut begeistert! Unsere Website ist extrem benutzerfreundlich und läuft technisch einwandfrei. Zusätzlich hat mir Lukas schnell und kompetent bei PC- und Smartphone-Problemen geholfen - verständlich erklärt und absolut zuverlässig."
     },
     {
         name: "Hanno Hofmeister",
@@ -91,10 +91,6 @@ const testimonials = [
         name: "Andrea Kirisits",
         text: "Schnell, kompetent und freundlich - genau so sollte IT-Service sein."
     },
-    {
-        name: "Strayner Menne",
-        text: "Sehr sympathischer Auftritt - auf korbitsch.at schaue immer wieder gerne vorbei 😁"
-    }
 ]
 
 // Highlight extrahieren

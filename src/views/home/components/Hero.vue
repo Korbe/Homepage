@@ -37,13 +37,12 @@
 
                 <!-- Headline -->
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                    Ich löse <span class="text-brand">Technikprobleme</span>.<br />
-                    Und baue <span class="text-brand">Websites</span>, die Kunden bringen.
+                    Ich baue <span class="text-brand">Websites</span>, die Kunden bringen.
                 </h1>
 
                 <!-- Subtext -->
                 <p class="text-neutral-300 text-lg mb-8">
-                    IT-Hilfe vor Ort, individuelle Webentwicklung und Gaming PC Builds -
+                    Individuelle Webentwicklung, IT-Hilfe vor Ort und Gaming PC Builds -
                     ohne Fachchinesisch, ohne Baukastensysteme und immer mit Fokus auf echte Ergebnisse.
                 </p>
 
