@@ -27,7 +27,8 @@ function initAnalytics() {
     gtag('js', new Date())
 
     gtag('config', GA_ID, {
-        anonymize_ip: true
+        anonymize_ip: true,
+        send_page_view: false
     })
 }
 
