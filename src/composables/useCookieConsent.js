@@ -3,7 +3,9 @@ import { ref } from 'vue'
 const STORAGE_KEY = 'cookie-consent'
 const GA_ID = 'G-162ZVL3ZBV'
 
-const consent = ref(localStorage.getItem(STORAGE_KEY))
+const isClient = typeof window !== 'undefined'
+
+const consent = ref(isClient ? localStorage.getItem(STORAGE_KEY) : null)
 
 function initAnalytics() {
     if (window.gtag) return
@@ -29,7 +31,7 @@ function initAnalytics() {
     })
 }
 
-if (consent.value === 'accepted') {
+if (isClient && consent.value === 'accepted') {
     initAnalytics()
 }
 

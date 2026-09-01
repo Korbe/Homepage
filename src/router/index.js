@@ -1,6 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
-
-const routes = [
+export const routes = [
   { path: '/', name: 'Home', component: () => import('../views/home/Home.vue') },
   { path: '/about', name: 'About', component: () => import('../views/about/About.vue') },
   { path: '/portfolio', name: 'Portfolio', component: () => import('../views/portfolio/Portfolio.vue') },
@@ -29,20 +27,13 @@ const routes = [
   { path: '/:pathMatch(.*)*', name: 'NotFound', component: () => import('../views/NotFound.vue') },
 ]
 
-const router = createRouter({
-  history: createWebHistory(),
-  routes,
-
-  scrollBehavior(to, from, savedPosition) {
-    if (savedPosition) {
-      return savedPosition
-    }
-
-    return {
-      top: 0,
-      behavior: 'smooth'
-    }
+export function scrollBehavior(to, from, savedPosition) {
+  if (savedPosition) {
+    return savedPosition
   }
-})
 
-export default router
+  return {
+    top: 0,
+    behavior: 'smooth'
+  }
+}

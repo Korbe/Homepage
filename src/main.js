@@ -1,13 +1,10 @@
-import { createApp } from 'vue'
+import { ViteSSG } from 'vite-ssg'
 import './style.css'
 import App from './App.vue'
-import router from './router/index.js'
-import { createHead } from '@unhead/vue'
+import { routes, scrollBehavior } from './router/index.js'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
-const app = createApp(App)
-const head = createHead()
-
-app.use(router)
-app.use(head)
-app.mount('#app')
+export const createApp = ViteSSG(
+  App,
+  { routes, base: '/', scrollBehavior }
+)
