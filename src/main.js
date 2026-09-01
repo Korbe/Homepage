@@ -2,12 +2,15 @@ import { ViteSSG } from 'vite-ssg'
 import './style.css'
 import App from './App.vue'
 import { routes, scrollBehavior } from './router/index.js'
+import { reveal } from './directives/reveal.js'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
 export const createApp = ViteSSG(
   App,
   { routes, base: '/', scrollBehavior },
-  ({ router, isClient }) => {
+  ({ app, router, isClient }) => {
+    app.directive('reveal', reveal)
+
     if (isClient) {
       router.afterEach((to) => {
         if (typeof window.gtag === 'function') {

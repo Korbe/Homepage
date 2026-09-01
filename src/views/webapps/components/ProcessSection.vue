@@ -4,7 +4,7 @@
         <div class="relative z-10 max-w-6xl mx-auto px-6 lg:px-12">
 
             <!-- Heading -->
-            <div class="text-center max-w-3xl mx-auto mb-20">
+            <div v-reveal class="text-center max-w-3xl mx-auto mb-20">
 
                 <p class="text-brand text-sm uppercase tracking-wide mb-4">
                     Ablauf
@@ -25,7 +25,7 @@
             <div class="grid md:grid-cols-4 gap-8">
 
                 <!-- Step -->
-                <div class="text-center">
+                <div v-reveal="{ delay: 0 }" class="text-center">
 
                     <div
                         class="mx-auto w-16 h-16 rounded-full bg-brand text-black flex items-center justify-center font-bold text-xl mb-6">
@@ -44,7 +44,7 @@
                 </div>
 
                 <!-- Step -->
-                <div class="text-center">
+                <div v-reveal="{ delay: 100 }" class="text-center">
 
                     <div
                         class="mx-auto w-16 h-16 rounded-full bg-brand text-black flex items-center justify-center font-bold text-xl mb-6">
@@ -63,7 +63,7 @@
                 </div>
 
                 <!-- Step -->
-                <div class="text-center">
+                <div v-reveal="{ delay: 200 }" class="text-center">
 
                     <div
                         class="mx-auto w-16 h-16 rounded-full bg-brand text-black flex items-center justify-center font-bold text-xl mb-6">
@@ -82,7 +82,7 @@
                 </div>
 
                 <!-- Step -->
-                <div class="text-center">
+                <div v-reveal="{ delay: 300 }" class="text-center">
 
                     <div
                         class="mx-auto w-16 h-16 rounded-full bg-brand text-black flex items-center justify-center font-bold text-xl mb-6">

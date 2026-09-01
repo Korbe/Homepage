@@ -12,7 +12,7 @@
         <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
 
             <!-- Heading -->
-            <div class="mx-auto text-center max-w-2xl mb-16">
+            <div v-reveal class="mx-auto text-center max-w-2xl mb-16">
                 <p class="text-brand text-sm uppercase tracking-wide mb-4">
                     Warum mit mir arbeiten?
                 </p>
@@ -31,8 +31,8 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
                 <!-- Card 1 -->
-                <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-brand transition">
-                    <div class="text-brand text-xl mb-4">🧠</div>
+                <div v-reveal="{ delay: 0 }" class="group bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-brand hover:-translate-y-1 transition">
+                    <IconBadge :icon="LightBulbIcon" class="mb-4" />
 
                     <h3 class="font-semibold mb-2">
                         Kein Fachchinesisch
@@ -44,8 +44,8 @@
                 </div>
 
                 <!-- Card 2 -->
-                <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-brand transition">
-                    <div class="text-brand text-xl mb-4">⚙️</div>
+                <div v-reveal="{ delay: 80 }" class="group bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-brand hover:-translate-y-1 transition">
+                    <IconBadge :icon="Cog6ToothIcon" class="mb-4" />
 
                     <h3 class="font-semibold mb-2">
                         Individuelle Lösungen
@@ -57,8 +57,8 @@
                 </div>
 
                 <!-- Card 3 -->
-                <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-brand transition">
-                    <div class="text-brand text-xl mb-4">📍</div>
+                <div v-reveal="{ delay: 160 }" class="group bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-brand hover:-translate-y-1 transition">
+                    <IconBadge :icon="MapPinIcon" class="mb-4" />
 
                     <h3 class="font-semibold mb-2">
                         Vor Ort & persönlich
@@ -70,8 +70,8 @@
                 </div>
 
                 <!-- Card 4 -->
-                <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-brand transition">
-                    <div class="text-brand text-xl mb-4">🚀</div>
+                <div v-reveal="{ delay: 240 }" class="group bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-brand hover:-translate-y-1 transition">
+                    <IconBadge :icon="RocketLaunchIcon" class="mb-4" />
 
                     <h3 class="font-semibold mb-2">
                         Fokus auf Ergebnisse
@@ -85,7 +85,7 @@
             </div>
 
             <!-- Bottom Statement -->
-            <div class="mt-16 border border-neutral-800 rounded-2xl p-6 bg-neutral-900/60 backdrop-blur text-center">
+            <div v-reveal class="mt-16 border border-neutral-800 rounded-2xl p-6 bg-neutral-900/60 backdrop-blur text-center">
                 <p class="text-neutral-300 text-lg">
                     Ich löse keine Probleme halb - ich sorge dafür, dass sie wirklich erledigt sind.
                 </p>
@@ -96,4 +96,6 @@
 </template>
 
 <script setup>
+import { LightBulbIcon, Cog6ToothIcon, MapPinIcon, RocketLaunchIcon } from '@heroicons/vue/24/outline'
+import IconBadge from '@/components/ui/IconBadge.vue'
 </script>

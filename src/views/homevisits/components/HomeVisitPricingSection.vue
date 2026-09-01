@@ -11,7 +11,7 @@
         <div class="relative z-10 max-w-4xl mx-auto px-6">
 
             <!-- Heading -->
-            <div class="text-center mb-12">
+            <div v-reveal class="text-center mb-12">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4">
                     Preise
                 </h2>
@@ -22,7 +22,7 @@
             </div>
 
             <!-- Pricing Card -->
-            <div
+            <div v-reveal
                 class="bg-neutral-900/80 backdrop-blur border border-neutral-800 rounded-2xl p-10 transition hover:border-brand">
 
                 <!-- First Hour -->

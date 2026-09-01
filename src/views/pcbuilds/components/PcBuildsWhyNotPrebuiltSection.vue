@@ -12,7 +12,7 @@
         <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
 
             <!-- Headline -->
-            <div class="mx-auto text-center max-w-2xl mb-16">
+            <div v-reveal class="mx-auto text-center max-w-2xl mb-16">
                 <p class="text-brand text-sm uppercase tracking-wide mb-4">
                     Warum kein Fertig-PC?
                 </p>
@@ -31,7 +31,7 @@
             <div class="grid md:grid-cols-2 gap-8">
 
                 <!-- ❌ Fertig-PC -->
-                <div class="hover:bg-neutral-900/50 hover:border-brand bg-neutral-900 border border-neutral-800 rounded-2xl p-8 backdrop-blur">
+                <div v-reveal class="hover:bg-neutral-900/50 hover:border-brand bg-neutral-900 border border-neutral-800 rounded-2xl p-8 backdrop-blur">
                     <p class="text-red-400 text-sm uppercase tracking-wide mb-4">
                         ❌ Typische Probleme bei Fertig-PCs
                     </p>
@@ -46,7 +46,7 @@
                 </div>
 
                 <!-- ✅ Custom Build -->
-                <div class="hover:bg-neutral-900/50 hover:border-brand bg-neutral-900 border border-neutral-800 rounded-2xl p-8 backdrop-blur">
+                <div v-reveal="{ delay: 120 }" class="hover:bg-neutral-900/50 hover:border-brand bg-neutral-900 border border-neutral-800 rounded-2xl p-8 backdrop-blur">
                     <p class="text-green-400 text-sm uppercase tracking-wide mb-4">
                         ✔ Dein Vorteil mit Custom Build
                     </p>

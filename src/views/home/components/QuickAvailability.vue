@@ -1,9 +1,9 @@
 <template>
   <section class="py-16 bg-neutral-900/95 text-white">
-    <div class="max-w-4xl mx-auto px-6 text-center">
+    <div v-reveal class="max-w-4xl mx-auto px-6 text-center">
 
-      <p class="text-neutral-300 text-lg mb-4">
-        Schnelle Hilfe - wenn du sie brauchst
+      <p class="text-neutral-300 text-lg mb-4 inline-flex items-center gap-2 justify-center">
+        <BoltIcon class="w-5 h-5 text-accent" /> Schnelle Hilfe - wenn du sie brauchst
       </p>
 
       <p class="text-neutral-400 mb-6">
@@ -12,7 +12,7 @@
 
       <div class="flex justify-center">
         <router-link to="/it-hilfe"
-          class="bg-brand text-black px-6 py-3 rounded-xl font-medium hover:opacity-90 transition">
+          class="bg-brand text-black px-6 py-3 rounded-xl font-medium hover:opacity-90 hover:scale-105 transition">
           Termin anfragen
         </router-link>
       </div>
@@ -20,3 +20,7 @@
     </div>
   </section>
 </template>
+
+<script setup>
+import { BoltIcon } from '@heroicons/vue/24/outline'
+</script>

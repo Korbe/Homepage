@@ -27,46 +27,46 @@
             <div class="max-w-2xl">
 
                 <!-- Intro -->
-                <p class="text-brand text-sm uppercase tracking-wide mb-3">
+                <p v-reveal class="text-brand text-sm uppercase tracking-wide mb-3">
                     👋 Hallo, ich bin Ing. Lukas Korbitsch
                 </p>
 
-                <p class="text-neutral-400 text-sm mb-6">
+                <p v-reveal="{ delay: 60 }" class="text-neutral-400 text-sm mb-6">
                     IT-Dienstleister aus 📍Villach
                 </p>
 
                 <!-- Headline -->
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                <h1 v-reveal="{ delay: 120 }" class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                     Ich baue <span class="text-brand">Websites</span>, die Kunden bringen.
                 </h1>
 
                 <!-- Subtext -->
-                <p class="text-neutral-300 text-lg mb-8">
+                <p v-reveal="{ delay: 180 }" class="text-neutral-300 text-lg mb-8">
                     Individuelle Webentwicklung, IT-Hilfe vor Ort und Gaming PC Builds -
                     ohne Fachchinesisch, ohne Baukastensysteme und immer mit Fokus auf echte Ergebnisse.
                 </p>
 
                 <!-- ✅ Trust Points -->
-                <div class="mb-8 space-y-2 text-sm text-neutral-300">
+                <div v-reveal="{ delay: 240 }" class="mb-8 space-y-2 text-sm text-neutral-300">
                     <p>✔ Kunden aus Villach & Umgebung</p>
                     <p>✔ Webprojekte & IT-Service aus einer Hand</p>
                 </div>
 
                 <!-- CTA -->
-                <div class="flex flex-wrap gap-4 mb-8">
+                <div v-reveal="{ delay: 300 }" class="flex flex-wrap gap-4 mb-8">
                     <router-link to="/webapps"
-                        class="bg-brand text-black px-6 py-3 rounded-xl font-medium hover:opacity-90 transition">
+                        class="bg-brand text-black px-6 py-3 rounded-xl font-medium hover:opacity-90 hover:scale-105 transition">
                         Websites & Web-Apps
                     </router-link>
 
                     <router-link to="/it-hilfe"
-                        class="border border-neutral-700 px-6 py-3 rounded-xl hover:border-brand hover:text-brand transition">
+                        class="border border-neutral-700 px-6 py-3 rounded-xl hover:border-brand hover:text-brand hover:scale-105 transition">
                         PC Hilfe vor Ort
                     </router-link>
                 </div>
 
                 <!-- Trust Box -->
-                <div class="border border-neutral-800 rounded-xl p-4 bg-neutral-900/50 backdrop-blur">
+                <div v-reveal="{ delay: 360 }" class="border border-neutral-800 rounded-xl p-4 bg-neutral-900/50 backdrop-blur">
                     <p class="text-sm text-neutral-300">
                         💡 Persönlich. Verständlich. Direkt vor Ort oder digital.
                     </p>

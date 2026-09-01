@@ -3,7 +3,7 @@
         <div class="max-w-7xl mx-auto px-6 lg:px-12 grid md:grid-cols-2 gap-12 items-center">
 
             <!-- LEFT: TEXT -->
-            <div>
+            <div v-reveal>
 
                 <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-8">
                     Abseits der <span class="text-brand">Arbeit</span>
@@ -42,29 +42,29 @@
             </div>
 
             <!-- RIGHT: VISUAL -->
-            <div
+            <div v-reveal="{ delay: 120 }"
                 class="hover:border-brand transition border border-neutral-800 rounded-2xl p-6 bg-neutral-800/60 backdrop-blur shadow-[0_0_40px_rgba(0,0,0,0.3)]">
 
                 <p class="text-neutral-400 text-sm mb-4">Persönlich</p>
 
                 <div class="space-y-3 text-sm text-neutral-300">
                     <div class="flex items-center gap-3">
-                        <div class="w-2 h-2 bg-brand rounded-full"></div>
+                        <HeartIcon class="w-4 h-4 text-brand shrink-0" />
                         <p class="text-neutral-300">Fitnessstudio</p>
                     </div>
 
                     <div class="flex items-center gap-3">
-                        <div class="w-2 h-2 bg-brand rounded-full"></div>
+                        <HeartIcon class="w-4 h-4 text-brand shrink-0" />
                         <p class="text-neutral-300">Natur & Camping</p>
                     </div>
 
                     <div class="flex items-center gap-3">
-                        <div class="w-2 h-2 bg-brand rounded-full"></div>
+                        <HeartIcon class="w-4 h-4 text-brand shrink-0" />
                         <p class="text-neutral-300">Feuerwehr</p>
                     </div>
 
                     <div class="flex items-center gap-3">
-                        <div class="w-2 h-2 bg-brand rounded-full"></div>
+                        <HeartIcon class="w-4 h-4 text-brand shrink-0" />
                         <p class="text-neutral-300">Gaming</p>
                     </div>
                 </div>
@@ -76,4 +76,5 @@
 </template>
 
 <script setup>
+import { HeartIcon } from '@heroicons/vue/24/outline'
 </script>

@@ -3,7 +3,7 @@
         <div class="max-w-4xl mx-auto px-6">
 
             <!-- Main Heading -->
-            <h2 class="text-3xl md:text-4xl font-bold mb-16 text-center">
+            <h2 v-reveal class="text-3xl md:text-4xl font-bold mb-16 text-center">
                 Häufige <span class="text-brand">Fragen</span>
             </h2>
 
@@ -11,7 +11,7 @@
             <div class="space-y-12">
 
                 <!-- Webapps -->
-                <div>
+                <div v-reveal>
                     <h3 class="text-xl font-semibold mb-6 text-brand">
                         Websites & Web-Apps
                     </h3>
@@ -23,7 +23,7 @@
                 </div>
 
                 <!-- PC Hilfe -->
-                <div>
+                <div v-reveal>
                     <h3 class="text-xl font-semibold mb-6 text-brand">
                         PC Hilfe
                     </h3>
@@ -35,7 +35,7 @@
                 </div>
 
                 <!-- PC Builds -->
-                <div>
+                <div v-reveal>
                     <h3 class="text-xl font-semibold mb-6 text-brand">
                         Gaming PC Builds
                     </h3>

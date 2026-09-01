@@ -2,4 +2,58 @@
 
 @theme {
     --color-brand: #1fabab;
+    --color-accent: #f5a524;
+}
+
+/* Scroll reveal (v-reveal directive) */
+.reveal-init {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Subtle ambient motion for decorative illustrations/icons */
+@keyframes float-soft {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+.animate-float-soft {
+    animation: float-soft 5s ease-in-out infinite;
+}
+
+@keyframes float-soft-slow {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+.animate-float-soft-slow {
+    animation: float-soft-slow 7s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .animate-float-soft,
+    .animate-float-soft-slow {
+        animation: none;
+    }
 }

@@ -27,44 +27,44 @@
             <div class="max-w-2xl">
 
                 <!-- Badge -->
-                <p class="text-md text-brand mb-4 tracking-wide uppercase">
+                <p v-reveal class="text-md text-brand mb-4 tracking-wide uppercase">
                     Über mich
                 </p>
 
-                <p class="text-md text-neutral-300 mt-1">
+                <p v-reveal="{ delay: 60 }" class="text-md text-neutral-300 mt-1">
                     📍 Villach, Österreich
                 </p>
 
                 <!-- Headline -->
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                <h1 v-reveal="{ delay: 120 }" class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                     Technik ist<br /> mein <span class="text-brand">Alltag</span>
                     <br /> und mein <span class="text-brand">Werkzeug</span>
                 </h1>
 
                 <!-- Subtext -->
-                <p class="text-neutral-300 text-lg mb-8">
+                <p v-reveal="{ delay: 180 }" class="text-neutral-300 text-lg mb-8">
                     Hey, ich heiße Ing. Lukas Korbitsch und ich entwickle nicht nur High-Performance Webanwendungen,
                     sondern helfe auch direkt vor Ort bei technischen Problemen -
                     klar, verständlich und ohne Fachchinesisch.
                 </p>
 
                 <!-- CTA -->
-                <div class="flex flex-wrap gap-4 mb-8">
+                <div v-reveal="{ delay: 240 }" class="flex flex-wrap gap-4 mb-8">
 
                     <router-link to="contact"
-                        class="bg-brand text-black font-medium px-6 py-3 rounded-xl hover:opacity-90 transition">
+                        class="bg-brand text-black font-medium px-6 py-3 rounded-xl hover:opacity-90 hover:scale-105 transition">
                         Kontakt aufnehmen
                     </router-link>
 
                     <router-link to="portfolio"
-                        class="border border-neutral-700 px-6 py-3 rounded-xl hover:border-brand hover:text-brand transition">
+                        class="border border-neutral-700 px-6 py-3 rounded-xl hover:border-brand hover:text-brand hover:scale-105 transition">
                         Projekte ansehen
                     </router-link>
 
                 </div>
 
                 <!-- Small Trust Line -->
-                <div
+                <div v-reveal="{ delay: 300 }"
                     class="hover:border-brand transition border border-neutral-800 rounded-xl p-4 bg-neutral-900/50 backdrop-blur">
                     <p class="text-sm text-neutral-300">
                         💡 Webentwicklung & IT-Hilfe - zwei Seiten derselben Sache: Probleme lösen.

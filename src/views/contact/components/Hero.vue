@@ -28,44 +28,44 @@
             <div class="max-w-2xl">
 
                 <!-- Badge -->
-                <p class="text-md text-brand mb-4 tracking-wide uppercase">
+                <p v-reveal class="text-md text-brand mb-4 tracking-wide uppercase">
                     Kontakt
                 </p>
 
-                <p class="text-md text-neutral-300 mt-1">
+                <p v-reveal="{ delay: 60 }" class="text-md text-neutral-300 mt-1">
                     📍 Villach, Österreich
                 </p>
 
                 <!-- Headline -->
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                <h1 v-reveal="{ delay: 120 }" class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                     Lass uns über dein<br />
                     <span class="text-brand">Projekt</span> oder deine <span
                         class="text-brand">Technikprobleme</span><br /> sprechen
                 </h1>
 
                 <!-- Subtext -->
-                <p class="text-neutral-300 text-lg mb-8">
+                <p v-reveal="{ delay: 180 }" class="text-neutral-300 text-lg mb-8">
                     Egal ob Webanwendung, IT-Hilfe oder Gaming Setup -
                     schreib mir einfach. Ich melde mich persönlich bei dir zurück.
                 </p>
 
                 <!-- CTA -->
-                <div class="flex flex-wrap gap-4 mb-8">
+                <div v-reveal="{ delay: 240 }" class="flex flex-wrap gap-4 mb-8">
 
                     <a href="mailto:info@korbitsch.at"
-                        class="bg-brand text-black font-medium px-6 py-3 rounded-xl hover:opacity-90 transition">
+                        class="bg-brand text-black font-medium px-6 py-3 rounded-xl hover:opacity-90 hover:scale-105 transition">
                         Projekt anfragen
                     </a>
 
                     <a href="https://wa.me/436701923388" target="_blank"
-                        class="border border-neutral-700 px-6 py-3 rounded-xl hover:border-green-500 hover:text-green-400 transition">
+                        class="border border-neutral-700 px-6 py-3 rounded-xl hover:border-green-500 hover:text-green-400 hover:scale-105 transition">
                         WhatsApp schreiben
                     </a>
 
                 </div>
 
                 <!-- Trust Note -->
-                <div
+                <div v-reveal="{ delay: 300 }"
                     class="hover:border-brand transition border border-neutral-800 rounded-xl p-4 bg-neutral-900/50 backdrop-blur">
                     <p class="text-sm text-neutral-300">
                         💡 Meist bekommst du innerhalb von 24 Stunden eine Antwort.

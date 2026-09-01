@@ -18,7 +18,7 @@
                     &larr; Zurück zum Blog
                 </router-link>
 
-                <div class="flex items-center gap-3 text-sm text-neutral-400 mb-4">
+                <div v-reveal class="flex items-center gap-3 text-sm text-neutral-400 mb-4">
                     <span class="text-brand">{{ category }}</span>
                     <!-- <span>&middot;</span>
                     <span>{{ date }}</span> -->
@@ -26,11 +26,11 @@
                     <span>{{ readTime }}</span>
                 </div>
 
-                <h1 class="text-3xl md:text-5xl font-bold mb-6 leading-tight">
+                <h1 v-reveal="{ delay: 60 }" class="text-3xl md:text-5xl font-bold mb-6 leading-tight">
                     {{ title }}
                 </h1>
 
-                <p class="text-neutral-400 text-lg">
+                <p v-reveal="{ delay: 120 }" class="text-neutral-400 text-lg">
                     {{ description }}
                 </p>
 

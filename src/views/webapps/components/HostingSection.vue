@@ -17,7 +17,7 @@
         <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
 
             <!-- Heading -->
-            <div class="text-center max-w-3xl mx-auto mb-16">
+            <div v-reveal class="text-center max-w-3xl mx-auto mb-16">
 
                 <p class="text-brand text-sm uppercase tracking-wide mb-4">
                     Alles aus einer Hand
@@ -38,8 +38,8 @@
             <!-- Grid -->
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-                <div class="border border-neutral-800 rounded-2xl bg-neutral-800/60 p-8 hover:border-brand transition">
-                    <div class="text-3xl mb-4">🌍</div>
+                <div v-reveal="{ delay: 0 }" class="group border border-neutral-800 rounded-2xl bg-neutral-800/60 p-8 hover:border-brand hover:-translate-y-1 transition">
+                    <IconBadge :icon="GlobeAltIcon" class="mb-4" />
 
                     <h3 class="text-xl font-semibold mb-3">
                         Domain
@@ -50,8 +50,8 @@
                     </p>
                 </div>
 
-                <div class="border border-neutral-800 rounded-2xl bg-neutral-800/60 p-8 hover:border-brand transition">
-                    <div class="text-3xl mb-4">☁️</div>
+                <div v-reveal="{ delay: 80 }" class="group border border-neutral-800 rounded-2xl bg-neutral-800/60 p-8 hover:border-brand hover:-translate-y-1 transition">
+                    <IconBadge :icon="CloudIcon" class="mb-4" />
 
                     <h3 class="text-xl font-semibold mb-3">
                         Hosting
@@ -62,8 +62,8 @@
                     </p>
                 </div>
 
-                <div class="border border-neutral-800 rounded-2xl bg-neutral-800/60 p-8 hover:border-brand transition">
-                    <div class="text-3xl mb-4">🚀</div>
+                <div v-reveal="{ delay: 160 }" class="group border border-neutral-800 rounded-2xl bg-neutral-800/60 p-8 hover:border-brand hover:-translate-y-1 transition">
+                    <IconBadge :icon="RocketLaunchIcon" class="mb-4" />
 
                     <h3 class="text-xl font-semibold mb-3">
                         Deployment
@@ -74,8 +74,8 @@
                     </p>
                 </div>
 
-                <div class="border border-neutral-800 rounded-2xl bg-neutral-800/60 p-8 hover:border-brand transition">
-                    <div class="text-3xl mb-4">📧</div>
+                <div v-reveal="{ delay: 240 }" class="group border border-neutral-800 rounded-2xl bg-neutral-800/60 p-8 hover:border-brand hover:-translate-y-1 transition">
+                    <IconBadge :icon="EnvelopeIcon" class="mb-4" />
 
                     <h3 class="text-xl font-semibold mb-3">
                         E-Mail
@@ -87,8 +87,8 @@
                     </p>
                 </div>
 
-                <div class="border border-neutral-800 rounded-2xl bg-neutral-800/60 p-8 hover:border-brand transition">
-                    <div class="text-3xl mb-4">🔒</div>
+                <div v-reveal="{ delay: 320 }" class="group border border-neutral-800 rounded-2xl bg-neutral-800/60 p-8 hover:border-brand hover:-translate-y-1 transition">
+                    <IconBadge :icon="LockClosedIcon" class="mb-4" />
 
                     <h3 class="text-xl font-semibold mb-3">
                         SSL & Sicherheit
@@ -99,13 +99,13 @@
                     </p>
                 </div>
 
-                <div class="border border-brand/40 rounded-2xl bg-neutral-800/70 p-8 relative overflow-hidden">
+                <div v-reveal="{ delay: 400 }" class="border border-brand/40 rounded-2xl bg-neutral-800/70 p-8 relative overflow-hidden">
 
                     <div class="absolute inset-0 bg-linear-to-br from-brand/10 to-transparent"></div>
 
                     <div class="relative">
 
-                        <div class="text-3xl mb-4">🤝</div>
+                        <IconBadge :icon="HandRaisedIcon" class="mb-4" />
 
                         <h3 class="text-xl font-semibold mb-3 text-brand">
                             Komplettservice
@@ -142,4 +142,6 @@
 </template>
 
 <script setup>
+import { GlobeAltIcon, CloudIcon, RocketLaunchIcon, EnvelopeIcon, LockClosedIcon, HandRaisedIcon } from '@heroicons/vue/24/outline'
+import IconBadge from '@/components/ui/IconBadge.vue'
 </script>

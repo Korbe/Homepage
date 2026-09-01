@@ -11,7 +11,7 @@
         <div class="relative z-20 max-w-7xl mx-auto px-6 lg:px-12">
 
             <!-- Headline -->
-            <div class="mx-auto text-center max-w-2xl mb-16">
+            <div v-reveal class="mx-auto text-center max-w-2xl mb-16">
                 <p class="text-brand text-sm uppercase tracking-wide mb-4">
                     Warum Vor-Ort Hilfe?
                 </p>
@@ -29,7 +29,7 @@
             <div class="grid md:grid-cols-2 gap-6">
 
                 <!-- ❌ Selbst probieren -->
-                <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 text-neutral-300">
+                <div v-reveal class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 text-neutral-300">
                     <p class="text-red-400 font-medium mb-4">
                         ❌ Selbst probieren
                     </p>
@@ -42,7 +42,7 @@
                 </div>
 
                 <!-- ✔ Vor-Ort Hilfe -->
-                <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 text-neutral-300">
+                <div v-reveal="{ delay: 120 }" class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 text-neutral-300">
                     <p class="text-green-400 font-medium mb-4">
                         ✔ Vor-Ort Hilfe
                     </p>

@@ -15,16 +15,17 @@
     <div class="relative z-10">
 
       <button
-        class="w-full text-left px-6 py-4 flex justify-between items-center"
+        class="w-full text-left px-6 py-4 flex justify-between items-center gap-4"
         @click="$emit('toggle', index)"
       >
         <span class="font-medium">
           {{ faq.q }}
         </span>
 
-        <span class="text-neutral-300">
-          {{ openIndex === index ? '-' : '+' }}
-        </span>
+        <ChevronDownIcon
+          class="w-5 h-5 text-brand shrink-0 transition-transform duration-300"
+          :class="openIndex === index ? 'rotate-180' : ''"
+        />
       </button>
 
       <div v-if="openIndex === index" class="px-6 pb-6 text-neutral-400 text-sm leading-relaxed">
@@ -37,6 +38,8 @@
 </template>
 
 <script setup>
+import { ChevronDownIcon } from '@heroicons/vue/24/outline'
+
 defineProps(['faq', 'index', 'openIndex'])
 defineEmits(['toggle'])
 </script>

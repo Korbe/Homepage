@@ -3,7 +3,9 @@
         <div class="max-w-7xl mx-auto px-6 lg:px-12 grid md:grid-cols-2 gap-12 items-start">
 
             <!-- LEFT -->
-            <div>
+            <div v-reveal>
+
+                <MailIllo class="w-28 h-24 mb-4" />
 
                 <h2 class="text-3xl md:text-4xl font-bold mb-6">
                     Schreib mir einfach
@@ -17,15 +19,15 @@
                 <div class="space-y-4 text-neutral-300 text-sm">
 
                     <div class="flex items-center gap-3">
-                        <div class="w-2 h-2 bg-brand rounded-full"></div>
+                        <CheckCircleIcon class="w-4 h-4 text-brand shrink-0" />
                         <p class="text-neutral-300">Unverbindliche Anfrage</p>
                     </div>
                     <div class="flex items-center gap-3">
-                        <div class="w-2 h-2 bg-brand rounded-full"></div>
+                        <CheckCircleIcon class="w-4 h-4 text-brand shrink-0" />
                         <p class="text-neutral-300">Schnelle Rückmeldung</p>
                     </div>
                     <div class="flex items-center gap-3">
-                        <div class="w-2 h-2 bg-brand rounded-full"></div>
+                        <CheckCircleIcon class="w-4 h-4 text-brand shrink-0" />
                         <p class="text-neutral-300">Persönlicher Kontakt</p>
                     </div>
 
@@ -34,7 +36,7 @@
             </div>
 
             <!-- RIGHT -->
-            <div
+            <div v-reveal="{ delay: 120 }"
                 class="hover:border-brand transition border border-neutral-800 rounded-2xl p-8 bg-neutral-800/60 backdrop-blur">
 
                 <!-- Primary CTAs -->
@@ -42,13 +44,13 @@
 
                     <!-- Schreib mir -->
                     <a href="mailto:info@korbitsch.at"
-                        class="flex-1 text-center bg-brand text-black font-medium px-6 py-4 rounded-xl hover:opacity-90 transition">
+                        class="flex-1 text-center bg-brand text-black font-medium px-6 py-4 rounded-xl hover:opacity-90 hover:scale-105 transition">
                         Schreib mir
                     </a>
 
                     <!-- Call -->
                     <a href="tel:+436701923388"
-                        class="flex-1 text-center border border-neutral-700 text-neutral-300 px-6 py-4 rounded-xl hover:border-brand hover:text-brand transition">
+                        class="flex-1 text-center border border-neutral-700 text-neutral-300 px-6 py-4 rounded-xl hover:border-brand hover:text-brand hover:scale-105 transition">
                         Ruf mich an
                     </a>
 
@@ -56,7 +58,7 @@
 
                 <!-- WhatsApp -->
                 <a href="https://wa.me/436701923388" target="_blank"
-                    class="block text-center bg-green-500 text-black font-medium px-6 py-4 rounded-xl hover:bg-green-400 transition mb-6">
+                    class="block text-center bg-green-500 text-black font-medium px-6 py-4 rounded-xl hover:bg-green-400 hover:scale-105 transition mb-6">
                     Schreib mir auf WhatsApp
                 </a>
 
@@ -65,9 +67,9 @@
 
                     <!-- Facebook -->
                     <a href="https://www.facebook.com/profile.php?id=61589133460488" target="_blank"
-                        class="border border-neutral-800 bg-neutral-800/60 hover:border-brand transition rounded-2xl px-6 py-4 flex items-center justify-center gap-3">
+                        class="border border-neutral-800 bg-neutral-800/60 hover:border-brand hover:-translate-y-1 transition rounded-2xl px-6 py-4 flex items-center justify-center gap-3">
 
-                        <span class="text-xl"><i class="fa-brands fa-facebook"></i></span>
+                        <span class="text-xl text-brand"><i class="fa-brands fa-facebook"></i></span>
 
                         <div class="text-left">
                             <p class="font-medium">
@@ -79,9 +81,9 @@
 
                     <!-- Instagram -->
                     <a href="https://www.instagram.com/korbitsch.it" target="_blank"
-                        class="border border-neutral-800 bg-neutral-800/60 hover:border-brand transition rounded-2xl px-6 py-4 flex items-center justify-center gap-3">
+                        class="border border-neutral-800 bg-neutral-800/60 hover:border-brand hover:-translate-y-1 transition rounded-2xl px-6 py-4 flex items-center justify-center gap-3">
 
-                        <span class="text-xl"><i class="fa-brands fa-instagram"></i></span>
+                        <span class="text-xl text-brand"><i class="fa-brands fa-instagram"></i></span>
 
                         <div class="text-left">
                             <p class="font-medium">
@@ -96,9 +98,9 @@
                 <!-- Divider -->
                 <div class="mt-5 border-t border-neutral-800 pt-6 text-center text-sm text-neutral-400 space-y-2">
 
-                    <p>📧 info@korbitsch.at</p>
-                    <p>📞 +43 670 1923388</p>
-                    <p>📍 Villach, Österreich</p>
+                    <p class="flex items-center justify-center gap-2"><EnvelopeIcon class="w-4 h-4 text-brand" /> info@korbitsch.at</p>
+                    <p class="flex items-center justify-center gap-2"><PhoneIcon class="w-4 h-4 text-brand" /> +43 670 1923388</p>
+                    <p class="flex items-center justify-center gap-2"><MapPinIcon class="w-4 h-4 text-brand" /> Villach, Österreich</p>
 
                     <p class="text-neutral-300 mt-3">
                         Antwort meist innerhalb von 24 Stunden
@@ -113,4 +115,6 @@
 </template>
 
 <script setup>
+import { CheckCircleIcon, EnvelopeIcon, PhoneIcon, MapPinIcon } from '@heroicons/vue/24/outline'
+import MailIllo from '@/components/illustrations/MailIllo.vue'
 </script>

@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto px-6 lg:px-12 grid md:grid-cols-2 gap-12 items-center">
 
       <!-- LEFT: TEXT -->
-      <div>
+      <div v-reveal>
 
         <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-8">
           Mein <span class="text-brand">Weg</span> in die Technik
@@ -31,7 +31,7 @@
       </div>
 
       <!-- RIGHT: VISUAL -->
-      <div
+      <div v-reveal="{ delay: 120 }"
         class="hover:border-brand transition border border-neutral-800 rounded-2xl p-6 bg-neutral-800/60 backdrop-blur shadow-[0_0_40px_rgba(0,0,0,0.3)]">
 
         <p class="text-neutral-400 text-sm mb-4">Timeline</p>

@@ -11,7 +11,7 @@
         <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
 
             <!-- Headline -->
-            <div class="mx-auto text-center max-w-2xl mb-16">
+            <div v-reveal class="mx-auto text-center max-w-2xl mb-16">
                 <p class="text-brand text-sm uppercase tracking-wide mb-4">
                     Beispiel Builds
                 </p>
@@ -29,8 +29,8 @@
             <div class="grid md:grid-cols-3 gap-6">
 
                 <!-- 1500€ -->
-                <div
-                    class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-neutral-600 transition">
+                <div v-reveal="{ delay: 0 }"
+                    class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-neutral-600 hover:-translate-y-1 transition">
                     <p class="text-neutral-400 text-sm mb-2">Einsteiger</p>
 
                     <h3 class="text-xl font-semibold mb-4">
@@ -45,7 +45,7 @@
                 </div>
 
                 <!-- 2500€ -->
-                <div class="bg-neutral-900 border border-brand rounded-2xl p-8 transition">
+                <div v-reveal="{ delay: 100 }" class="bg-neutral-900 border border-brand rounded-2xl p-8 hover:-translate-y-1 transition">
                     <p class="text-brand text-sm mb-2">Beliebt</p>
 
                     <h3 class="text-xl font-semibold mb-4">
@@ -60,8 +60,8 @@
                 </div>
 
                 <!-- 3000€+ -->
-                <div
-                    class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-neutral-600 transition">
+                <div v-reveal="{ delay: 200 }"
+                    class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-neutral-600 hover:-translate-y-1 transition">
                     <p class="text-neutral-400 text-sm mb-2">High-End</p>
 
                     <h3 class="text-xl font-semibold mb-4">

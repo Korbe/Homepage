@@ -11,7 +11,7 @@
         <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
 
             <!-- Headline -->
-            <div class="mx-auto text-center max-w-2xl mb-16">
+            <div v-reveal class="mx-auto text-center max-w-2xl mb-16">
                 <p class="text-brand text-sm uppercase tracking-wide mb-4">
                     Warum ich?
                 </p>
@@ -29,8 +29,8 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
                 <!-- Card 1 -->
-                <div class="hover:bg-neutral-900/50 bg-neutral-900 border border-neutral-800 rounded-2xl p-6">
-                    <p class="text-brand text-lg mb-3">🧠</p>
+                <div v-reveal="{ delay: 0 }" class="hover:bg-neutral-900/50 hover:-translate-y-1 transition bg-neutral-900 border border-neutral-800 rounded-2xl p-6">
+                    <IconBadge :icon="CpuChipIcon" size="sm" class="mb-3" />
                     <h3 class="font-semibold mb-2">Technisches Verständnis</h3>
                     <p class="text-neutral-300 text-sm">
                         Erfahrung in Softwareentwicklung & Systemarchitektur - nicht nur „PC zusammenstecken“.
@@ -38,8 +38,8 @@
                 </div>
 
                 <!-- Card 2 -->
-                <div class="hover:bg-neutral-900/50 not-last:bg-neutral-900 border border-neutral-800 rounded-2xl p-6">
-                    <p class="text-brand text-lg mb-3">⚙️</p>
+                <div v-reveal="{ delay: 80 }" class="hover:bg-neutral-900/50 hover:-translate-y-1 transition not-last:bg-neutral-900 border border-neutral-800 rounded-2xl p-6">
+                    <IconBadge :icon="Cog6ToothIcon" size="sm" class="mb-3" />
                     <h3 class="font-semibold mb-2">Keine Bottlenecks</h3>
                     <p class="text-neutral-300 text-sm">
                         Jede Komponente wird aufeinander abgestimmt - für maximale Leistung ohne Schwachstellen.
@@ -47,8 +47,8 @@
                 </div>
 
                 <!-- Card 3 -->
-                <div class="hover:bg-neutral-900/50 not-last:bg-neutral-900 border border-neutral-800 rounded-2xl p-6">
-                    <p class="text-brand text-lg mb-3">💰</p>
+                <div v-reveal="{ delay: 160 }" class="hover:bg-neutral-900/50 hover:-translate-y-1 transition not-last:bg-neutral-900 border border-neutral-800 rounded-2xl p-6">
+                    <IconBadge :icon="BanknotesIcon" size="sm" class="mb-3" />
                     <h3 class="font-semibold mb-2">Ehrliche Beratung</h3>
                     <p class="text-neutral-300 text-sm">
                         Kein Upselling, keine unnötigen Teile - du bekommst genau das, was du brauchst.
@@ -56,8 +56,8 @@
                 </div>
 
                 <!-- Card 4 -->
-                <div class="hover:bg-neutral-900/50 not-last:bg-neutral-900 border border-neutral-800 rounded-2xl p-6">
-                    <p class="text-brand text-lg mb-3">🚀</p>
+                <div v-reveal="{ delay: 240 }" class="hover:bg-neutral-900/50 hover:-translate-y-1 transition not-last:bg-neutral-900 border border-neutral-800 rounded-2xl p-6">
+                    <IconBadge :icon="RocketLaunchIcon" size="sm" class="mb-3" />
                     <h3 class="font-semibold mb-2">Performance Fokus</h3>
                     <p class="text-neutral-300 text-sm">
                         Ziel ist nicht ein „schöner PC“, sondern ein System, das wirklich performt.
@@ -78,4 +78,6 @@
 </template>
 
 <script setup>
+import { CpuChipIcon, Cog6ToothIcon, BanknotesIcon, RocketLaunchIcon } from '@heroicons/vue/24/outline'
+import IconBadge from '@/components/ui/IconBadge.vue'
 </script>

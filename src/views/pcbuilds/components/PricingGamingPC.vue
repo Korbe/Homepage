@@ -4,7 +4,7 @@
     <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
 
       <!-- Heading -->
-      <div class="text-center max-w-2xl mx-auto mb-16">
+      <div v-reveal class="text-center max-w-2xl mx-auto mb-16">
         <p class="text-brand text-sm uppercase tracking-wide mb-4">
           Preise
         </p>

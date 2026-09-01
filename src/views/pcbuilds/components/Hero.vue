@@ -27,23 +27,23 @@
             <div class="max-w-2xl">
 
                 <!-- Badge -->
-                <p class="text-brand text-sm mb-4 tracking-wide uppercase">
+                <p v-reveal class="text-brand text-sm mb-4 tracking-wide uppercase">
                     Gaming PC Builds
                 </p>
 
                 <!-- Headline -->
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                <h1 v-reveal="{ delay: 60 }" class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                     Gaming PCs ohne <span class="text-brand">Kompromisse</span>
                 </h1>
 
                 <!-- Subtext -->
-                <p class="text-neutral-300 text-lg mb-8">
+                <p v-reveal="{ delay: 120 }" class="text-neutral-300 text-lg mb-8">
                     Individuell zusammengestellte Systeme für maximale Performance - perfekt abgestimmt auf dein Budget,
                     deine Games und deine Anforderungen.
                 </p>
 
                 <!-- Benefits -->
-                <ul class="space-y-2 text-neutral-300 mb-8">
+                <ul v-reveal="{ delay: 180 }" class="space-y-2 text-neutral-300 mb-8">
                     <li>✔ Perfekte Balance aus CPU, GPU & RAM</li>
                     <li>✔ Maximale FPS & stabile Performance</li>
                     <li>✔ Keine Fertiglösungen oder unnötiger Overkill</li>
@@ -51,14 +51,14 @@
                 </ul>
 
                 <!-- CTA -->
-                <div class="flex flex-wrap gap-4 mb-6">
+                <div v-reveal="{ delay: 240 }" class="flex flex-wrap gap-4 mb-6">
                     <RouterLink to="/contact"
-                        class="bg-brand text-black font-medium px-6 py-3 rounded-xl hover:opacity-90 transition">
+                        class="bg-brand text-black font-medium px-6 py-3 rounded-xl hover:opacity-90 hover:scale-105 transition">
                         Gaming Setup anfragen
                     </RouterLink>
 
                     <a href="#preise"
-                        class="border border-neutral-600 px-6 py-3 rounded-xl hover:border-neutral-400 transition">
+                        class="border border-neutral-600 px-6 py-3 rounded-xl hover:border-neutral-400 hover:scale-105 transition">
                         Preise ansehen
                     </a>
                 </div>

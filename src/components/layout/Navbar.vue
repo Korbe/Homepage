@@ -4,8 +4,8 @@
 
 			<!-- Logo -->
 			<div class="flex items-center gap-2">
-				<RouterLink to="/" class="flex items-center gap-2">
-					<img src="@/assets/logo-big-invert.svg" alt="Korbitsch Lukas Logo" class="h-28 w-auto" />
+				<RouterLink to="/" class="flex items-center gap-2 group">
+					<img src="@/assets/logo-big-invert.svg" alt="Korbitsch Lukas Logo" class="h-28 w-auto transition-transform duration-300 group-hover:scale-105" />
 				</RouterLink>
 			</div>
 

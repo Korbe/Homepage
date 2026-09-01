@@ -17,7 +17,7 @@
         <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
 
             <!-- Heading -->
-            <div class="max-w-3xl mx-auto text-center mb-16">
+            <div v-reveal class="max-w-3xl mx-auto text-center mb-16">
 
                 <p class="text-brand text-sm uppercase tracking-wider mb-4">
                     Moderne Technologien
@@ -39,12 +39,9 @@
             <div class="grid lg:grid-cols-3 gap-6">
 
                 <!-- Frontend -->
-                <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-brand transition">
+                <div v-reveal="{ delay: 0 }" class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-brand hover:-translate-y-1 transition">
 
-                    <div
-                        class="w-12 h-12 rounded-xl bg-brand/10 flex items-center justify-center text-brand text-xl mb-6">
-                        ⚡
-                    </div>
+                    <IconBadge :icon="BoltIcon" class="mb-6" />
 
                     <h3 class="text-xl font-semibold mb-4">
                         Schnell & modern
@@ -62,12 +59,9 @@
                 </div>
 
                 <!-- Backend -->
-                <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-brand transition">
+                <div v-reveal="{ delay: 120 }" class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-brand hover:-translate-y-1 transition">
 
-                    <div
-                        class="w-12 h-12 rounded-xl bg-brand/10 flex items-center justify-center text-brand text-xl mb-6">
-                        🔒
-                    </div>
+                    <IconBadge :icon="LockClosedIcon" class="mb-6" />
 
                     <h3 class="text-xl font-semibold mb-4">
                         Stabil & sicher
@@ -86,12 +80,9 @@
                 </div>
 
                 <!-- Architecture -->
-                <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-brand transition">
+                <div v-reveal="{ delay: 240 }" class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-brand hover:-translate-y-1 transition">
 
-                    <div
-                        class="w-12 h-12 rounded-xl bg-brand/10 flex items-center justify-center text-brand text-xl mb-6">
-                        🚀
-                    </div>
+                    <IconBadge :icon="RocketLaunchIcon" class="mb-6" />
 
                     <h3 class="text-xl font-semibold mb-4">
                         Für die Zukunft gebaut
@@ -133,4 +124,6 @@
 </template>
 
 <script setup>
+import { BoltIcon, LockClosedIcon, RocketLaunchIcon } from '@heroicons/vue/24/outline'
+import IconBadge from '@/components/ui/IconBadge.vue'
 </script>

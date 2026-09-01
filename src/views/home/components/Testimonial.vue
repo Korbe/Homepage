@@ -4,7 +4,7 @@
         <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
 
             <!-- Heading -->
-            <div class="text-center max-w-2xl mx-auto mb-16">
+            <div v-reveal class="text-center max-w-2xl mx-auto mb-16">
                 <p class="text-brand text-sm uppercase tracking-wide mb-4">
                     Kundenstimmen
                 </p>
@@ -19,9 +19,9 @@
             </div>
 
             <!-- Highlight -->
-            <div v-if="highlight" class="mb-12">
+            <div v-if="highlight" v-reveal class="mb-12">
                 <div
-                    class="hover:bg-neutral-900/50 bg-neutral-900 border border-brand/50 rounded-2xl p-8 md:p-10 relative overflow-hidden">
+                    class="hover:bg-neutral-900/50 hover:-translate-y-1 bg-neutral-900 border border-brand/50 rounded-2xl p-8 md:p-10 relative overflow-hidden transition">
 
                     <!-- Accent -->
                     <div class="absolute inset-0 bg-linear-to-br from-brand/10 to-transparent opacity-70"></div>
@@ -48,8 +48,8 @@
             <!-- Grid -->
             <div class="grid md:grid-cols-3 gap-6">
 
-                <div v-for="(item, index) in normalItems" :key="index"
-                    class="hover:bg-neutral-900/50 bg-neutral-800/40 border border-neutral-800 rounded-2xl p-6">
+                <div v-for="(item, index) in normalItems" :key="index" v-reveal="{ delay: index * 100 }"
+                    class="hover:bg-neutral-900/50 hover:-translate-y-1 bg-neutral-800/40 border border-neutral-800 rounded-2xl p-6 transition">
                     <!-- Stars -->
                     <div class="flex gap-1 text-brand mb-3 text-sm">
                         <span v-for="i in 5" :key="i">★</span>

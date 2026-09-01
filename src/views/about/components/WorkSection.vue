@@ -3,31 +3,31 @@
     <div class="max-w-7xl mx-auto px-6 lg:px-12 grid md:grid-cols-2 gap-12 items-center">
 
       <!-- LEFT: VISUAL -->
-      <div
+      <div v-reveal
         class="hover:border-brand transition border border-neutral-800 rounded-2xl p-6 bg-neutral-800/60 backdrop-blur shadow-[0_0_40px_rgba(0,0,0,0.3)]">
 
         <p class="text-neutral-400 text-sm mb-4">Aktuell</p>
 
         <div class="space-y-4 text-sm text-neutral-300">
           <div class="flex items-center gap-3">
-            <div class="w-2 h-2 bg-brand rounded-full"></div>
+            <BriefcaseIcon class="w-4 h-4 text-brand shrink-0" />
             <p class="text-neutral-300">SoftwareCUBE / Infineon</p>
           </div>
 
           <div class="flex items-center gap-3">
-            <div class="w-2 h-2 bg-brand rounded-full"></div>
+            <BriefcaseIcon class="w-4 h-4 text-brand shrink-0" />
             <p class="text-neutral-300">korbitsch.at IT Dienstleistungen</p>
           </div>
 
           <div class="flex items-center gap-3">
-            <div class="w-2 h-2 bg-brand rounded-full"></div>
+            <BriefcaseIcon class="w-4 h-4 text-brand shrink-0" />
             <p class="text-neutral-300">Petrilog (Creator/Founder)</p>
           </div>
         </div>
       </div>
 
       <!-- RIGHT: TEXT -->
-      <div>
+      <div v-reveal="{ delay: 120 }">
 
         <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-8">
           Was ich <span class="text-brand">heute</span> mache
@@ -58,4 +58,5 @@
 </template>
 
 <script setup>
+import { BriefcaseIcon } from '@heroicons/vue/24/outline'
 </script>

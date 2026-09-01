@@ -19,7 +19,7 @@
         <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
 
             <!-- Heading -->
-            <div class="max-w-3xl mx-auto text-center mb-16">
+            <div v-reveal class="max-w-3xl mx-auto text-center mb-16">
 
                 <p class="text-brand text-sm uppercase tracking-wide mb-4">
                     Preise

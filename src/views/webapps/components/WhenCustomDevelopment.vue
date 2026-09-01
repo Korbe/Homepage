@@ -16,7 +16,7 @@
 
         <div class="max-w-5xl mx-auto px-6 lg:px-12">
 
-            <div class="border border-brand/30 rounded-2xl bg-neutral-800/60 backdrop-blur p-8 md:p-10 text-center">
+            <div v-reveal class="border border-brand/30 rounded-2xl bg-neutral-800/60 backdrop-blur p-8 md:p-10 text-center">
 
                 <p class="text-brand text-sm uppercase tracking-wide mb-4">
                     Ehrlich gesagt

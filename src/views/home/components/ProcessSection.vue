@@ -12,32 +12,41 @@
 
         <div class="max-w-5xl mx-auto px-6 text-center">
 
-            <p class="text-brand text-sm uppercase tracking-wide mb-4">
+            <p v-reveal class="text-brand text-sm uppercase tracking-wide mb-4">
                 Ablauf
             </p>
 
-            <h2 class="text-3xl md:text-4xl font-bold mb-12">
+            <h2 v-reveal class="text-3xl md:text-4xl font-bold mb-12">
                 So läuft es ab
             </h2>
 
-            <div class="grid md:grid-cols-3 gap-8">
+            <div class="relative grid md:grid-cols-3 gap-8">
 
-                <div>
-                    <p class="text-brand font-bold text-xl mb-3">01</p>
+                <!-- Verbindungslinie -->
+                <div class="hidden md:block absolute top-6 left-[16.6%] right-[16.6%] h-px bg-linear-to-r from-brand/40 via-brand/40 to-brand/40"></div>
+
+                <div v-reveal="{ delay: 0 }" class="relative">
+                    <div class="mx-auto mb-3 flex items-center justify-center w-12 h-12 rounded-full bg-brand text-black font-bold text-lg relative z-10">
+                        01
+                    </div>
                     <p class="text-neutral-300">
                         Du schreibst mir dein Problem oder dein Projekt
                     </p>
                 </div>
 
-                <div>
-                    <p class="text-brand font-bold text-xl mb-3">02</p>
+                <div v-reveal="{ delay: 120 }" class="relative">
+                    <div class="mx-auto mb-3 flex items-center justify-center w-12 h-12 rounded-full bg-brand text-black font-bold text-lg relative z-10">
+                        02
+                    </div>
                     <p class="text-neutral-300">
                         Ich melde mich persönlich bei dir
                     </p>
                 </div>
 
-                <div>
-                    <p class="text-brand font-bold text-xl mb-3">03</p>
+                <div v-reveal="{ delay: 240 }" class="relative">
+                    <div class="mx-auto mb-3 flex items-center justify-center w-12 h-12 rounded-full bg-brand text-black font-bold text-lg relative z-10">
+                        03
+                    </div>
                     <p class="text-neutral-300">
                         Wir lösen das Problem oder setzen dein Projekt um
                     </p>
@@ -48,3 +57,6 @@
         </div>
     </section>
 </template>
+
+<script setup>
+</script>

@@ -13,7 +13,7 @@
             <div class="grid md:grid-cols-2 gap-12 items-center">
 
                 <!-- Left -->
-                <div>
+                <div v-reveal>
                     <p class="text-brand text-sm uppercase tracking-wide mb-4">
                         Vor Ort Service
                     </p>
@@ -41,7 +41,9 @@
                 </div>
 
                 <!-- Right -->
-                <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8">
+                <div v-reveal="{ delay: 120 }" class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8">
+
+                    <ToolboxIllo class="w-24 h-20 mb-4" />
 
                     <h3 class="font-semibold mb-4">
                         Einsatzgebiet
@@ -52,9 +54,9 @@
                     </p>
 
                     <div class="space-y-2 text-neutral-300 text-sm">
-                        <p>📍 Villach Stadt</p>
-                        <p>📍 Villach Land</p>
-                        <p>📍 Umgebung auf Anfrage</p>
+                        <p class="flex items-center gap-2"><MapPinIcon class="w-4 h-4 text-brand shrink-0" /> Villach Stadt</p>
+                        <p class="flex items-center gap-2"><MapPinIcon class="w-4 h-4 text-brand shrink-0" /> Villach Land</p>
+                        <p class="flex items-center gap-2"><MapPinIcon class="w-4 h-4 text-brand shrink-0" /> Umgebung auf Anfrage</p>
                     </div>
 
                     <div class="mt-6 border-t border-neutral-800 pt-6 text-sm text-neutral-400">
@@ -70,4 +72,6 @@
 </template>
 
 <script setup>
+import { MapPinIcon } from '@heroicons/vue/24/outline'
+import ToolboxIllo from '@/components/illustrations/ToolboxIllo.vue'
 </script>

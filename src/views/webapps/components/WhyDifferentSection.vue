@@ -5,7 +5,7 @@
 
             <!-- Heading -->
             <div class="flex justify-center">
-                <div class="max-w-3xl text-center mb-16">
+                <div v-reveal class="max-w-3xl text-center mb-16">
 
                     <p class="text-brand text-sm uppercase tracking-wider mb-4">
                         Mein Ansatz
@@ -29,7 +29,7 @@
             <div class="grid lg:grid-cols-3 gap-6">
 
                 <!-- Card -->
-                <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-brand transition">
+                <div v-reveal="{ delay: 0 }" class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-brand hover:-translate-y-1 transition">
 
                     <div
                         class="w-12 h-12 rounded-xl bg-brand/10 flex items-center justify-center text-brand font-bold text-xl mb-6">
@@ -48,7 +48,7 @@
                 </div>
 
                 <!-- Card -->
-                <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-brand transition">
+                <div v-reveal="{ delay: 120 }" class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-brand hover:-translate-y-1 transition">
 
                     <div
                         class="w-12 h-12 rounded-xl bg-brand/10 flex items-center justify-center text-brand font-bold text-xl mb-6">
@@ -68,7 +68,7 @@
                 </div>
 
                 <!-- Card -->
-                <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-brand transition">
+                <div v-reveal="{ delay: 240 }" class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-brand hover:-translate-y-1 transition">
 
                     <div
                         class="w-12 h-12 rounded-xl bg-brand/10 flex items-center justify-center text-brand font-bold text-xl mb-6">

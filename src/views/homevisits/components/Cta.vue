@@ -2,22 +2,24 @@
     <section id="contact" class="py-24 bg-neutral-900/95 text-white border-t border-neutral-800">
         <div class="max-w-5xl mx-auto px-6 lg:px-12 text-center">
 
+            <ToolboxIllo v-reveal class="w-28 h-24 mx-auto mb-2" />
+
             <!-- Heading -->
-            <h2 class="text-3xl md:text-4xl font-bold mb-4">
+            <h2 v-reveal class="text-3xl md:text-4xl font-bold mb-4">
                 Einfach melden - ich komme <span class="text-brand">persönlich</span> vorbei!
             </h2>
 
-            <p class="text-neutral-400 text-lg mb-12">
+            <p v-reveal class="text-neutral-400 text-lg mb-12">
                 Kein kompliziertes Formular. Schreib mir einfach oder ruf direkt an -
                 ich helfe dir schnell und unkompliziert.
             </p>
 
             <!-- Contact Box -->
-            <div class="hover:border-brand transition border border-neutral-800 rounded-2xl p-10 bg-neutral-800/60">
+            <div v-reveal class="hover:border-brand transition border border-neutral-800 rounded-2xl p-10 bg-neutral-800/60">
 
                 <!-- Primary CTA -->
                 <a href="mailto:info@korbitsch.at"
-                    class="inline-block bg-brand text-black font-medium px-8 py-4 rounded-xl hover:opacity-90 transition mb-4">
+                    class="inline-block bg-brand text-black font-medium px-8 py-4 rounded-xl hover:opacity-90 hover:scale-105 transition mb-4">
                     Jetzt Hausbesuch anfragen
                 </a>
 
@@ -37,9 +39,9 @@
                 <!-- Contact Info -->
                 <div class="text-neutral-400 text-sm space-y-2">
 
-                    <p>📧 info@korbitsch.at</p>
+                    <p class="flex items-center justify-center gap-2"><EnvelopeIcon class="w-4 h-4 text-brand" /> info@korbitsch.at</p>
 
-                    <p>📞 +43 670 1923388</p>
+                    <p class="flex items-center justify-center gap-2"><PhoneIcon class="w-4 h-4 text-brand" /> +43 670 1923388</p>
 
                     <p class="text-neutral-300 mt-4">
                         Antwort meist innerhalb von 24 Stunden
@@ -59,4 +61,6 @@
 </template>
 
 <script setup>
+import { EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/outline'
+import ToolboxIllo from '@/components/illustrations/ToolboxIllo.vue'
 </script>

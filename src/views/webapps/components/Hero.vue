@@ -17,42 +17,42 @@
             <div class="max-w-2xl">
 
                 <!-- Badge -->
-                <p class="text-md text-brand mb-4 tracking-wide uppercase">
+                <p v-reveal class="text-md text-brand mb-4 tracking-wide uppercase">
                     Ing. Lukas Korbitsch
                 </p>
 
-                <p class="text-md text-neutral-300 mt-1">
+                <p v-reveal="{ delay: 60 }" class="text-md text-neutral-300 mt-1">
                     📍 Villach, Österreich
                 </p>
 
                 <!-- Headline -->
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                <h1 v-reveal="{ delay: 120 }" class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                     Deine Website sollte <span class="text-brand">Kunden</span> bringen - nicht nur gut aussehen.
                 </h1>
 
                 <!-- Subtext -->
-                <p class="text-neutral-300 text-lg mb-8">
+                <p v-reveal="{ delay: 180 }" class="text-neutral-300 text-lg mb-8">
                     Ich entwickle moderne Unternehmenswebsites und Web-Apps, die schnell laden, bei Google gefunden
                     werden und auf dein Unternehmen zugeschnitten sind - ohne WordPress oder Baukastensysteme.
                 </p>
 
                 <!-- CTA -->
-                <div class="flex flex-wrap gap-4 mb-8">
+                <div v-reveal="{ delay: 240 }" class="flex flex-wrap gap-4 mb-8">
 
                     <router-link to="/contact"
-                        class="bg-brand text-black font-medium px-6 py-3 rounded-xl hover:opacity-90 transition">
+                        class="bg-brand text-black font-medium px-6 py-3 rounded-xl hover:opacity-90 hover:scale-105 transition">
                         Kostenloses Erstgespräch
                     </router-link>
 
                     <a href="#pricing"
-                        class="border border-neutral-700 px-6 py-3 rounded-xl hover:border-brand hover:text-brand transition">
+                        class="border border-neutral-700 px-6 py-3 rounded-xl hover:border-brand hover:text-brand hover:scale-105 transition">
                         Preise ansehen
                     </a>
 
                 </div>
 
                 <!-- Hausbesuch Hinweis (subtil) -->
-                <div class="border border-neutral-800 rounded-xl p-4 bg-neutral-900/50 backdrop-blur">
+                <div v-reveal="{ delay: 300 }" class="border border-neutral-800 rounded-xl p-4 bg-neutral-900/50 backdrop-blur">
                     <p class="text-sm text-neutral-300">
                         💡 Auch privat für dich da: Hilfe bei PC- & Smartphone-Problemen -
                         direkt bei dir vor Ort.

@@ -18,7 +18,7 @@
         <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
 
             <!-- Heading -->
-            <div class="text-center mb-16">
+            <div v-reveal class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4">
                     Projekte, die echte <span class="text-brand">Probleme</span> lösen
                 </h2>
@@ -32,8 +32,8 @@
                 <div class="grid md:grid-cols-3 gap-6">
 
                     <!-- Petrilog -->
-                    <div
-                        class="hover:bg-neutral-900/50 transition border border-neutral-800 rounded-2xl p-8 bg-neutral-800/60 flex flex-col">
+                    <div v-reveal
+                        class="hover:bg-neutral-900/50 hover:-translate-y-1 transition border border-neutral-800 rounded-2xl p-8 bg-neutral-800/60 flex flex-col">
                         <p class="text-sm text-brand uppercase mb-2">SaaS / Web Application</p>
 
                         <h3 class="text-xl font-semibold mb-4">
@@ -57,8 +57,8 @@
                     </div>
 
                     <!-- FCG Villach -->
-                    <div
-                        class="hover:bg-neutral-900/50 transition border border-neutral-800 rounded-2xl p-8 bg-neutral-800/60 flex flex-col">
+                    <div v-reveal
+                        class="hover:bg-neutral-900/50 hover:-translate-y-1 transition border border-neutral-800 rounded-2xl p-8 bg-neutral-800/60 flex flex-col">
                         <p class="text-sm text-brand uppercase mb-2">Content / CMS System</p>
 
                         <h3 class="text-xl font-semibold mb-4">
@@ -83,8 +83,8 @@
                     </div>
 
                     <!-- Dronenservice -->
-                    <div
-                        class="hover:bg-neutral-900/50 transition border border-neutral-800 rounded-2xl p-8 bg-neutral-800/60 flex flex-col">
+                    <div v-reveal
+                        class="hover:bg-neutral-900/50 hover:-translate-y-1 transition border border-neutral-800 rounded-2xl p-8 bg-neutral-800/60 flex flex-col">
                         <p class="text-sm text-brand uppercase mb-2">Landingpage</p>
 
                         <h3 class="text-xl font-semibold mb-4">

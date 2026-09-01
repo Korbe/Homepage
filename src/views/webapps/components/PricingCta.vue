@@ -16,7 +16,7 @@
 
         <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
 
-            <div class="rounded-3xl border border-brand/30 bg-neutral-800/60 backdrop-blur p-10 text-center">
+            <div v-reveal class="rounded-3xl border border-brand/30 bg-neutral-800/60 backdrop-blur p-10 text-center">
 
                 <h3 class="text-3xl font-bold mb-4">
                     Nicht sicher, welches Paket zu dir passt?

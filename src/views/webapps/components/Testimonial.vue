@@ -41,7 +41,7 @@ const testimonials = [
 
             <!-- Headline -->
             <div class="flex justify-center">
-                <div class="max-w-2xl text-center mb-16">
+                <div v-reveal class="max-w-2xl text-center mb-16">
                     <p class="text-sm text-brand uppercase tracking-wide mb-4">
                         Kundenstimmen
                     </p>
@@ -59,8 +59,8 @@ const testimonials = [
             <!-- Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-                <div v-for="(testimonial, index) in testimonials" :key="index"
-                    class="relative border border-neutral-800 rounded-2xl p-8 bg-neutral-800/60 backdrop-blur hover:bg-neutral-900/50 hover:border-brand transition">
+                <div v-for="(testimonial, index) in testimonials" :key="index" v-reveal="{ delay: index * 120 }"
+                    class="relative border border-neutral-800 rounded-2xl p-8 bg-neutral-800/60 backdrop-blur hover:bg-neutral-900/50 hover:border-brand hover:-translate-y-1 transition">
 
                     <!-- Card Hover Glow -->
                     <div class="absolute inset-0 bg-brand/5 opacity-0 hover:opacity-100 transition rounded-2xl"></div>

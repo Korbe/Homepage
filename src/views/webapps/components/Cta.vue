@@ -2,20 +2,21 @@
     <section id="kontakt" class="py-24 bg-neutral-900/95 text-white">
         <div class="max-w-5xl mx-auto px-6 lg:px-12 text-center">
 
+            <CodeWindowIllo v-reveal class="w-28 h-24 mx-auto mb-2" />
 
             <img src="@/assets/logo.png" class="h-32 mb-5 mx-auto" alt="logo" />
 
             <!-- Heading -->
-            <h2 class="text-3xl md:text-4xl font-bold mb-4">
+            <h2 v-reveal class="text-3xl md:text-4xl font-bold mb-4">
                 Lass uns dein Projekt umsetzen
             </h2>
 
-            <p class="text-neutral-400 text-lg mb-12">
+            <p v-reveal class="text-neutral-400 text-lg mb-12">
                 Ob Web-Anwendung oder technische Unterstützung - ich melde mich persönlich bei dir zurück.
             </p>
 
             <!-- CTA Box -->
-            <div class="border border-neutral-800 rounded-2xl p-10 bg-neutral-800/60">
+            <div v-reveal class="border border-neutral-800 rounded-2xl p-10 bg-neutral-800/60">
 
                 <!-- Primary CTA -->
                 <div class="mb-4">
@@ -45,11 +46,11 @@
                 <div class="text-neutral-300 text-sm space-y-2 border-t border-neutral-800 pt-6">
 
                     <p class="flex items-center justify-center gap-2">
-                        📧 <span>info@korbitsch.at</span>
+                        <EnvelopeIcon class="w-4 h-4 text-brand" /> <span>info@korbitsch.at</span>
                     </p>
 
                     <p class="flex items-center justify-center gap-2">
-                        📞 <span>+43 670 1923388</span>
+                        <PhoneIcon class="w-4 h-4 text-brand" /> <span>+43 670 1923388</span>
                     </p>
 
                     <p class="text-neutral-300 mt-3">
@@ -65,4 +66,6 @@
 </template>
 
 <script setup>
+import { EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/outline'
+import CodeWindowIllo from '@/components/illustrations/CodeWindowIllo.vue'
 </script>

@@ -18,7 +18,7 @@
 
             <!-- Heading -->
             <div class="flex justify-center">
-                <div class="max-w-3xl text-center mb-16">
+                <div v-reveal class="max-w-3xl text-center mb-16">
                     <h2 class="text-3xl md:text-4xl font-bold mb-4">
                         Warum viele Unternehmenswebsites nie <span class="text-brand">erfolgreich</span> werden
                     </h2>
@@ -33,7 +33,7 @@
             <div class="grid md:grid-cols-2 gap-10">
 
                 <!-- ❌ Problem -->
-                <div
+                <div v-reveal
                     class="border border-neutral-700 rounded-2xl p-8 bg-neutral-900/70 backdrop-blur shadow-md shadow-black/20 transition">
 
                     <h3 class="text-xl font-semibold mb-6 text-red-400">
@@ -127,7 +127,7 @@
                 </div>
 
                 <!-- ✅ Solution -->
-                <div
+                <div v-reveal="{ delay: 120 }"
                     class="border border-brand/50 rounded-2xl p-8 bg-neutral-900/75 backdrop-blur relative overflow-hidden shadow-lg shadow-black/30 transition hover:shadow-brand/20">
 
                     <!-- Accent Glow -->

@@ -4,8 +4,8 @@
 
             <div class="grid gap-8 md:grid-cols-2">
 
-                <router-link v-for="post in posts" :key="post.route" :to="{ name: post.route }"
-                    class="group border border-neutral-800 hover:border-brand rounded-3xl bg-neutral-800/60 p-8 flex flex-col transition duration-300 hover:shadow-lg hover:shadow-brand/20">
+                <router-link v-for="(post, i) in posts" :key="post.route" :to="{ name: post.route }" v-reveal="{ delay: i * 80 }"
+                    class="group border border-neutral-800 hover:border-brand hover:-translate-y-1 rounded-3xl bg-neutral-800/60 p-8 flex flex-col transition duration-300 hover:shadow-lg hover:shadow-brand/20">
 
                     <!-- Meta -->
                     <div class="flex items-center gap-3 text-sm text-neutral-400 mb-4">

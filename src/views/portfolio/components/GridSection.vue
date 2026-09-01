@@ -4,7 +4,7 @@
 
             <div class="space-y-16">
 
-                <div v-for="project in projects" :key="project.name" class="group">
+                <div v-for="project in projects" :key="project.name" v-reveal class="group">
 
                     <!-- CARD -->
                     <div

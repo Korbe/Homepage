@@ -13,37 +13,37 @@
       <div class="max-w-3xl">
 
         <!-- Badge -->
-        <p class="text-sm text-brand uppercase tracking-wide mb-4">
+        <p v-reveal class="text-sm text-brand uppercase tracking-wide mb-4">
           PC Hilfe
         </p>
 
         <!-- Headline -->
-        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+        <h1 v-reveal="{ delay: 60 }" class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
           Ich komme zu dir <br />
           und löse deine <span class="text-brand">Technikprobleme</span>
         </h1>
 
         <!-- Subtext -->
-        <p class="text-neutral-300 text-lg mb-8">
+        <p v-reveal="{ delay: 120 }" class="text-neutral-300 text-lg mb-8">
           Egal ob dein PC langsam ist, dein Smartphone nicht funktioniert oder dein Drucker streikt -
           ich erkläre dir alles verständlich und ohne Fachchinesisch direkt bei dir vor Ort.
         </p>
 
         <!-- CTA -->
-        <div class="flex flex-wrap gap-4 mb-10">
+        <div v-reveal="{ delay: 180 }" class="flex flex-wrap gap-4 mb-10">
           <a href="#contact"
-            class="bg-brand text-black font-medium px-6 py-3 rounded-xl hover:opacity-90 transition">
+            class="bg-brand text-black font-medium px-6 py-3 rounded-xl hover:opacity-90 hover:scale-105 transition">
             Hausbesuch anfragen
           </a>
 
           <a href="#gaming"
-            class="border border-neutral-700 px-6 py-3 rounded-xl hover:border-brand hover:text-brand transition">
+            class="border border-neutral-700 px-6 py-3 rounded-xl hover:border-brand hover:text-brand hover:scale-105 transition">
             Gaming PCs
           </a>
         </div>
 
         <!-- Highlight Box -->
-        <div class="hover:border-brand transition border border-neutral-800 rounded-2xl p-5 bg-neutral-800/60 backdrop-blur">
+        <div v-reveal="{ delay: 240 }" class="hover:border-brand transition border border-neutral-800 rounded-2xl p-5 bg-neutral-800/60 backdrop-blur">
 
           <p class="text-sm text-neutral-300">
             🧠 Kein Fachchinesisch - ich erkläre dir alles so, dass du es wirklich verstehst.
@@ -57,10 +57,13 @@
 
       </div>
 
+      <ToolboxIllo class="hidden lg:block absolute right-8 top-1/2 -translate-y-1/2 w-56 h-48 opacity-90" />
+
     </div>
 
   </section>
 </template>
 
 <script setup>
+import ToolboxIllo from '@/components/illustrations/ToolboxIllo.vue'
 </script>

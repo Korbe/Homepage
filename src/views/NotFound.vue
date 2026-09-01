@@ -17,31 +17,33 @@
 
                 <div class="relative z-10 max-w-3xl mx-auto px-6 text-center">
 
+                    <IconBadge v-reveal :icon="QuestionMarkCircleIcon" size="lg" class="mx-auto mb-6 animate-float-soft" />
+
                     <!-- Badge -->
-                    <p class="text-sm text-brand uppercase tracking-wide mb-4">
+                    <p v-reveal="{ delay: 60 }" class="text-sm text-brand uppercase tracking-wide mb-4">
                         Fehler 404
                     </p>
 
                     <!-- Headline -->
-                    <h1 class="text-5xl md:text-6xl font-bold mb-6">
+                    <h1 v-reveal="{ delay: 120 }" class="text-5xl md:text-6xl font-bold mb-6">
                         Seite nicht gefunden
                     </h1>
 
                     <!-- Subtext -->
-                    <p class="text-neutral-400 text-lg mb-10">
+                    <p v-reveal="{ delay: 180 }" class="text-neutral-400 text-lg mb-10">
                         Sieht so aus, als hätte sich diese Seite verabschiedet - oder sie hat nie existiert.
                     </p>
 
                     <!-- CTA -->
-                    <div class="flex flex-wrap justify-center gap-4">
+                    <div v-reveal="{ delay: 240 }" class="flex flex-wrap justify-center gap-4">
 
                         <router-link to="/"
-                            class="bg-brand text-black font-medium px-6 py-3 rounded-xl hover:opacity-90 transition">
+                            class="bg-brand text-black font-medium px-6 py-3 rounded-xl hover:opacity-90 hover:scale-105 transition">
                             Zur Startseite
                         </router-link>
 
                         <router-link to="/portfolio"
-                            class="border border-neutral-700 px-6 py-3 rounded-xl hover:border-brand hover:text-brand transition">
+                            class="border border-neutral-700 px-6 py-3 rounded-xl hover:border-brand hover:text-brand hover:scale-105 transition">
                             Projekte ansehen
                         </router-link>
 
@@ -54,7 +56,7 @@
             <!-- 📄 OPTIONAL CONTENT (nice touch) -->
             <section class="pb-24">
 
-                <div class="max-w-xl mx-auto px-6 text-center">
+                <div v-reveal class="max-w-xl mx-auto px-6 text-center">
 
                     <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
 
@@ -83,4 +85,6 @@
 </template>
 <script setup>
 import Layout from '@/components/layout/Layout.vue';
+import { QuestionMarkCircleIcon } from '@heroicons/vue/24/outline'
+import IconBadge from '@/components/ui/IconBadge.vue'
 </script>

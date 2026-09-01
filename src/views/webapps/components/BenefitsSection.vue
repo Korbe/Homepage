@@ -17,7 +17,7 @@
         <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
 
             <!-- Heading -->
-            <div class="max-w-3xl mx-auto text-center mb-16">
+            <div v-reveal class="max-w-3xl mx-auto text-center mb-16">
 
                 <p class="text-brand text-sm uppercase tracking-wide mb-4">
                     Deine Vorteile
@@ -38,8 +38,8 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
                 <!-- Card -->
-                <div class="bg-neutral-800/60 border border-neutral-800 rounded-2xl p-8 hover:border-brand transition">
-                    <div class="text-3xl mb-5">🚀</div>
+                <div v-reveal="{ delay: 0 }" class="group bg-neutral-800/60 border border-neutral-800 rounded-2xl p-8 hover:border-brand hover:-translate-y-1 transition">
+                    <IconBadge :icon="BoltIcon" class="mb-5" />
 
                     <h3 class="text-xl font-semibold mb-3">
                         Schnell & performant
@@ -52,8 +52,8 @@
                 </div>
 
                 <!-- Card -->
-                <div class="bg-neutral-800/60 border border-neutral-800 rounded-2xl p-8 hover:border-brand transition">
-                    <div class="text-3xl mb-5">📈</div>
+                <div v-reveal="{ delay: 80 }" class="group bg-neutral-800/60 border border-neutral-800 rounded-2xl p-8 hover:border-brand hover:-translate-y-1 transition">
+                    <IconBadge :icon="ArrowTrendingUpIcon" class="mb-5" />
 
                     <h3 class="text-xl font-semibold mb-3">
                         Mehr Anfragen
@@ -66,8 +66,8 @@
                 </div>
 
                 <!-- Card -->
-                <div class="bg-neutral-800/60 border border-neutral-800 rounded-2xl p-8 hover:border-brand transition">
-                    <div class="text-3xl mb-5">🔍</div>
+                <div v-reveal="{ delay: 160 }" class="group bg-neutral-800/60 border border-neutral-800 rounded-2xl p-8 hover:border-brand hover:-translate-y-1 transition">
+                    <IconBadge :icon="MagnifyingGlassIcon" class="mb-5" />
 
                     <h3 class="text-xl font-semibold mb-3">
                         Besser bei Google
@@ -80,8 +80,8 @@
                 </div>
 
                 <!-- Card -->
-                <div class="bg-neutral-800/60 border border-neutral-800 rounded-2xl p-8 hover:border-brand transition">
-                    <div class="text-3xl mb-5">📱</div>
+                <div v-reveal="{ delay: 240 }" class="group bg-neutral-800/60 border border-neutral-800 rounded-2xl p-8 hover:border-brand hover:-translate-y-1 transition">
+                    <IconBadge :icon="DevicePhoneMobileIcon" class="mb-5" />
 
                     <h3 class="text-xl font-semibold mb-3">
                         Perfekt auf jedem Gerät
@@ -94,8 +94,8 @@
                 </div>
 
                 <!-- Card -->
-                <div class="bg-neutral-800/60 border border-neutral-800 rounded-2xl p-8 hover:border-brand transition">
-                    <div class="text-3xl mb-5">⚡</div>
+                <div v-reveal="{ delay: 320 }" class="group bg-neutral-800/60 border border-neutral-800 rounded-2xl p-8 hover:border-brand hover:-translate-y-1 transition">
+                    <IconBadge :icon="RocketLaunchIcon" class="mb-5" />
 
                     <h3 class="text-xl font-semibold mb-3">
                         Zukunftssicher
@@ -108,8 +108,8 @@
                 </div>
 
                 <!-- Card -->
-                <div class="bg-neutral-800/60 border border-neutral-800 rounded-2xl p-8 hover:border-brand transition">
-                    <div class="text-3xl mb-5">🤝</div>
+                <div v-reveal="{ delay: 400 }" class="group bg-neutral-800/60 border border-neutral-800 rounded-2xl p-8 hover:border-brand hover:-translate-y-1 transition">
+                    <IconBadge :icon="UserGroupIcon" class="mb-5" />
 
                     <h3 class="text-xl font-semibold mb-3">
                         Persönlicher Ansprechpartner
@@ -138,4 +138,6 @@
 </template>
 
 <script setup>
+import { BoltIcon, ArrowTrendingUpIcon, MagnifyingGlassIcon, DevicePhoneMobileIcon, RocketLaunchIcon, UserGroupIcon } from '@heroicons/vue/24/outline'
+import IconBadge from '@/components/ui/IconBadge.vue'
 </script>

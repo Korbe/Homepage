@@ -3,23 +3,22 @@
         <div class="max-w-4xl mx-auto px-6">
 
             <!-- Heading -->
-            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+            <h2 v-reveal class="text-3xl md:text-4xl font-bold mb-12 text-center">
                 Häufige <span class="text-brand">Fragen</span>
             </h2>
 
             <!-- FAQ Items -->
             <div class="space-y-4">
 
-                <div v-for="(faq, i) in faqs" :key="i" class="border border-neutral-800 rounded-xl bg-neutral-800/60">
+                <div v-for="(faq, i) in faqs" :key="i" v-reveal="{ delay: i * 60 }" class="border border-neutral-800 rounded-xl bg-neutral-800/60">
 
-                    <button class="w-full text-left px-6 py-4 flex justify-between items-center" @click="toggle(i)">
+                    <button class="w-full text-left px-6 py-4 flex justify-between items-center gap-4" @click="toggle(i)">
                         <span class="font-medium">
                             {{ faq.q }}
                         </span>
 
-                        <span class="text-neutral-300">
-                            {{ openIndex === i ? '-' : '+' }}
-                        </span>
+                        <ChevronDownIcon class="w-5 h-5 text-brand shrink-0 transition-transform duration-300"
+                            :class="openIndex === i ? 'rotate-180' : ''" />
                     </button>
 
                     <div v-if="openIndex === i" class="px-6 pb-6 text-neutral-400 text-sm leading-relaxed">
@@ -36,6 +35,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import { ChevronDownIcon } from '@heroicons/vue/24/outline'
 import { homevisitsFaqs } from '@/faqs.js'
 
 const faqs = homevisitsFaqs;
