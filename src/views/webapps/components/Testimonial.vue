@@ -1,6 +1,9 @@
 <script setup>
 import gilgenreinerLogo from '@/assets/gilgenreiner-logo.png'
 import fcgLogo from '@/assets/fcg-logo.png'
+import { ArrowUpRightIcon } from '@heroicons/vue/24/outline'
+import '@fontsource-variable/bricolage-grotesque'
+import '@/styles/spotlight.css'
 
 const testimonials = [
     {
@@ -21,77 +24,59 @@ const testimonials = [
 </script>
 
 <template>
-    <section class="relative bg-neutral-900/95 py-24 sm:py-32 overflow-visible">
+    <section class="wa-section">
+        <div class="wa-glow -bottom-40 -left-40"></div>
 
-        <!-- Glow -->
-        <div class="pointer-events-none absolute inset-0 z-0 overflow-hidden">
-            <div class="absolute bottom-0 left-0
-               -translate-x-1/2 translate-y-1/2
-               h-[900px] w-[900px]
-               rounded-full
-               bg-brand
-               opacity-25
-               blur-[140px]
-               mix-blend-screen">
-            </div>
-        </div>
+        <div class="wa-wrap">
 
-        <!-- Content -->
-        <div class="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
-
-            <!-- Headline -->
-            <div class="flex justify-center">
-                <div v-reveal class="max-w-2xl text-center mb-16">
-                    <p class="text-sm text-brand uppercase tracking-wide mb-4">
-                        Kundenstimmen
-                    </p>
-
-                    <h2 class="text-3xl md:text-4xl font-bold text-white">
-                        Web-Apps, die wirklich <span class="text-brand">funktionieren</span>
-                    </h2>
-
-                    <p class="text-neutral-400 mt-4">
-                        Keine Templates. Keine Baukästen. Sondern echte Systeme mit Performance.
-                    </p>
-                </div>
+            <div v-reveal class="wa-head">
+                <p class="wa-pill">Kundenstimmen</p>
+                <h2 class="wa-title">
+                    Web-Apps, die wirklich <span class="wa-grad">funktionieren</span>
+                </h2>
+                <p class="wa-lead">Keine Templates. Keine Baukästen. Sondern echte Systeme mit Performance.</p>
             </div>
 
-            <!-- Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="grid gap-6 md:grid-cols-2">
+                <figure v-for="(t, i) in testimonials" :key="t.name" v-reveal="{ delay: i * 120 }" v-spot
+                    class="wa-card flex flex-col p-8 md:p-10">
 
-                <div v-for="(testimonial, index) in testimonials" :key="index" v-reveal="{ delay: index * 120 }"
-                    class="relative border border-neutral-800 rounded-2xl p-8 bg-neutral-800/60 backdrop-blur hover:bg-neutral-900/50 hover:border-brand hover:-translate-y-1 transition">
+                    <span class="wa-q" aria-hidden="true">“</span>
 
-                    <!-- Card Hover Glow -->
-                    <div class="absolute inset-0 bg-brand/5 opacity-0 hover:opacity-100 transition rounded-2xl"></div>
-
-                    <div class="relative z-10 flex flex-col justify-between h-full">
-
-                        <div v-if="testimonial.logo" class="mb-6">
-                            <img :src="testimonial.logo" alt="Logo" class="h-16 object-contain opacity-80" />
-                        </div>
-
-                        <blockquote class="text-lg text-neutral-200 leading-relaxed">
-                            “{{ testimonial.text }}”
-                        </blockquote>
-
-                        <div class="mt-8">
-                            <div class="font-semibold text-white">
-                                {{ testimonial.name }}
-                            </div>
-                            <div class="text-sm text-neutral-400">
-                                {{ testimonial.company }}
-                            </div>
-                        </div>
-
-                        <a :href="testimonial.link" target="_blank" class="pt-5 text-brand hover:underline">
-                            Mehr erfahren über {{ testimonial.company }} →
-                        </a>
-
+                    <div v-if="t.logo" class="mb-8">
+                        <img :src="t.logo" :alt="`Logo ${t.company}`" class="h-14 object-contain opacity-80" />
                     </div>
-                </div>
 
+                    <blockquote class="mb-8 text-lg leading-relaxed text-neutral-100 md:text-xl">
+                        {{ t.text }}
+                    </blockquote>
+
+                    <figcaption class="mt-auto flex items-end justify-between gap-4">
+                        <div>
+                            <p class="font-semibold">{{ t.name }}</p>
+                            <p class="text-sm text-neutral-400">{{ t.company }}</p>
+                        </div>
+                        <a :href="t.link" target="_blank" rel="noopener"
+                            class="inline-flex items-center gap-1.5 text-sm font-medium text-brand hover:underline">
+                            Zur Website <ArrowUpRightIcon class="h-4 w-4" />
+                        </a>
+                    </figcaption>
+                </figure>
             </div>
         </div>
     </section>
 </template>
+
+<style scoped>
+.wa-q {
+    position: absolute !important;
+    right: 1.8rem;
+    top: -0.4rem;
+    font-family: 'Bricolage Grotesque Variable', Georgia, serif;
+    font-size: 8rem;
+    font-weight: 800;
+    line-height: 1;
+    color: rgb(31 171 171 / 0.14);
+    pointer-events: none;
+}
+</style>

@@ -1,215 +1,112 @@
 <template>
-    <section class="relative py-24 bg-neutral-900/95 text-white overflow-hidden">
+    <section class="wa-section">
+        <div class="wa-glow -bottom-40 -right-40"></div>
 
-        <!-- Glow -->
-        <div class="pointer-events-none absolute inset-0 z-0 overflow-hidden">
-            <div class="absolute bottom-0 right-0
-               translate-x-1/2 translate-y-1/2
-               h-[900px] w-[900px]
-               rounded-full
-               bg-brand
-               opacity-25
-               blur-[140px]
-               mix-blend-screen">
+        <div class="wa-wrap">
+
+            <div v-reveal class="wa-head">
+                <p class="wa-pill">Das Problem</p>
+                <h2 class="wa-title">
+                    Warum viele Unternehmenswebsites nie <span class="wa-grad">erfolgreich</span> werden
+                </h2>
+                <p class="wa-lead">
+                    Viele Websites sehen zwar gut aus, sind aber langsam, technisch eingeschränkt oder kaum bei
+                    Google sichtbar. Das Ergebnis: Weniger Besucher, weniger Anfragen und unnötige laufende Kosten.
+                </p>
             </div>
-        </div>
 
-        <div class="relative z-10 max-w-7xl mx-auto mt-16 px-6 lg:px-12">
+            <div class="relative grid gap-6 lg:grid-cols-2 lg:gap-10">
 
-            <!-- Heading -->
-            <div class="flex justify-center">
-                <div v-reveal class="max-w-3xl text-center mb-16">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-4">
-                        Warum viele Unternehmenswebsites nie <span class="text-brand">erfolgreich</span> werden
-                    </h2>
+                <!-- VS -->
+                <div class="wa-vs hidden lg:flex" aria-hidden="true">VS</div>
 
-                    <p class="text-neutral-400 text-lg">
-                        Viele Websites sehen zwar gut aus, sind aber langsam, technisch eingeschränkt oder kaum bei
-                        Google sichtbar. Das Ergebnis: Weniger Besucher, weniger Anfragen und unnötige laufende Kosten.
+                <!-- Standardlösung -->
+                <div v-reveal v-spot class="wa-card p-8 lg:p-10">
+                    <p class="mb-8 flex items-center gap-3 text-sm font-medium uppercase tracking-widest text-red-300/80">
+                        <span class="h-px w-8 bg-red-400/50"></span> Typische Standardlösung
                     </p>
-                </div>
-            </div>
 
-            <div class="grid md:grid-cols-2 gap-10">
-
-                <!-- ❌ Problem -->
-                <div v-reveal
-                    class="border border-neutral-700 rounded-2xl p-8 bg-neutral-900/70 backdrop-blur shadow-md shadow-black/20 transition">
-
-                    <h3 class="text-xl font-semibold mb-6 text-red-400">
-                        Typische Standardlösung
-                    </h3>
-
-                    <ul class="space-y-4 text-neutral-300">
-
-                        <li class="flex items-center gap-3">
-                            <span class="flex h-5 w-5 items-center justify-center rounded-full bg-red-500/15">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-red-400" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18" />
-                                </svg>
-                            </span>
-                            WordPress
+                    <ul class="space-y-4">
+                        <li v-for="item in bad" :key="item" class="flex items-center gap-3 text-neutral-400">
+                            <span class="wa-x"><XMarkIcon class="h-3.5 w-3.5" /></span>
+                            {{ item }}
                         </li>
-
-                        <li class="flex items-center gap-3">
-                            <span class="flex h-5 w-5 items-center justify-center rounded-full bg-red-500/15">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-red-400" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18" />
-                                </svg>
-                            </span>
-                            Baukastensysteme
-                        </li>
-
-                        <li class="flex items-center gap-3">
-                            <span class="flex h-5 w-5 items-center justify-center rounded-full bg-red-500/15">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-red-400" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18" />
-                                </svg>
-                            </span>
-                            Immer die gleichen Themes
-                        </li>
-
-                        <li class="flex items-center gap-3">
-                            <span class="flex h-5 w-5 items-center justify-center rounded-full bg-red-500/15">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-red-400" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18" />
-                                </svg>
-                            </span>
-                            Langsame Ladezeiten
-                        </li>
-
-                        <li class="flex items-center gap-3">
-                            <span class="flex h-5 w-5 items-center justify-center rounded-full bg-red-500/15">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-red-400" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18" />
-                                </svg>
-                            </span>
-                            Plugins
-                        </li>
-
-                        <li class="flex items-center gap-3">
-                            <span class="flex h-5 w-5 items-center justify-center rounded-full bg-red-500/15">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-red-400" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18" />
-                                </svg>
-                            </span>
-                            Regelmäßige Sicherheitsupdates
-                        </li>
-
-                        <li class="flex items-center gap-3">
-                            <span class="flex h-5 w-5 items-center justify-center rounded-full bg-red-500/15">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-red-400" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18" />
-                                </svg>
-                            </span>
-                            Hoher Wartungsaufwand
-                        </li>
-
-                        <li class="flex items-center gap-3">
-                            <span class="flex h-5 w-5 items-center justify-center rounded-full bg-red-500/15">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-red-400" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18" />
-                                </svg>
-                            </span>
-                            Schlechte Erweiterbarkeit
-                        </li>
-
                     </ul>
-
                 </div>
 
-                <!-- ✅ Solution -->
-                <div v-reveal="{ delay: 120 }"
-                    class="border border-brand/50 rounded-2xl p-8 bg-neutral-900/75 backdrop-blur relative overflow-hidden shadow-lg shadow-black/30 transition hover:shadow-brand/20">
+                <!-- Individuelle Entwicklung -->
+                <div v-reveal="{ delay: 120 }" v-spot class="wa-card wa-card-hot p-8 lg:p-10">
+                    <p class="mb-8 flex items-center gap-3 text-sm font-medium uppercase tracking-widest text-brand">
+                        <span class="h-px w-8 bg-brand/60"></span> Individuelle Entwicklung
+                    </p>
 
-                    <!-- Accent Glow -->
-                    <div class="absolute inset-0 bg-linear-to-br from-brand/10 to-transparent opacity-80"></div>
-
-                    <div class="relative">
-                        <h3 class="text-xl font-semibold mb-6 text-brand">
-                            Individuelle Entwicklung
-                        </h3>
-
-                        <ul class="space-y-4 text-neutral-200">
-
-                            <li class="flex items-center gap-3">
-                                <span class="flex h-5 w-5 items-center justify-center rounded-full bg-brand/15">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-brand" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                    </svg>
-                                </span>
-                                Maximale Performance
-                            </li>
-
-                            <li class="flex items-center gap-3">
-                                <span class="flex h-5 w-5 items-center justify-center rounded-full bg-brand/15">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-brand" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                    </svg>
-                                </span>
-                                Höhere Sicherheit
-                            </li>
-
-                            <li class="flex items-center gap-3">
-                                <span class="flex h-5 w-5 items-center justify-center rounded-full bg-brand/15">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-brand" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                    </svg>
-                                </span>
-                                Individuell entwickelt
-                            </li>
-
-                            <li class="flex items-center gap-3">
-                                <span class="flex h-5 w-5 items-center justify-center rounded-full bg-brand/15">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-brand" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                    </svg>
-                                </span>
-                                Für Google optimiert
-                            </li>
-
-                            <li class="flex items-center gap-3">
-                                <span class="flex h-5 w-5 items-center justify-center rounded-full bg-brand/15">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-brand" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                    </svg>
-                                </span>
-                                Zukunftssicher & erweiterbar
-                            </li>
-
-                            <li class="flex items-center gap-3">
-                                <span class="flex h-5 w-5 items-center justify-center rounded-full bg-brand/15">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-brand" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                    </svg>
-                                </span>
-                                Keine unnötigen Plugins
-                            </li>
-
-                        </ul>
-                    </div>
-
+                    <ul class="space-y-4">
+                        <li v-for="item in good" :key="item" class="wa-check text-neutral-100">
+                            <CheckIcon />
+                            {{ item }}
+                        </li>
+                    </ul>
                 </div>
-
             </div>
-
         </div>
     </section>
 </template>
 
 <script setup>
+import { CheckIcon, XMarkIcon } from '@heroicons/vue/24/outline'
+import '@fontsource-variable/bricolage-grotesque'
+import '@/styles/spotlight.css'
+
+const bad = [
+    'WordPress',
+    'Baukastensysteme',
+    'Immer die gleichen Themes',
+    'Langsame Ladezeiten',
+    'Plugins',
+    'Regelmäßige Sicherheitsupdates',
+    'Hoher Wartungsaufwand',
+    'Schlechte Erweiterbarkeit'
+]
+
+const good = [
+    'Maximale Performance',
+    'Höhere Sicherheit',
+    'Individuell entwickelt',
+    'Für Google optimiert',
+    'Zukunftssicher & erweiterbar',
+    'Keine unnötigen Plugins'
+]
 </script>
+
+<style scoped>
+.wa-x {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.3rem;
+    height: 1.3rem;
+    flex-shrink: 0;
+    border-radius: 50%;
+    color: rgb(248 113 113);
+    background: rgb(248 113 113 / 0.12);
+}
+
+.wa-vs {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 5;
+    align-items: center;
+    justify-content: center;
+    width: 3.6rem;
+    height: 3.6rem;
+    transform: translate(-50%, -50%);
+    font-family: 'Bricolage Grotesque Variable', ui-sans-serif, sans-serif;
+    font-weight: 800;
+    font-size: 0.95rem;
+    color: #04201f;
+    background: var(--color-brand);
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #08090a, 0 0 40px rgb(31 171 171 / 0.6);
+}
+</style>

@@ -1,129 +1,120 @@
 <template>
-    <section class="relative py-24 bg-neutral-900/95 text-white overflow-hidden">
+    <section class="wa-section wa-section-alt">
+        <div class="wa-glow -right-40 top-0"></div>
 
-        <!-- Glow -->
-        <div class="pointer-events-none absolute inset-0 z-0 overflow-hidden">
-            <div class="absolute top-0 right-0
-               translate-x-1/2 -translate-y-1/2
-               h-[900px] w-[900px]
-               rounded-full
-               bg-brand
-               opacity-25
-               blur-[140px]
-               mix-blend-screen">
-            </div>
-        </div>
+        <div class="wa-wrap">
 
-        <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
-
-            <!-- Heading -->
-            <div v-reveal class="max-w-3xl mx-auto text-center mb-16">
-
-                <p class="text-brand text-sm uppercase tracking-wider mb-4">
-                    Moderne Technologien
-                </p>
-
-                <h2 class="text-3xl md:text-4xl font-bold mb-6">
-                    Die Technik im Hintergrund macht den <span class="text-brand">Unterschied</span>
+            <div v-reveal class="wa-head">
+                <p class="wa-pill">Moderne Technologien</p>
+                <h2 class="wa-title">
+                    Die Technik im Hintergrund macht den <span class="wa-grad">Unterschied</span>
                 </h2>
-
-                <p class="text-neutral-400 text-lg">
+                <p class="wa-lead">
                     Du musst keine Programmiersprachen kennen.
                     Wichtig ist nur eines: Deine Website soll schnell, sicher und langfristig erweiterbar sein.
                     Genau dafür setze ich auf moderne Technologien.
                 </p>
-
             </div>
 
-            <!-- Cards -->
-            <div class="grid lg:grid-cols-3 gap-6">
+            <div class="grid gap-6 lg:grid-cols-3">
+                <article v-for="(t, i) in stack" :key="t.title" v-reveal="{ delay: i * 100 }" v-spot
+                    class="wa-card flex flex-col p-8">
 
-                <!-- Frontend -->
-                <div v-reveal="{ delay: 0 }" class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-brand hover:-translate-y-1 transition">
+                    <span class="wa-icon mb-6">
+                        <component :is="t.icon" class="h-6 w-6" />
+                    </span>
+                    <h3 class="mb-3 text-xl font-semibold">{{ t.title }}</h3>
+                    <p class="mb-8 leading-relaxed text-neutral-400">{{ t.text }}</p>
 
-                    <IconBadge :icon="BoltIcon" class="mb-6" />
-
-                    <h3 class="text-xl font-semibold mb-4">
-                        Schnell & modern
-                    </h3>
-
-                    <p class="text-neutral-400 mb-6">
-                        Moderne Frontend-Technologien sorgen für blitzschnelle Ladezeiten,
-                        flüssige Animationen und ein hochwertiges Nutzererlebnis.
-                    </p>
-
-                    <div class="text-sm text-neutral-500">
-                        Vue.js · TailwindCSS · Vite
-                    </div>
-
-                </div>
-
-                <!-- Backend -->
-                <div v-reveal="{ delay: 120 }" class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-brand hover:-translate-y-1 transition">
-
-                    <IconBadge :icon="LockClosedIcon" class="mb-6" />
-
-                    <h3 class="text-xl font-semibold mb-4">
-                        Stabil & sicher
-                    </h3>
-
-                    <p class="text-neutral-400 mb-6">
-                        Im Hintergrund arbeitet ein stabiles Backend,
-                        das Daten verarbeitet, Benutzer verwaltet
-                        und dein Unternehmen zuverlässig unterstützt.
-                    </p>
-
-                    <div class="text-sm text-neutral-500">
-                        Laravel · MySQL · PHP
-                    </div>
-
-                </div>
-
-                <!-- Architecture -->
-                <div v-reveal="{ delay: 240 }" class="bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-brand hover:-translate-y-1 transition">
-
-                    <IconBadge :icon="RocketLaunchIcon" class="mb-6" />
-
-                    <h3 class="text-xl font-semibold mb-4">
-                        Für die Zukunft gebaut
-                    </h3>
-
-                    <p class="text-neutral-400 mb-6">
-                        Dein Unternehmen entwickelt sich weiter.
-                        Deshalb entwickle ich Websites und Web-Apps,
-                        die problemlos erweitert werden können.
-                    </p>
-
-                    <div class="text-sm text-neutral-500">
-                        Clean Architecture · SSG · SSR · Skalierbar
-                    </div>
-
-                </div>
-
+                    <ul class="mt-auto flex flex-wrap gap-2">
+                        <li v-for="tag in t.tags" :key="tag" class="wa-chip">{{ tag }}</li>
+                    </ul>
+                </article>
             </div>
 
-            <!-- Bottom -->
-            <div class="mt-16 border border-brand/30 rounded-2xl bg-neutral-900/70 backdrop-blur p-8 text-center">
-
-                <h3 class="text-2xl font-semibold mb-4">
-                    Technologie ist Mittel zum Zweck.
-                </h3>
-
-                <p class="text-neutral-300 max-w-3xl mx-auto leading-relaxed">
-                    Du kaufst bei mir keine Programmiersprache.
-                    Du bekommst eine Website oder Web-Anwendung,
-                    die zuverlässig funktioniert, bei Google gefunden wird
-                    und dein Unternehmen langfristig unterstützt.
-                </p>
-
+            <!-- Aussage als Code-Block -->
+            <div v-reveal class="wa-code mx-auto mt-14 max-w-3xl">
+                <div class="wa-code-bar"><i></i><i></i><i></i><span>philosophie.js</span></div>
+                <div class="p-7 text-center md:p-9">
+                    <h3 class="mb-3 text-2xl font-semibold">Technologie ist Mittel zum Zweck.</h3>
+                    <p class="leading-relaxed text-neutral-300">
+                        Du kaufst bei mir keine Programmiersprache.
+                        Du bekommst eine Website oder Web-Anwendung,
+                        die zuverlässig funktioniert, bei Google gefunden wird
+                        und dein Unternehmen langfristig unterstützt.
+                    </p>
+                </div>
             </div>
-
         </div>
-
     </section>
 </template>
 
 <script setup>
 import { BoltIcon, LockClosedIcon, RocketLaunchIcon } from '@heroicons/vue/24/outline'
-import IconBadge from '@/components/ui/IconBadge.vue'
+import '@fontsource-variable/bricolage-grotesque'
+import '@/styles/spotlight.css'
+
+const stack = [
+    {
+        title: 'Schnell & modern',
+        text: 'Moderne Frontend-Technologien sorgen für blitzschnelle Ladezeiten, flüssige Animationen und ein hochwertiges Nutzererlebnis.',
+        icon: BoltIcon,
+        tags: ['Vue.js', 'TailwindCSS', 'Vite']
+    },
+    {
+        title: 'Stabil & sicher',
+        text: 'Im Hintergrund arbeitet ein stabiles Backend, das Daten verarbeitet, Benutzer verwaltet und dein Unternehmen zuverlässig unterstützt.',
+        icon: LockClosedIcon,
+        tags: ['Laravel', 'MySQL', 'PHP']
+    },
+    {
+        title: 'Für die Zukunft gebaut',
+        text: 'Dein Unternehmen entwickelt sich weiter. Deshalb entwickle ich Websites und Web-Apps, die problemlos erweitert werden können.',
+        icon: RocketLaunchIcon,
+        tags: ['Clean Architecture', 'SSG', 'SSR', 'Skalierbar']
+    }
+]
 </script>
+
+<style scoped>
+.wa-chip {
+    padding: 0.4rem 0.85rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #7ff3e3;
+    border: 1px solid rgb(31 171 171 / 0.35);
+    border-radius: 999px;
+    background: rgb(31 171 171 / 0.1);
+}
+
+.wa-code {
+    overflow: hidden;
+    border: 1px solid rgb(255 255 255 / 0.1);
+    border-radius: 24px;
+    background: #0a0f0f;
+    box-shadow: 0 30px 60px -30px rgb(31 171 171 / 0.35);
+}
+
+.wa-code-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.75rem 1.1rem;
+    border-bottom: 1px solid rgb(255 255 255 / 0.08);
+    background: rgb(255 255 255 / 0.04);
+}
+
+.wa-code-bar i {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgb(255 255 255 / 0.18);
+}
+
+.wa-code-bar span {
+    margin-left: 0.7rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.75rem;
+    color: rgb(163 163 163);
+}
+</style>

@@ -1,67 +1,141 @@
 <template>
-    <section class="relative py-24 bg-neutral-900/95 text-white overflow-hidden">
+    <section class="pg-section pg-section-alt">
+        <div class="pg-glow pg-glow-amber -right-40 -top-40"></div>
 
-        <!-- Glow Background -->
-        <div class="pointer-events-none absolute inset-0 z-0">
-            <div
-                class="absolute -top-[300px] -right-[300px] h-[700px] w-[700px] rounded-full bg-brand opacity-20 blur-[160px]">
-            </div>
-        </div>
+        <div class="pg-wrap">
 
-        <!-- Content -->
-        <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
-
-            <!-- Headline -->
-            <div v-reveal class="mx-auto text-center max-w-2xl mb-16">
-                <p class="text-brand text-sm uppercase tracking-wide mb-4">
-                    Warum kein Fertig-PC?
-                </p>
-
-                <h2 class="text-3xl md:text-4xl font-bold leading-tight mb-6">
-                    Fertig-PCs sparen Zeit - kosten dich Performance
+            <div v-reveal class="pg-head">
+                <p class="pg-tag">02 · Warum kein Fertig-PC?</p>
+                <h2 class="pg-title">
+                    Fertig-PCs sparen Zeit - kosten dich <span class="pg-grad">Performance</span>
                 </h2>
-
-                <p class="text-neutral-300 text-lg">
+                <p class="pg-lead">
                     Viele Systeme sehen gut aus, sind aber technisch schlecht abgestimmt. Genau hier liegt der
                     Unterschied.
                 </p>
             </div>
 
-            <!-- Grid -->
-            <div class="grid md:grid-cols-2 gap-8">
+            <div class="relative grid gap-8 lg:grid-cols-2 lg:gap-12">
 
-                <!-- ❌ Fertig-PC -->
-                <div v-reveal class="hover:bg-neutral-900/50 hover:border-brand bg-neutral-900 border border-neutral-800 rounded-2xl p-8 backdrop-blur">
-                    <p class="text-red-400 text-sm uppercase tracking-wide mb-4">
-                        ❌ Typische Probleme bei Fertig-PCs
+                <div class="pg-vs hidden lg:flex pg-font" aria-hidden="true">VS</div>
+
+                <!-- Fertig-PC -->
+                <article v-reveal class="pg-card p-8 lg:p-10">
+                    <p class="pg-font mb-6 text-sm font-bold uppercase tracking-[0.2em] text-red-300">
+                        Typische Probleme bei Fertig-PCs
                     </p>
 
-                    <ul class="space-y-3 text-neutral-300">
-                        <li>• Schlechte Abstimmung der Komponenten</li>
-                        <li>• Überteuerte Marketing-Hardware</li>
-                        <li>• Bottlenecks im System</li>
-                        <li>• Billige Netzteile & Kühlung</li>
-                        <li>• Kaum Upgrade-Möglichkeiten</li>
-                    </ul>
-                </div>
+                    <div class="mb-8">
+                        <div class="mb-2 flex justify-between text-xs uppercase tracking-widest text-neutral-500">
+                            <span>Bottleneck-Risiko</span>
+                        </div>
+                        <div class="pg-meter"><span class="pg-meter-bad"></span></div>
+                    </div>
 
-                <!-- ✅ Custom Build -->
-                <div v-reveal="{ delay: 120 }" class="hover:bg-neutral-900/50 hover:border-brand bg-neutral-900 border border-neutral-800 rounded-2xl p-8 backdrop-blur">
-                    <p class="text-green-400 text-sm uppercase tracking-wide mb-4">
-                        ✔ Dein Vorteil mit Custom Build
+                    <ul class="space-y-3.5 text-neutral-300">
+                        <li v-for="l in bad" :key="l" class="pg-check pg-cross"><XMarkIcon />{{ l }}</li>
+                    </ul>
+                </article>
+
+                <!-- Custom Build -->
+                <article v-reveal="{ delay: 120 }" class="pg-card pg-card-hot p-8 lg:p-10">
+                    <p class="pg-font mb-6 text-sm font-bold uppercase tracking-[0.2em] text-teal-300">
+                        Dein Vorteil mit Custom Build
                     </p>
 
-                    <ul class="space-y-3 text-neutral-300">
-                        <li>• Perfekte Balance aus CPU, GPU & RAM</li>
-                        <li>• Maximale Performance pro Euro</li>
-                        <li>• Keine Bottlenecks</li>
-                        <li>• Hochwertige & getestete Komponenten</li>
-                        <li>• Sauber aufgebaut & langfristig erweiterbar</li>
-                    </ul>
-                </div>
+                    <div class="mb-8">
+                        <div class="mb-2 flex justify-between text-xs uppercase tracking-widest text-neutral-500">
+                            <span>Bottleneck-Risiko</span>
+                        </div>
+                        <div class="pg-meter"><span class="pg-meter-good"></span></div>
+                    </div>
 
+                    <ul class="space-y-3.5 text-neutral-100">
+                        <li v-for="l in good" :key="l" class="pg-check"><CheckIcon />{{ l }}</li>
+                    </ul>
+                </article>
             </div>
-
         </div>
     </section>
 </template>
+
+<script setup>
+import { CheckIcon, XMarkIcon } from '@heroicons/vue/24/outline'
+import '@fontsource/chakra-petch/500.css'
+import '@fontsource/chakra-petch/700.css'
+import '@fontsource/chakra-petch/700-italic.css'
+import '@/styles/gaming.css'
+
+const bad = [
+    'Schlechte Abstimmung der Komponenten',
+    'Überteuerte Marketing-Hardware',
+    'Bottlenecks im System',
+    'Billige Netzteile & Kühlung',
+    'Kaum Upgrade-Möglichkeiten'
+]
+
+const good = [
+    'Perfekte Balance aus CPU, GPU & RAM',
+    'Maximale Performance pro Euro',
+    'Keine Bottlenecks',
+    'Hochwertige & getestete Komponenten',
+    'Sauber aufgebaut & langfristig erweiterbar'
+]
+</script>
+
+<style scoped>
+.pg-vs {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 5;
+    align-items: center;
+    justify-content: center;
+    width: 4.8rem;
+    height: 4.8rem;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1;
+    color: #05090a;
+    background: linear-gradient(135deg, #3fd9d0, #f5a524);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+.pg-meter {
+    height: 10px;
+    overflow: hidden;
+    background: rgb(255 255 255 / 0.08);
+    clip-path: polygon(0 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+}
+
+.pg-meter span {
+    display: block;
+    height: 100%;
+    animation: fill 1.4s 0.3s cubic-bezier(0.65, 0, 0.35, 1) both;
+}
+
+.pg-meter-bad {
+    width: 82%;
+    background: linear-gradient(90deg, #f59e0b, #ef4444);
+}
+
+.pg-meter-good {
+    width: 6%;
+    background: linear-gradient(90deg, #1fabab, #3fd9d0);
+    box-shadow: 0 0 12px #3fd9d0;
+}
+
+@keyframes fill {
+    from {
+        width: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .pg-meter span {
+        animation: none;
+    }
+}
+</style>

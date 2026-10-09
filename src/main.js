@@ -3,6 +3,7 @@ import './style.css'
 import App from './App.vue'
 import { routes, scrollBehavior } from './router/index.js'
 import { reveal } from './directives/reveal.js'
+import { spot } from './directives/spot.js'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
 export const createApp = ViteSSG(
@@ -10,6 +11,7 @@ export const createApp = ViteSSG(
   { routes, base: '/', scrollBehavior },
   ({ app, router, isClient }) => {
     app.directive('reveal', reveal)
+    app.directive('spot', spot)
 
     if (isClient) {
       router.afterEach((to) => {

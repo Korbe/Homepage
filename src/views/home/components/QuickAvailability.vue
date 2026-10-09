@@ -1,26 +1,54 @@
 <template>
-  <section class="py-16 bg-neutral-900/95 text-white">
-    <div v-reveal class="max-w-4xl mx-auto px-6 text-center">
+    <section class="wa-section !py-14">
+        <div class="wa-wrap">
+            <div v-reveal class="wa-strip">
+                <div class="flex items-center gap-5">
+                    <span class="wa-icon !h-14 !w-14 shrink-0 !text-accent">
+                        <BoltIcon class="h-7 w-7" />
+                    </span>
+                    <div>
+                        <p class="wa-num text-xl md:text-2xl">Schnelle Hilfe - wenn du sie brauchst</p>
+                        <p class="mt-1 text-neutral-400">
+                            In vielen Fällen ist ein Termin schon am selben oder nächsten Tag möglich.
+                        </p>
+                    </div>
+                </div>
 
-      <p class="text-neutral-300 text-lg mb-4 inline-flex items-center gap-2 justify-center">
-        <BoltIcon class="w-5 h-5 text-accent" /> Schnelle Hilfe - wenn du sie brauchst
-      </p>
-
-      <p class="text-neutral-400 mb-6">
-        In vielen Fällen ist ein Termin schon am selben oder nächsten Tag möglich.
-      </p>
-
-      <div class="flex justify-center">
-        <router-link to="/it-hilfe"
-          class="bg-brand text-black px-6 py-3 rounded-xl font-medium hover:opacity-90 hover:scale-105 transition">
-          Termin anfragen
-        </router-link>
-      </div>
-
-    </div>
-  </section>
+                <router-link to="/it-hilfe" class="wa-btn wa-btn-primary shrink-0">
+                    Termin anfragen
+                    <ArrowUpRightIcon class="h-5 w-5" />
+                </router-link>
+            </div>
+        </div>
+    </section>
 </template>
 
 <script setup>
-import { BoltIcon } from '@heroicons/vue/24/outline'
+import { ArrowUpRightIcon, BoltIcon } from '@heroicons/vue/24/outline'
+import '@fontsource-variable/bricolage-grotesque'
+import '@/styles/spotlight.css'
 </script>
+
+<style scoped>
+.wa-strip {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.8rem;
+    padding: 2rem;
+    border: 1px solid rgb(245 165 36 / 0.35);
+    border-radius: 28px;
+    background:
+        radial-gradient(ellipse 60% 140% at 0% 50%, rgb(245 165 36 / 0.14), transparent 70%),
+        rgb(255 255 255 / 0.025);
+}
+
+@media (min-width: 768px) {
+    .wa-strip {
+        flex-direction: row;
+        align-items: center;
+        padding: 2.2rem 2.8rem;
+    }
+}
+</style>

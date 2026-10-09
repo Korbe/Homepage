@@ -1,62 +1,60 @@
 <template>
-    <section class="relative py-24 bg-neutral-900/95 text-white overflow-hidden">
+    <section class="wa-section">
+        <div class="wa-glow -left-40 top-0"></div>
 
-        <!-- Glow -->
-        <div class="pointer-events-none absolute inset-0 z-0 overflow-hidden">
-            <div class="absolute left-0 top-0
-               -translate-x-1/2 -translate-y-1/2
-               h-[900px] w-[900px] rounded-full
-               bg-brand opacity-25 blur-[140px] mix-blend-screen">
-            </div>
-        </div>
+        <div class="wa-wrap">
 
-        <div class="max-w-5xl mx-auto px-6 text-center">
-
-            <p v-reveal class="text-brand text-sm uppercase tracking-wide mb-4">
-                Ablauf
-            </p>
-
-            <h2 v-reveal class="text-3xl md:text-4xl font-bold mb-12">
-                So läuft es ab
-            </h2>
-
-            <div class="relative grid md:grid-cols-3 gap-8">
-
-                <!-- Verbindungslinie -->
-                <div class="hidden md:block absolute top-6 left-[16.6%] right-[16.6%] h-px bg-linear-to-r from-brand/40 via-brand/40 to-brand/40"></div>
-
-                <div v-reveal="{ delay: 0 }" class="relative">
-                    <div class="mx-auto mb-3 flex items-center justify-center w-12 h-12 rounded-full bg-brand text-black font-bold text-lg relative z-10">
-                        01
-                    </div>
-                    <p class="text-neutral-300">
-                        Du schreibst mir dein Problem oder dein Projekt
-                    </p>
-                </div>
-
-                <div v-reveal="{ delay: 120 }" class="relative">
-                    <div class="mx-auto mb-3 flex items-center justify-center w-12 h-12 rounded-full bg-brand text-black font-bold text-lg relative z-10">
-                        02
-                    </div>
-                    <p class="text-neutral-300">
-                        Ich melde mich persönlich bei dir
-                    </p>
-                </div>
-
-                <div v-reveal="{ delay: 240 }" class="relative">
-                    <div class="mx-auto mb-3 flex items-center justify-center w-12 h-12 rounded-full bg-brand text-black font-bold text-lg relative z-10">
-                        03
-                    </div>
-                    <p class="text-neutral-300">
-                        Wir lösen das Problem oder setzen dein Projekt um
-                    </p>
-                </div>
-
+            <div v-reveal class="wa-head">
+                <p class="wa-pill">Ablauf</p>
+                <h2 class="wa-title">So läuft es <span class="wa-grad">ab</span></h2>
             </div>
 
+            <ol class="relative grid gap-6 md:grid-cols-3 md:gap-0">
+                <li v-for="(s, i) in steps" :key="s.text" v-reveal="{ delay: i * 130 }" class="step">
+                    <span class="step-no" aria-hidden="true">0{{ i + 1 }}</span>
+                    <span class="wa-icon mb-5"><component :is="s.icon" class="h-6 w-6" /></span>
+                    <p class="text-lg leading-snug text-neutral-100">{{ s.text }}</p>
+                </li>
+            </ol>
         </div>
     </section>
 </template>
 
 <script setup>
+import { ChatBubbleLeftRightIcon, CheckBadgeIcon, PhoneArrowUpRightIcon } from '@heroicons/vue/24/outline'
+import '@fontsource-variable/bricolage-grotesque'
+import '@/styles/spotlight.css'
+
+const steps = [
+    { text: 'Du schreibst mir dein Problem oder dein Projekt', icon: ChatBubbleLeftRightIcon },
+    { text: 'Ich melde mich persönlich bei dir', icon: PhoneArrowUpRightIcon },
+    { text: 'Wir lösen das Problem oder setzen dein Projekt um', icon: CheckBadgeIcon }
+]
 </script>
+
+<style scoped>
+.step {
+    position: relative;
+    padding: 2.5rem 2rem 2rem;
+}
+
+@media (min-width: 768px) {
+    .step + .step {
+        border-left: 1px dashed rgb(255 255 255 / 0.12);
+    }
+}
+
+.step-no {
+    position: absolute;
+    top: 0;
+    right: 1.5rem;
+    font-family: 'Bricolage Grotesque Variable', ui-sans-serif, sans-serif;
+    font-size: 6.5rem;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: transparent;
+    -webkit-text-stroke: 1.5px rgb(31 171 171 / 0.35);
+}
+
+</style>

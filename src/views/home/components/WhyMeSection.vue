@@ -1,101 +1,80 @@
 <template>
-    <section class="relative py-24 bg-neutral-900/95 text-white overflow-hidden">
+    <section class="wa-section wa-section-alt">
+        <div class="wa-glow -bottom-40 -left-40"></div>
 
-        <!-- Glow -->
-        <div class="pointer-events-none absolute inset-0 z-0 overflow-hidden">
-            <div class="absolute left-0 bottom-0 -translate-x-1/2 translate-y-1/2
-           h-[900px] w-[900px] rounded-full
-           bg-brand opacity-25 blur-[140px] mix-blend-screen">
-            </div>
-        </div>
+        <div class="wa-wrap">
 
-        <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
-
-            <!-- Heading -->
-            <div v-reveal class="mx-auto text-center max-w-2xl mb-16">
-                <p class="text-brand text-sm uppercase tracking-wide mb-4">
-                    Warum mit mir arbeiten?
-                </p>
-
-                <h2 class="text-3xl md:text-4xl font-bold leading-tight mb-6">
-                    Kein Standard-Service - sondern <span class="text-brand">echte Lösungen</span>
-                </h2>
-
-                <p class="text-neutral-400 text-lg">
+            <div v-reveal class="wa-head">
+                <p class="wa-pill">Warum mit mir arbeiten?</p>
+                <h2 class="wa-title">Kein Standard-Service - sondern <span class="wa-grad">echte Lösungen</span></h2>
+                <p class="wa-lead">
                     Ich arbeite nicht wie eine Agentur oder ein klassischer IT-Service -
                     sondern fokussiere mich auf Lösungen, die wirklich funktionieren.
                 </p>
             </div>
 
-            <!-- Grid -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-
-                <!-- Card 1 -->
-                <div v-reveal="{ delay: 0 }" class="group bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-brand hover:-translate-y-1 transition">
-                    <IconBadge :icon="LightBulbIcon" class="mb-4" />
-
-                    <h3 class="font-semibold mb-2">
-                        Kein Fachchinesisch
-                    </h3>
-
-                    <p class="text-neutral-400 text-sm">
-                        Ich erkläre dir alles so, dass du es wirklich verstehst - ohne unnötige Komplexität.
-                    </p>
-                </div>
-
-                <!-- Card 2 -->
-                <div v-reveal="{ delay: 80 }" class="group bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-brand hover:-translate-y-1 transition">
-                    <IconBadge :icon="Cog6ToothIcon" class="mb-4" />
-
-                    <h3 class="font-semibold mb-2">
-                        Individuelle Lösungen
-                    </h3>
-
-                    <p class="text-neutral-400 text-sm">
-                        Keine Templates, keine Baukastensysteme - alles wird exakt auf dich zugeschnitten.
-                    </p>
-                </div>
-
-                <!-- Card 3 -->
-                <div v-reveal="{ delay: 160 }" class="group bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-brand hover:-translate-y-1 transition">
-                    <IconBadge :icon="MapPinIcon" class="mb-4" />
-
-                    <h3 class="font-semibold mb-2">
-                        Vor Ort & persönlich
-                    </h3>
-
-                    <p class="text-neutral-400 text-sm">
-                        Direkter Kontakt, schnelle Termine und echte Hilfe - ohne Hotline oder Ticketsystem.
-                    </p>
-                </div>
-
-                <!-- Card 4 -->
-                <div v-reveal="{ delay: 240 }" class="group bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-brand hover:-translate-y-1 transition">
-                    <IconBadge :icon="RocketLaunchIcon" class="mb-4" />
-
-                    <h3 class="font-semibold mb-2">
-                        Fokus auf Ergebnisse
-                    </h3>
-
-                    <p class="text-neutral-400 text-sm">
-                        Ziel ist nicht „es funktioniert irgendwie“ - sondern dass es wirklich performant läuft.
-                    </p>
-                </div>
-
+            <!-- Bento -->
+            <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-6">
+                <article v-for="(c, i) in cards" :key="c.title" v-reveal="{ delay: i * 80 }" v-spot
+                    class="wa-card flex flex-col p-8" :class="c.span">
+                    <span class="wa-icon mb-6">
+                        <component :is="c.icon" class="h-6 w-6" />
+                    </span>
+                    <h3 class="mb-3 text-xl font-semibold">{{ c.title }}</h3>
+                    <p class="leading-relaxed text-neutral-400">{{ c.text }}</p>
+                </article>
             </div>
 
-            <!-- Bottom Statement -->
-            <div v-reveal class="mt-16 border border-neutral-800 rounded-2xl p-6 bg-neutral-900/60 backdrop-blur text-center">
-                <p class="text-neutral-300 text-lg">
-                    Ich löse keine Probleme halb - ich sorge dafür, dass sie wirklich erledigt sind.
+            <div v-reveal class="wa-statement mt-14">
+                <p class="text-xl font-medium leading-relaxed md:text-2xl">
+                    Ich löse keine Probleme halb - <span class="wa-grad">ich sorge dafür, dass sie wirklich erledigt sind.</span>
                 </p>
             </div>
-
         </div>
     </section>
 </template>
 
 <script setup>
-import { LightBulbIcon, Cog6ToothIcon, MapPinIcon, RocketLaunchIcon } from '@heroicons/vue/24/outline'
-import IconBadge from '@/components/ui/IconBadge.vue'
+import { Cog6ToothIcon, LightBulbIcon, MapPinIcon, RocketLaunchIcon } from '@heroicons/vue/24/outline'
+import '@fontsource-variable/bricolage-grotesque'
+import '@/styles/spotlight.css'
+
+const cards = [
+    {
+        title: 'Kein Fachchinesisch',
+        text: 'Ich erkläre dir alles so, dass du es wirklich verstehst - ohne unnötige Komplexität.',
+        icon: LightBulbIcon,
+        span: 'lg:col-span-4'
+    },
+    {
+        title: 'Individuelle Lösungen',
+        text: 'Keine Templates, keine Baukastensysteme - alles wird exakt auf dich zugeschnitten.',
+        icon: Cog6ToothIcon,
+        span: 'lg:col-span-2'
+    },
+    {
+        title: 'Vor Ort & persönlich',
+        text: 'Direkter Kontakt, schnelle Termine und echte Hilfe - ohne Hotline oder Ticketsystem.',
+        icon: MapPinIcon,
+        span: 'lg:col-span-2'
+    },
+    {
+        title: 'Fokus auf Ergebnisse',
+        text: 'Ziel ist nicht „es funktioniert irgendwie“ - sondern dass es wirklich performant läuft.',
+        icon: RocketLaunchIcon,
+        span: 'lg:col-span-4'
+    }
+]
 </script>
+
+<style scoped>
+.wa-statement {
+    padding: 3rem 2rem;
+    text-align: center;
+    border: 1px solid rgb(31 171 171 / 0.3);
+    border-radius: 28px;
+    background:
+        radial-gradient(ellipse 60% 140% at 50% 120%, rgb(31 171 171 / 0.2), transparent 70%),
+        rgb(255 255 255 / 0.02);
+}
+</style>

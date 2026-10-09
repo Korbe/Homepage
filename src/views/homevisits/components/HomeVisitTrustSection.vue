@@ -1,84 +1,108 @@
 <template>
-    <section class="relative py-24 bg-neutral-900/95 text-white overflow-hidden">
+    <section class="wk-section wk-section-alt">
+        <div class="wk-glow wk-glow-amber -bottom-40 -left-40"></div>
 
-        <!-- Glow links -->
-        <div class="pointer-events-none absolute inset-0 z-0">
-            <div
-                class="absolute -bottom-75 -left-75 h-175 w-175 rounded-full bg-brand opacity-15 blur-[160px]">
-            </div>
-        </div>
+        <div class="wk-wrap">
 
-        <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
-
-            <!-- Headline -->
-            <div v-reveal class="mx-auto text-center max-w-2xl mb-16">
-                <p class="text-brand text-sm uppercase tracking-wide mb-4">
-                    Warum ich?
-                </p>
-
-                <h2 class="text-3xl md:text-4xl font-bold leading-tight mb-6">
-                    Verständlich. Ehrlich. Direkt bei dir vor Ort.
-                </h2>
-
-                <p class="text-neutral-300 text-lg">
+            <div class="wk-head">
+                <div v-reveal>
+                    <p class="wk-kicker">04 / Warum ich?</p>
+                    <h2 class="wk-title">
+                        Verständlich. Ehrlich. <mark class="wk-mark">Direkt bei dir</mark> vor Ort.
+                    </h2>
+                </div>
+                <p v-reveal="{ delay: 80 }" class="wk-lead">
                     Kein Fachchinesisch, keine unnötigen Lösungen - ich erkläre dir alles so, dass du es wirklich
                     verstehst.
                 </p>
             </div>
 
-            <!-- Grid -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-
-                <!-- Card 1 -->
-                <div v-reveal="{ delay: 0 }" class="hover:border-brand hover:-translate-y-1 transition bg-neutral-900 border border-neutral-800 rounded-2xl p-6">
-                    <IconBadge :icon="LightBulbIcon" size="sm" class="mb-3" />
-                    <h3 class="font-semibold mb-2">Verständlich erklärt</h3>
-                    <p class="text-neutral-300 text-sm">
-                        Ich erkläre dir alles ohne Fachbegriffe - so, dass du es wirklich nachvollziehen kannst.
-                    </p>
-                </div>
-
-                <!-- Card 2 -->
-                <div v-reveal="{ delay: 80 }" class="hover:border-brand hover:-translate-y-1 transition bg-neutral-900 border border-neutral-800 rounded-2xl p-6">
-                    <IconBadge :icon="HomeIcon" size="sm" class="mb-3" />
-                    <h3 class="font-semibold mb-2">Direkt bei dir</h3>
-                    <p class="text-neutral-300 text-sm">
-                        Kein Hin- und Herfahren - ich komme zu dir und löse das Problem vor Ort.
-                    </p>
-                </div>
-
-                <!-- Card 3 -->
-                <div v-reveal="{ delay: 160 }" class="hover:border-brand hover:-translate-y-1 transition bg-neutral-900 border border-neutral-800 rounded-2xl p-6">
-                    <IconBadge :icon="BanknotesIcon" size="sm" class="mb-3" />
-                    <h3 class="font-semibold mb-2">Ehrliche Preise</h3>
-                    <p class="text-neutral-300 text-sm">
-                        Du zahlst nur die tatsächliche Arbeitszeit - keine versteckten Kosten.
-                    </p>
-                </div>
-
-                <!-- Card 4 -->
-                <div v-reveal="{ delay: 240 }" class="hover:border-brand hover:-translate-y-1 transition bg-neutral-900 border border-neutral-800 rounded-2xl p-6">
-                    <IconBadge :icon="BoltIcon" size="sm" class="mb-3" />
-                    <h3 class="font-semibold mb-2">Schnelle Hilfe</h3>
-                    <p class="text-neutral-300 text-sm">
-                        Ich versuche dein Problem direkt beim Termin zu lösen - ohne lange Wartezeiten.
-                    </p>
-                </div>
-
+            <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+                <article v-for="(t, i) in items" :key="t.title" v-reveal="{ delay: i * 80 }" class="wk-card p-7">
+                    <span class="wk-icon mb-6">
+                        <component :is="t.icon" class="h-6 w-6" />
+                    </span>
+                    <h3 class="mb-3 text-lg font-semibold">{{ t.title }}</h3>
+                    <p class="text-sm leading-relaxed text-neutral-400">{{ t.text }}</p>
+                </article>
             </div>
 
-            <!-- Bottom Statement -->
-            <div class="mt-16 border border-neutral-800 rounded-2xl p-6 bg-neutral-900/60 backdrop-blur text-center">
-                <p class="text-neutral-300 text-lg">
-                    Du musst kein Technik-Profi sein - dafür bin ich da.
+            <!-- Statement -->
+            <div v-reveal class="wk-statement mt-14">
+                <div class="wk-hazard"></div>
+                <p class="wk-mono">
+                    <span class="text-accent">&gt;</span> Du musst kein Technik-Profi sein - dafür bin ich da.<span class="wk-cursor"></span>
                 </p>
+                <div class="wk-hazard"></div>
             </div>
-
         </div>
     </section>
 </template>
 
 <script setup>
-import { LightBulbIcon, HomeIcon, BanknotesIcon, BoltIcon } from '@heroicons/vue/24/outline'
-import IconBadge from '@/components/ui/IconBadge.vue'
+import { BanknotesIcon, BoltIcon, HomeIcon, LightBulbIcon } from '@heroicons/vue/24/outline'
+import '@fontsource-variable/jetbrains-mono'
+import '../werkstatt.css'
+
+const items = [
+    {
+        title: 'Verständlich erklärt',
+        text: 'Ich erkläre dir alles ohne Fachbegriffe - so, dass du es wirklich nachvollziehen kannst.',
+        icon: LightBulbIcon
+    },
+    {
+        title: 'Direkt bei dir',
+        text: 'Kein Hin- und Herfahren - ich komme zu dir und löse das Problem vor Ort.',
+        icon: HomeIcon
+    },
+    {
+        title: 'Ehrliche Preise',
+        text: 'Du zahlst nur die tatsächliche Arbeitszeit - keine versteckten Kosten.',
+        icon: BanknotesIcon
+    },
+    {
+        title: 'Schnelle Hilfe',
+        text: 'Ich versuche dein Problem direkt beim Termin zu lösen - ohne lange Wartezeiten.',
+        icon: BoltIcon
+    }
+]
 </script>
+
+<style scoped>
+.wk-statement {
+    overflow: hidden;
+    border: 2px solid rgb(245 165 36 / 0.55);
+    border-radius: 14px;
+    background: #121214;
+    text-align: center;
+}
+
+.wk-statement p {
+    padding: 2rem 1.5rem;
+    font-size: clamp(1.1rem, 2.4vw, 1.6rem);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+}
+
+.wk-cursor {
+    display: inline-block;
+    width: 0.5em;
+    height: 1em;
+    margin-left: 0.2em;
+    vertical-align: -0.15em;
+    background: var(--color-brand);
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .wk-cursor {
+        animation: none;
+    }
+}
+</style>

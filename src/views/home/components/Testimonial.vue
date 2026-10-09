@@ -1,77 +1,50 @@
 <template>
-    <section class="relative py-24 bg-neutral-900/95 text-white overflow-hidden">
+    <section class="wa-section wa-section-alt">
+        <div class="wa-glow -right-40 top-1/4"></div>
 
-        <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
+        <div class="wa-wrap">
 
-            <!-- Heading -->
-            <div v-reveal class="text-center max-w-2xl mx-auto mb-16">
-                <p class="text-brand text-sm uppercase tracking-wide mb-4">
-                    Kundenstimmen
-                </p>
-
-                <h2 class="text-3xl md:text-4xl font-bold mb-6">
-                    Das sagen meine Kunden
-                </h2>
-
-                <p class="text-neutral-400 text-lg">
+            <div v-reveal class="wa-head">
+                <p class="wa-pill">Kundenstimmen</p>
+                <h2 class="wa-title">Das sagen meine <span class="wa-grad">Kunden</span></h2>
+                <p class="wa-lead">
                     Ehrliches Feedback von echten Kunden - von schneller IT-Hilfe bis zu kompletten Webprojekten.
                 </p>
             </div>
 
             <!-- Highlight -->
-            <div v-if="highlight" v-reveal class="mb-12">
-                <div
-                    class="hover:bg-neutral-900/50 hover:-translate-y-1 bg-neutral-900 border border-brand/50 rounded-2xl p-8 md:p-10 relative overflow-hidden transition">
+            <figure v-if="highlight" v-reveal v-spot class="wa-card wa-card-hot mb-6 p-8 md:p-12">
+                <span class="wa-q" aria-hidden="true">“</span>
+                <div class="stars mb-6" aria-label="5 von 5 Sternen">★★★★★</div>
+                <blockquote class="mb-8 max-w-4xl text-2xl font-medium leading-snug md:text-3xl">
+                    {{ highlight.text }}
+                </blockquote>
+                <figcaption class="flex items-center gap-4">
+                    <span class="avatar">{{ initials(highlight.name) }}</span>
+                    <span class="font-medium">{{ highlight.name }}</span>
+                </figcaption>
+            </figure>
 
-                    <!-- Accent -->
-                    <div class="absolute inset-0 bg-linear-to-br from-brand/10 to-transparent opacity-70"></div>
-
-                    <div class="relative">
-
-                        <!-- Stars -->
-                        <div class="flex gap-1 text-brand mb-4">
-                            <span v-for="i in 5" :key="i">★</span>
-                        </div>
-
-                        <p class="text-lg md:text-xl text-neutral-200 mb-6 leading-relaxed">
-                            {{ highlight.text }}
-                        </p>
-
-                        <p class="text-neutral-400 text-sm">
-                            — {{ highlight.name }}
-                        </p>
-
-                    </div>
-                </div>
+            <!-- weitere -->
+            <div class="grid gap-6 md:grid-cols-3">
+                <figure v-for="(t, i) in normalItems" :key="t.name" v-reveal="{ delay: i * 100 }" v-spot
+                    class="wa-card flex flex-col p-7">
+                    <div class="stars mb-4 text-sm" aria-label="5 von 5 Sternen">★★★★★</div>
+                    <blockquote class="mb-6 leading-relaxed text-neutral-300">{{ t.text }}</blockquote>
+                    <figcaption class="mt-auto flex items-center gap-3">
+                        <span class="avatar !h-9 !w-9 !text-xs">{{ initials(t.name) }}</span>
+                        <span class="text-sm text-neutral-400">{{ t.name }}</span>
+                    </figcaption>
+                </figure>
             </div>
-
-            <!-- Grid -->
-            <div class="grid md:grid-cols-3 gap-6">
-
-                <div v-for="(item, index) in normalItems" :key="index" v-reveal="{ delay: index * 100 }"
-                    class="hover:bg-neutral-900/50 hover:-translate-y-1 bg-neutral-800/40 border border-neutral-800 rounded-2xl p-6 transition">
-                    <!-- Stars -->
-                    <div class="flex gap-1 text-brand mb-3 text-sm">
-                        <span v-for="i in 5" :key="i">★</span>
-                    </div>
-
-                    <p class="text-neutral-300 text-sm mb-4">
-                        {{ item.text }}
-                    </p>
-
-                    <p class="text-neutral-500 text-xs">
-                        — {{ item.name }}
-                    </p>
-                </div>
-
-            </div>
-
         </div>
     </section>
 </template>
 
 <script setup>
 import { computed } from 'vue'
+import '@fontsource-variable/bricolage-grotesque'
+import '@/styles/spotlight.css'
 
 const testimonials = [
     {
@@ -93,13 +66,43 @@ const testimonials = [
     },
 ]
 
-// Highlight extrahieren
-const highlight = computed(() =>
-    testimonials.find(t => t.highlight)
-)
+const highlight = computed(() => testimonials.find(t => t.highlight))
+const normalItems = computed(() => testimonials.filter(t => !t.highlight))
 
-// Normale Items
-const normalItems = computed(() =>
-    testimonials.filter(t => !t.highlight)
-)
+// Initialen für den Avatar (Namen/Firmen ohne Foto)
+const initials = (name) =>
+    name.split(' ').filter(Boolean).slice(0, 2).map(p => p[0].toUpperCase()).join('')
 </script>
+
+<style scoped>
+.stars {
+    letter-spacing: 0.2em;
+    color: var(--color-accent);
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.8rem;
+    height: 2.8rem;
+    font-family: 'Bricolage Grotesque Variable', ui-sans-serif, sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #04201f;
+    background: linear-gradient(135deg, var(--color-brand), #7ff3e3);
+    border-radius: 50%;
+}
+
+.wa-q {
+    position: absolute !important;
+    right: 2rem;
+    top: -0.5rem;
+    font-family: 'Bricolage Grotesque Variable', Georgia, serif;
+    font-size: 10rem;
+    font-weight: 800;
+    line-height: 1;
+    color: rgb(31 171 171 / 0.14);
+    pointer-events: none;
+}
+</style>

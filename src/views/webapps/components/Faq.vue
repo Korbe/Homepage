@@ -1,62 +1,105 @@
 <template>
-    <section class="py-24 bg-neutral-900/95 text-white border-t border-neutral-900">
+    <section class="wa-section">
+        <div class="wa-glow -left-40 top-1/3"></div>
 
-        <div class="max-w-4xl mx-auto px-6">
+        <div class="wa-wrap">
 
-            <!-- Heading -->
-            <h2 v-reveal class="text-3xl md:text-4xl font-bold mb-12 text-center">
-                Häufige <span class="text-brand">Fragen</span>
-            </h2>
-
-            <!-- FAQ Items -->
-            <div class="space-y-4">
-
-                <div v-for="(faq, i) in faqs" :key="i" v-reveal="{ delay: i * 60 }"
-                    class="hover:border-brand transition relative border border-neutral-800 rounded-xl bg-neutral-800/60 overflow-hidden group">
-
-                    <!-- 🌟 Glow -->
-                    <div class="absolute inset-0 z-0 flex items-center justify-center pointer-events-none">
-                        <div class="h-[250px] w-[250px] rounded-full bg-brand opacity-0 blur-[120px] transition duration-300 group-hover:opacity-10"
-                            :class="openIndex === i ? 'opacity-15' : ''">
-                        </div>
-                    </div>
-
-                    <!-- Content -->
-                    <div class="relative z-10">
-
-                        <button class="w-full text-left px-6 py-4 flex justify-between items-center gap-4" @click="toggle(i)">
-                            <span class="font-medium">
-                                {{ faq.q }}
-                            </span>
-
-                            <ChevronDownIcon class="w-5 h-5 text-brand shrink-0 transition-transform duration-300"
-                                :class="openIndex === i ? 'rotate-180' : ''" />
-                        </button>
-
-                        <div v-if="openIndex === i" class="px-6 pb-6 text-neutral-400 text-sm leading-relaxed">
-                            {{ faq.a }}
-                        </div>
-
-                    </div>
-
-                </div>
-
+            <div v-reveal class="wa-head">
+                <p class="wa-pill">FAQ</p>
+                <h2 class="wa-title">Häufige <span class="wa-grad">Fragen</span></h2>
             </div>
 
+            <div class="mx-auto max-w-3xl space-y-3">
+                <div v-for="(faq, i) in faqs" :key="i" v-reveal="{ delay: i * 60 }" class="wa-faq"
+                    :class="openIndex === i ? 'is-open' : ''">
+
+                    <button type="button" class="wa-faq-btn" :aria-expanded="openIndex === i" @click="toggle(i)">
+                        <span class="flex-1 text-left text-lg font-medium">{{ faq.q }}</span>
+                        <span class="wa-faq-ico">
+                            <PlusIcon class="h-5 w-5" />
+                        </span>
+                    </button>
+
+                    <div class="wa-faq-panel" :style="{ gridTemplateRows: openIndex === i ? '1fr' : '0fr' }">
+                        <div class="overflow-hidden">
+                            <p class="px-6 pb-6 leading-relaxed text-neutral-400">{{ faq.a }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </template>
 
 <script setup>
 import { ref } from 'vue'
-import { ChevronDownIcon } from '@heroicons/vue/24/outline'
+import { PlusIcon } from '@heroicons/vue/24/outline'
 import { webappFaqs } from '@/faqs.js'
+import '@fontsource-variable/bricolage-grotesque'
+import '@/styles/spotlight.css'
 
 const faqs = webappFaqs
-
 const openIndex = ref(null)
 
 function toggle(i) {
     openIndex.value = openIndex.value === i ? null : i
 }
 </script>
+
+<style scoped>
+.wa-faq {
+    border: 1px solid rgb(255 255 255 / 0.09);
+    border-radius: 20px;
+    background: linear-gradient(160deg, rgb(255 255 255 / 0.05), rgb(255 255 255 / 0.015));
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.wa-faq:hover {
+    border-color: rgb(31 171 171 / 0.4);
+}
+
+.wa-faq.is-open {
+    border-color: rgb(31 171 171 / 0.6);
+    box-shadow: 0 25px 50px -30px rgb(31 171 171 / 0.5);
+}
+
+.wa-faq-btn {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.3rem 1.5rem;
+}
+
+.wa-faq-ico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.2rem;
+    height: 2.2rem;
+    flex-shrink: 0;
+    border-radius: 50%;
+    color: var(--color-brand);
+    background: rgb(31 171 171 / 0.12);
+    transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.3s, color 0.3s;
+}
+
+.is-open .wa-faq-ico {
+    transform: rotate(135deg);
+    color: #04201f;
+    background: var(--color-brand);
+}
+
+/* sanftes Auf- und Zuklappen ohne feste Höhe */
+.wa-faq-panel {
+    display: grid;
+    transition: grid-template-rows 0.35s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .wa-faq-panel,
+    .wa-faq-ico {
+        transition: none;
+    }
+}
+</style>

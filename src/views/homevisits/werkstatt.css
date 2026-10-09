@@ -1,0 +1,166 @@
+/*
+ * "Werkstatt"-Design der Seite PC Hilfe: Mono-Schrift, Amber-Akzent, harte Schatten, Punkteraster.
+ * Gemeinsame Bausteine für alle Sektionen unter dem Hero (Präfix wk-).
+ */
+
+.wk-mono {
+    font-family: 'JetBrains Mono Variable', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+/* ───── Sektion ───── */
+.wk-section {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    padding: 6rem 0;
+    color: #fff;
+    background: #0b0b0c;
+}
+
+.wk-section-alt {
+    background: #0f0f11;
+}
+
+.wk-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-image: radial-gradient(rgb(255 255 255 / 0.07) 1px, transparent 1px);
+    background-size: 28px 28px;
+    mask-image: radial-gradient(ellipse 90% 80% at 50% 40%, #000 25%, transparent 100%);
+    -webkit-mask-image: radial-gradient(ellipse 90% 80% at 50% 40%, #000 25%, transparent 100%);
+}
+
+.wk-glow {
+    position: absolute;
+    z-index: -1;
+    width: 520px;
+    height: 520px;
+    border-radius: 50%;
+    filter: blur(150px);
+    pointer-events: none;
+}
+
+.wk-glow-amber {
+    background: rgb(245 165 36 / 0.1);
+}
+
+.wk-glow-teal {
+    background: rgb(31 171 171 / 0.16);
+}
+
+.wk-wrap {
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+@media (min-width: 1024px) {
+    .wk-wrap {
+        padding: 0 3rem;
+    }
+}
+
+/* ───── Kopfbereich ───── */
+.wk-head {
+    display: grid;
+    gap: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+
+@media (min-width: 1024px) {
+    .wk-head {
+        grid-template-columns: 7fr 5fr;
+        align-items: end;
+        gap: 3rem;
+    }
+}
+
+.wk-kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 1.2rem;
+    padding: 0.4rem 0.75rem;
+    font-family: 'JetBrains Mono Variable', ui-monospace, monospace;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    border: 1px solid rgb(245 165 36 / 0.6);
+    background: rgb(245 165 36 / 0.1);
+}
+
+.wk-title {
+    font-family: 'JetBrains Mono Variable', ui-monospace, monospace;
+    font-size: clamp(1.8rem, 3.6vw, 2.9rem);
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -0.04em;
+}
+
+.wk-mark {
+    display: inline-block;
+    padding: 0 0.15em;
+    color: #0b0b0c;
+    background: var(--color-accent);
+    transform: rotate(-1.2deg);
+}
+
+.wk-lead {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: rgb(212 212 212);
+}
+
+/* ───── Karte ───── */
+.wk-card {
+    position: relative;
+    border: 2px solid rgb(255 255 255 / 0.14);
+    border-radius: 14px;
+    background: #121214;
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.wk-card:hover {
+    transform: translate(-3px, -3px);
+    border-color: var(--color-accent);
+    box-shadow: 6px 6px 0 var(--color-brand);
+}
+
+.wk-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid var(--color-accent);
+    border-radius: 8px;
+    color: var(--color-accent);
+    background: rgb(245 165 36 / 0.1);
+    transition: background 0.2s, color 0.2s;
+}
+
+.wk-card:hover .wk-icon {
+    color: #0b0b0c;
+    background: var(--color-accent);
+}
+
+.wk-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: 'JetBrains Mono Variable', ui-monospace, monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgb(115 115 115);
+}
+
+/* ───── Warnband ───── */
+.wk-hazard {
+    height: 12px;
+    background: repeating-linear-gradient(-45deg, var(--color-accent) 0 18px, #0b0b0c 18px 36px);
+}

@@ -14,8 +14,6 @@
 
         <Testimonial />
 
-        <SoundsGoodCta />
-
         <Faq />
 
         <Cta />
@@ -34,7 +32,6 @@ import Testimonial from './components/Testimonial.vue';
 import { useHead } from '@unhead/vue'
 import WhyMeSection from './components/WhyMeSection.vue';
 import LocalTrust from './components/LocalTrust.vue';
-import SoundsGoodCta from './components/SoundsGoodCta.vue';
 import QuickAvailability from './components/QuickAvailability.vue';
 import ProcessSection from './components/ProcessSection.vue';
 import SocialSection from '../../components/SocialSection.vue';

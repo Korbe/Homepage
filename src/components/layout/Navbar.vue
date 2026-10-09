@@ -29,7 +29,7 @@
 				</RouterLink>
 
 				<RouterLink to="/pc-builds" :class="isActive('/pc-builds')">
-					GAMING PC BUILDS
+					PC BUILDS
 				</RouterLink>
 
 				<RouterLink to="/about" :class="isActive('/about')">
@@ -88,7 +88,7 @@
 
 					<RouterLink @click="mobileOpen = false" to="/pc-builds" :class="isActive('/pc-builds')"
 						class="py-3 border-b border-neutral-800">
-						GAMING PC BUILDS
+						PC BUILDS
 					</RouterLink>
 
 					<RouterLink @click="mobileOpen = false" to="/about" :class="isActive('/about')"

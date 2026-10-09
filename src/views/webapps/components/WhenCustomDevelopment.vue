@@ -1,55 +1,58 @@
 <template>
-    <section class="relative py-20 bg-neutral-900/95 text-white">
+    <section class="wa-section wa-section-alt">
+        <div class="wa-glow -top-40 left-1/2 -translate-x-1/2"></div>
 
-        <!-- Glow -->
-        <div class="pointer-events-none absolute inset-0 z-0 overflow-hidden">
-            <div class="absolute top-0 right-0
-               translate-x-1/2 -translate-y-1/2
-               h-[900px] w-[900px]
-               rounded-full
-               bg-brand
-               opacity-25
-               blur-[140px]
-               mix-blend-screen">
-            </div>
-        </div>
+        <div class="wa-wrap">
+            <div v-reveal v-spot class="wa-card wa-card-hot wa-honest mx-auto max-w-4xl p-10 text-center md:p-16">
 
-        <div class="max-w-5xl mx-auto px-6 lg:px-12">
+                <span class="wa-quote" aria-hidden="true">“</span>
 
-            <div v-reveal class="border border-brand/30 rounded-2xl bg-neutral-800/60 backdrop-blur p-8 md:p-10 text-center">
+                <p class="wa-pill">Ehrlich gesagt</p>
 
-                <p class="text-brand text-sm uppercase tracking-wide mb-4">
-                    Ehrlich gesagt
-                </p>
-
-                <h2 class="text-3xl md:text-4xl font-bold mb-6">
-                    Nicht jedes Projekt braucht eine individuelle Entwicklung.
+                <h2 class="wa-title mx-auto mb-8 max-w-3xl">
+                    Nicht jedes Projekt braucht eine <span class="wa-grad">individuelle Entwicklung.</span>
                 </h2>
 
-                <p class="text-neutral-300 text-lg leading-relaxed max-w-3xl mx-auto">
+                <p class="mx-auto mb-6 max-w-2xl text-lg leading-relaxed text-neutral-300">
                     Für viele kleine Websites oder private Projekte ist WordPress oder ein Baukastensystem
                     eine vollkommen vernünftige Lösung.
                 </p>
 
-                <div class="my-8 border-t border-neutral-700"></div>
-
-                <p class="text-neutral-300 text-lg leading-relaxed max-w-3xl mx-auto">
+                <p class="mx-auto max-w-2xl text-lg leading-relaxed text-neutral-400">
                     Wenn deine Website jedoch ein wichtiger Bestandteil deines Unternehmens ist,
                     neue Kunden gewinnen soll oder langfristig mit deinem Business wachsen muss,
                     stoßen Standardlösungen häufig an ihre Grenzen.
                 </p>
 
-                <div class="mt-10 inline-flex items-center rounded-xl border border-brand/40 bg-brand/10 px-5 py-3">
-                    <span class="text-brand font-medium">
-                        Genau für solche Projekte entwickle ich individuelle Lösungen.
-                    </span>
+                <div class="mt-10 inline-flex items-center gap-3 rounded-full border border-brand/40 bg-brand/10 px-6 py-3 text-brand">
+                    <SparklesIcon class="h-5 w-5" />
+                    <span class="font-medium">Genau für solche Projekte entwickle ich individuelle Lösungen.</span>
                 </div>
-
             </div>
-
         </div>
     </section>
 </template>
 
 <script setup>
+import { SparklesIcon } from '@heroicons/vue/24/outline'
+import '@fontsource-variable/bricolage-grotesque'
+import '@/styles/spotlight.css'
 </script>
+
+<style scoped>
+.wa-honest {
+    position: relative;
+}
+
+.wa-quote {
+    position: absolute;
+    left: 2rem;
+    top: -1.2rem;
+    font-family: 'Bricolage Grotesque Variable', Georgia, serif;
+    font-size: 11rem;
+    font-weight: 800;
+    line-height: 1;
+    color: rgb(31 171 171 / 0.12);
+    pointer-events: none;
+}
+</style>

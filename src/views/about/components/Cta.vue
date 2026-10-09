@@ -1,53 +1,130 @@
 <template>
-    <section class="py-24 bg-neutral-900/95 text-white border-t border-neutral-800">
-        <div class="max-w-3xl mx-auto px-6 text-center">
+    <section class="sb-section sb-section-alt">
+        <div class="sb-glow left-1/2 top-0 -translate-x-1/2"></div>
 
-            <MailIllo v-reveal class="w-28 h-24 mx-auto mb-4" />
+        <div class="sb-wrap max-w-5xl text-center">
 
-            <!-- Headline -->
-            <h2 v-reveal class="text-3xl md:text-4xl font-bold mb-4">
-                Jetzt kennst du <span class="text-brand">mich</span> - wer bist <span class="text-brand">du</span>?
-            </h2>
+            <div v-reveal>
+                <MailIllo class="mx-auto mb-2 h-24 w-auto" />
+                <p class="sb-kicker sb-hand mx-auto">dein zug</p>
+                <h2 class="sb-title mb-5">
+                    Jetzt kennst du <em>mich</em> - wer bist <em class="sb-em-accent">du</em>?
+                </h2>
+                <p class="mx-auto mb-12 max-w-2xl text-lg leading-relaxed text-neutral-300">
+                    Egal ob du eine Idee hast, ein Problem lösen willst oder einfach nur eine Frage -
+                    schreib mir. Ich freue mich, von dir zu hören.
+                </p>
+            </div>
 
-            <!-- Text -->
-            <p v-reveal class="text-neutral-400 text-lg mb-8">
-                Egal ob du eine Idee hast, ein Problem lösen willst oder einfach nur eine Frage -
-                schreib mir. Ich freue mich, von dir zu hören.
-            </p>
-
-            <!-- CTA -->
-            <div v-reveal class="flex flex-wrap justify-center gap-4">
-
-                <router-link to="contact"
-                    class="bg-brand text-black font-medium px-8 py-4 rounded-xl hover:opacity-90 hover:scale-105 transition">
-                    Kontakt aufnehmen
+            <!-- Schnellwege -->
+            <div class="mb-12 grid gap-8 text-left sm:grid-cols-3 sm:gap-6">
+                <router-link v-for="(p, i) in paths" :key="p.title" :to="p.to" v-reveal="{ delay: i * 100 }"
+                    class="sb-paper sb-path group" :class="[p.tone, p.rot]">
+                    <span class="sb-tape" aria-hidden="true"></span>
+                    <component :is="p.icon" class="mb-3 h-8 w-8 text-[#0f7d7d]" />
+                    <p class="sb-hand text-3xl leading-none">{{ p.title }}</p>
+                    <p class="mt-2 text-[15px] leading-snug text-neutral-700">{{ p.text }}</p>
+                    <span class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-[#0f7d7d]">
+                        {{ p.cta }}
+                        <ArrowRightIcon class="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </span>
                 </router-link>
+            </div>
 
-                <a href="https://wa.me/436701923388" target="_blank"
-                    class="border border-neutral-700 px-6 py-3 rounded-xl text-neutral-300 hover:border-green-500 hover:text-green-400 hover:scale-105 transition">
+            <div v-reveal class="mb-9 flex flex-wrap items-center justify-center gap-4">
+                <a href="mailto:info@korbitsch.at" class="sb-btn sb-btn-main">
+                    Mail schreiben
+                    <ArrowUpRightIcon class="h-5 w-5" />
+                </a>
+                <a href="https://wa.me/436701923388" target="_blank" rel="noopener" class="sb-btn sb-btn-ghost">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-400" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.52 3.48A11.8 11.8 0 0 0 12.06 0C5.5 0 .17 5.33.17 11.89c0 2.1.55 4.15 1.59 5.96L0 24l6.31-1.65a11.8 11.8 0 0 0 5.75 1.47h.01c6.56 0 11.89-5.33 11.89-11.89 0-3.18-1.24-6.17-3.44-8.45Z" />
+                    </svg>
                     Oder per WhatsApp
                 </a>
-
             </div>
 
-            <!-- Contact Info -->
-            <div class="mt-10 text-neutral-400 text-sm space-y-2">
-
-                <p class="flex items-center justify-center gap-2"><EnvelopeIcon class="w-4 h-4 text-brand" /> info@korbitsch.at</p>
-
-                <p class="flex items-center justify-center gap-2"><PhoneIcon class="w-4 h-4 text-brand" /> +43 670 1923388</p>
-
-                <p class="text-neutral-300 mt-4">
-                    Antwort meist innerhalb von 24 Stunden
-                </p>
-
-            </div>
-
+            <ul class="flex flex-col items-center justify-center gap-3 text-sm text-neutral-400 sm:flex-row sm:gap-8">
+                <li class="flex items-center gap-2"><EnvelopeIcon class="h-4 w-4 text-brand" /> info@korbitsch.at</li>
+                <li class="flex items-center gap-2"><PhoneIcon class="h-4 w-4 text-brand" /> +43 670 1923388</li>
+                <li class="flex items-center gap-2"><ClockIcon class="h-4 w-4 text-brand" /> Antwort meist innerhalb von 24 Stunden</li>
+            </ul>
         </div>
     </section>
 </template>
 
 <script setup>
-import { EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/outline'
+import {
+    ArrowRightIcon,
+    ArrowUpRightIcon,
+    ChatBubbleLeftRightIcon,
+    ClockIcon,
+    CodeBracketIcon,
+    EnvelopeIcon,
+    PhoneIcon,
+    WrenchScrewdriverIcon
+} from '@heroicons/vue/24/outline'
 import MailIllo from '@/components/illustrations/MailIllo.vue'
+import '@fontsource-variable/fraunces/wght.css'
+import '@fontsource-variable/fraunces/wght-italic.css'
+import '@fontsource/caveat/700.css'
+import '@/styles/scrapbook.css'
+
+const paths = [
+    {
+        title: 'Eine Website?',
+        text: 'Moderne Websites und Web-Apps - schnell, sichtbar, ohne Baukasten.',
+        cta: 'Mehr erfahren',
+        to: '/webapps',
+        icon: CodeBracketIcon,
+        tone: 'sb-paper-teal',
+        rot: 'rot-l'
+    },
+    {
+        title: 'Technik-Hilfe?',
+        text: 'Ich komme zu dir und löse das Problem direkt vor Ort.',
+        cta: 'Hausbesuch anfragen',
+        to: '/it-hilfe',
+        icon: WrenchScrewdriverIcon,
+        tone: '',
+        rot: 'rot-r'
+    },
+    {
+        title: 'Nur eine Frage?',
+        text: 'Schreib mir einfach - ich melde mich persönlich bei dir.',
+        cta: 'Zum Kontakt',
+        to: '/contact',
+        icon: ChatBubbleLeftRightIcon,
+        tone: 'sb-paper-amber',
+        rot: 'rot-l'
+    }
+]
 </script>
+
+<style scoped>
+.sb-path {
+    display: block;
+    padding: 2rem 1.6rem 1.6rem;
+}
+
+.rot-l {
+    transform: rotate(-1.6deg);
+}
+
+.rot-r {
+    transform: rotate(1.6deg);
+}
+
+.sb-path:hover {
+    transform: rotate(0) translateY(-6px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .rot-l,
+    .rot-r,
+    .sb-path:hover {
+        transform: none;
+    }
+}
+</style>
