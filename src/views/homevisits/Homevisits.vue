@@ -57,7 +57,7 @@ useHead({
     },
     {
       property: 'og:url',
-      content: 'https://korbitsch.at/homevisits'
+      content: 'https://korbitsch.at/pc-hilfe'
     },
     {
       property: 'og:type',
@@ -73,7 +73,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: 'https://korbitsch.at/homevisits'
+      href: 'https://korbitsch.at/pc-hilfe'
     }
   ]
 })

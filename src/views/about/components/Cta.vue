@@ -84,7 +84,7 @@ const paths = [
         title: 'Technik-Hilfe?',
         text: 'Ich komme zu dir und löse das Problem direkt vor Ort.',
         cta: 'Hausbesuch anfragen',
-        to: '/it-hilfe',
+        to: '/pc-hilfe',
         icon: WrenchScrewdriverIcon,
         tone: '',
         rot: 'rot-r'

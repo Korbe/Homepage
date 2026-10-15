@@ -20,7 +20,7 @@
                         <li v-for="p in points" :key="p" class="wa-check"><CheckIcon />{{ p }}</li>
                     </ul>
 
-                    <router-link to="/it-hilfe" class="wa-btn wa-btn-primary">
+                    <router-link to="/pc-hilfe" class="wa-btn wa-btn-primary">
                         Hausbesuch anfragen
                         <ArrowUpRightIcon class="h-5 w-5" />
                     </router-link>

@@ -26,7 +26,7 @@
 
         <p class="hx-rise mt-8 text-sm text-neutral-400" style="--d: 940ms">
             Auch privat für dich da:
-            <router-link to="/it-hilfe" class="text-brand hover:underline">PC Hilfe vor Ort →</router-link>
+            <router-link to="/pc-hilfe" class="text-brand hover:underline">PC Hilfe vor Ort →</router-link>
         </p>
 
         <!-- Rechts: Browser-Szene -->

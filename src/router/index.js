@@ -3,7 +3,7 @@ export const routes = [
   { path: '/about', name: 'About', component: () => import('../views/about/About.vue') },
   { path: '/portfolio', name: 'Portfolio', component: () => import('../views/portfolio/Portfolio.vue') },
   { path: '/webapps', name: 'Webapps', component: () => import('../views/webapps/Webapps.vue') },
-  { path: '/it-hilfe', name: 'HomeVisits', component: () => import('../views/homevisits/Homevisits.vue') },
+  { path: '/pc-hilfe', name: 'HomeVisits', component: () => import('../views/homevisits/Homevisits.vue') },
   { path: '/pc-builds', name: 'PCBuilds', component: () => import('../views/pcbuilds/PCBuilds.vue') },
   { path: '/contact', name: 'Contact', component: () => import('../views/contact/Contact.vue') },
 
@@ -18,10 +18,6 @@ export const routes = [
   { path: '/impressum', name: 'Imprint', component: () => import('../views/Imprint.vue') },
   { path: '/terms', name: 'Terms', component: () => import('../views/Terms.vue') },
   { path: '/datenschutz', name: 'Privacy', component: () => import('../views/Privacy.vue') },
-
-  // Redirects
-  { path: '/homevisits', redirect: '/it-hilfe' },
-  { path: '/projects', redirect: '/portfolio' },
 
   // 404
   { path: '/:pathMatch(.*)*', name: 'NotFound', component: () => import('../views/NotFound.vue') },

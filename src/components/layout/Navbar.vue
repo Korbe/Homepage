@@ -24,7 +24,7 @@
 					WEBSITES & WEBAPPS
 				</RouterLink>
 
-				<RouterLink to="/it-hilfe" :class="isActive('/it-hilfe')">
+				<RouterLink to="/pc-hilfe" :class="isActive('/pc-hilfe')">
 					PC HILFE
 				</RouterLink>
 
@@ -81,7 +81,7 @@
 						WEBSITES & WEBAPPS
 					</RouterLink>
 
-					<RouterLink @click="mobileOpen = false" to="/it-hilfe" :class="isActive('/it-hilfe')"
+					<RouterLink @click="mobileOpen = false" to="/pc-hilfe" :class="isActive('/pc-hilfe')"
 						class="py-3 border-b border-neutral-800">
 						PC HILFE
 					</RouterLink>

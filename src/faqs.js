@@ -32,7 +32,7 @@ export const homevisitsFaqs = [
   },
   {
     q: 'Was kostet ein Hausbesuch?',
-    a: 'Die erste Stunde kostet 90€ und beinhaltet Analyse sowie Problemlösung vor Ort. Danach werden 20€ pro angefangene 15 Minuten berechnet.\n\nDie Abrechnung erfolgt fair im 15-Minuten-Takt.\nBeispiel: 1h 26min → 1h 30min = 90€ + 40€ = 130€.\n\nDer Preis gilt ausschließlich für IT-Hausbesuche. Webentwicklung wird individuell kalkuliert.'
+    a: 'Die erste halbe Stunde kostet 50€ und beinhaltet Analyse sowie Problemlösung vor Ort. Danach werden 20€ pro angefangene 15 Minuten berechnet.\n\nDie Abrechnung erfolgt fair im 15-Minuten-Takt.\nBeispiel: 1h 26min → 1h 30min = 50€ + 4 x 20€ = 130€.\n\nDer Preis gilt ausschließlich für IT-Hausbesuche. Webentwicklung wird individuell kalkuliert.'
   },
   {
     q: 'Reparierst du auch Hardware oder rettest Daten?',

@@ -39,7 +39,7 @@
                 </router-link>
 
                 <!-- PC Hilfe -->
-                <router-link to="/it-hilfe" v-reveal="{ delay: 100 }" v-spot class="wa-card group flex flex-col p-8">
+                <router-link to="/pc-hilfe" v-reveal="{ delay: 100 }" v-spot class="wa-card group flex flex-col p-8">
                     <div class="mb-5 flex items-start justify-between">
                         <p class="text-sm font-medium uppercase tracking-widest text-neutral-400">Vor Ort Service</p>
                         <ToolboxIllo class="h-16 w-auto transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3" />

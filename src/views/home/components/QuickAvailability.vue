@@ -14,7 +14,7 @@
                     </div>
                 </div>
 
-                <router-link to="/it-hilfe" class="wa-btn wa-btn-primary shrink-0">
+                <router-link to="/pc-hilfe" class="wa-btn wa-btn-primary shrink-0">
                     Termin anfragen
                     <ArrowUpRightIcon class="h-5 w-5" />
                 </router-link>

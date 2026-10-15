@@ -21,7 +21,7 @@ export default defineConfig({
         '/webapps',
         '/about',
         '/portfolio',
-        '/it-hilfe',
+        '/pc-hilfe',
         '/pc-builds',
         '/contact',
         '/impressum',

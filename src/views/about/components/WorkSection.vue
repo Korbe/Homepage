@@ -64,7 +64,7 @@ const roles = [
     tone: '',
     rot: 'rot-r',
     links: [
-      { label: 'PC Hilfe', to: '/it-hilfe' },
+      { label: 'PC Hilfe', to: '/pc-hilfe' },
       { label: 'Websites & Web-Apps', to: '/webapps' }
     ]
   },
