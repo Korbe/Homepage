@@ -202,4 +202,19 @@
 
 <script setup>
 import Layout from '@/components/layout/Layout.vue';
+import { useHead } from '@unhead/vue'
+
+useHead({
+    title: 'Impressum | Ing. Lukas Korbitsch - Korbitsch IT-Dienstleistungen',
+    meta: [
+        {
+            name: 'description',
+            content: 'Impressum von Korbitsch IT-Dienstleistungen, Villach: Angaben gemäß § 5 ECG und Offenlegung nach § 25 Mediengesetz.'
+        },
+        { name: 'robots', content: 'index, follow' }
+    ],
+    link: [
+        { rel: 'canonical', href: 'https://korbitsch.at/impressum' }
+    ]
+})
 </script>

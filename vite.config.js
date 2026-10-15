@@ -31,7 +31,9 @@ export default defineConfig({
         '/blog/web-app-oder-klassische-website',
         '/blog/excel-chaos-zur-web-app',
         '/blog/schnelle-website-mehr-kunden',
-        '/blog/fehler-bei-website-neuentwicklung'
+        '/blog/fehler-bei-website-neuentwicklung',
+        // wird von nginx als echte 404-Seite ausgeliefert (error_page 404 /404.html)
+        '/404'
       ]
     }
   }

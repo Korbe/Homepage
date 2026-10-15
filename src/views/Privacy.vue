@@ -296,4 +296,19 @@
 
 <script setup>
 import Layout from '@/components/layout/Layout.vue';
+import { useHead } from '@unhead/vue'
+
+useHead({
+    title: 'Datenschutzerklärung | Ing. Lukas Korbitsch - Korbitsch IT-Dienstleistungen',
+    meta: [
+        {
+            name: 'description',
+            content: 'Datenschutzerklärung von korbitsch.at: Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO.'
+        },
+        { name: 'robots', content: 'index, follow' }
+    ],
+    link: [
+        { rel: 'canonical', href: 'https://korbitsch.at/datenschutz' }
+    ]
+})
 </script>

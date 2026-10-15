@@ -1063,4 +1063,19 @@
 
 <script setup>
 import Layout from '@/components/layout/Layout.vue';
+import { useHead } from '@unhead/vue'
+
+useHead({
+    title: 'AGB - Allgemeine Geschäftsbedingungen | Ing. Lukas Korbitsch',
+    meta: [
+        {
+            name: 'description',
+            content: 'Allgemeine Geschäftsbedingungen von Korbitsch IT-Dienstleistungen, Villach: Webentwicklung, IT-Hausbesuche und Gaming PC Builds.'
+        },
+        { name: 'robots', content: 'index, follow' }
+    ],
+    link: [
+        { rel: 'canonical', href: 'https://korbitsch.at/terms' }
+    ]
+})
 </script>

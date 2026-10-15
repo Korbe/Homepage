@@ -87,4 +87,10 @@
 import Layout from '@/components/layout/Layout.vue';
 import { QuestionMarkCircleIcon } from '@heroicons/vue/24/outline'
 import IconBadge from '@/components/ui/IconBadge.vue'
+import { useHead } from '@unhead/vue'
+
+useHead({
+    title: 'Seite nicht gefunden | Ing. Lukas Korbitsch',
+    meta: [{ name: 'robots', content: 'noindex, follow' }]
+})
 </script>
