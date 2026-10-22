@@ -14,6 +14,15 @@ export const createApp = ViteSSG(
     app.directive('spot', spot)
 
     if (isClient) {
+      // Nach einem Deploy existieren alte Chunk-Dateien nicht mehr: einmal neu laden
+      window.addEventListener('vite:preloadError', (event) => {
+        event.preventDefault()
+        if (!sessionStorage.getItem('chunk-reload')) {
+          sessionStorage.setItem('chunk-reload', '1')
+          window.location.reload()
+        }
+      })
+
       router.afterEach((to) => {
         if (typeof window.gtag === 'function') {
           window.gtag('event', 'page_view', {

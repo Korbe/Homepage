@@ -12,7 +12,7 @@ if (!(Test-Path "dist")) {
 }
 
 Write-Host "Cleanup..." -ForegroundColor Yellow
-Start-Process "ssh" -ArgumentList "-n -T $remote rm -rf $remotePath/*" -Wait -NoNewWindow
+Start-Process "ssh" -ArgumentList "-n -T $remote find $remotePath -mindepth 1 -maxdepth 1 ! -name assets -exec rm -rf {} +" -Wait -NoNewWindow
 
 Write-Host "Upload..." -ForegroundColor Yellow
 Start-Process "scp" -ArgumentList "-r dist/* ${remote}:$remotePath/" -Wait -NoNewWindow

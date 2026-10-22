@@ -270,7 +270,7 @@
                         </p>
 
                         <p class="text-neutral-300 leading-relaxed ">
-                            Der Auftragnehmer ist umsatzsteuerpflichtig. Sofern nichts anderes angegeben oder vereinbart wurde, verstehen sich alle Preise als Bruttopreise inklusive der gesetzlichen Umsatzsteuer (derzeit 20 %). Die Umsatzsteuer wird auf der Rechnung gesondert ausgewiesen. Bei Zahlungsverzug gelten die gesetzlichen Verzugszinsen (Unternehmer: § 456 UGB, Verbraucher: § 1000 Abs 1 ABGB). Der Auftragnehmer darf laufende Arbeiten einstellen und Websites vorübergehend deaktivieren – gegenüber Verbrauchern erst nach Setzung einer angemessenen Nachfrist. Bereits erbrachte Leistungen bleiben voll zahlungspflichtig.
+                            Der Auftragnehmer ist umsatzsteuerpflichtig. Für Leistungen im Bereich PC-Hilfe und PC-Builds verstehen sich alle Preise, sofern nichts anderes angegeben oder vereinbart wurde, als Bruttopreise inklusive der gesetzlichen Umsatzsteuer (derzeit 20 %). Für Leistungen im Bereich Webdesign und Website-Erstellung verstehen sich alle Preise, sofern nichts anderes angegeben oder vereinbart wurde, als Nettopreise zuzüglich der gesetzlichen Umsatzsteuer (derzeit 20 %). Die Umsatzsteuer wird auf der Rechnung gesondert ausgewiesen. Bei Zahlungsverzug gelten die gesetzlichen Verzugszinsen (Unternehmer: § 456 UGB, Verbraucher: § 1000 Abs 1 ABGB). Der Auftragnehmer darf laufende Arbeiten einstellen und Websites vorübergehend deaktivieren – gegenüber Verbrauchern erst nach Setzung einer angemessenen Nachfrist. Bereits erbrachte Leistungen bleiben voll zahlungspflichtig.
                         </p>
                     </div>
 
