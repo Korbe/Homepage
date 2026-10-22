@@ -39,7 +39,7 @@
                         <p class="wa-num text-5xl md:text-6xl">
                             <span class="text-2xl font-semibold text-neutral-400">ab </span>3.500<span class="text-3xl text-neutral-400">€</span>
                         </p>
-                        <p class="mb-8 mt-2 text-sm text-neutral-500">Preis abhängig vom Funktionsumfang</p>
+                        <p class="mb-8 mt-2 text-sm text-neutral-500">exkl. 20&nbsp;% USt. · Preis abhängig vom Funktionsumfang</p>
 
                         <RouterLink to="/contact" class="wa-btn wa-btn-primary w-full">Web-App anfragen</RouterLink>
                     </div>

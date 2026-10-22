@@ -51,6 +51,10 @@
                                 <CheckBadgeIcon class="mt-0.5 h-5 w-5 shrink-0 text-accent" />
                                 Webentwicklung wird individuell kalkuliert
                             </li>
+                            <li class="flex items-start gap-3">
+                                <CheckBadgeIcon class="mt-0.5 h-5 w-5 shrink-0 text-accent" />
+                                Alle Preise inkl. 20&nbsp;% USt.
+                            </li>
                         </ul>
                     </div>
                 </div>

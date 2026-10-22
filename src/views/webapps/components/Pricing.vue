@@ -34,7 +34,8 @@
                         die professionell online sichtbar werden möchten.
                     </p>
 
-                    <p class="wa-num mb-8 text-5xl md:text-6xl">1.000<span class="text-3xl text-neutral-500">€</span></p>
+                    <p class="wa-num text-5xl md:text-6xl">1.000<span class="text-3xl text-neutral-500">€</span></p>
+                    <p class="mb-8 mt-2 text-sm text-neutral-500">exkl. 20&nbsp;% USt.</p>
 
                     <ul class="mb-10 space-y-3.5 text-neutral-300">
                         <li v-for="f in onePager" :key="f" class="wa-check"><CheckIcon />{{ f }}</li>
@@ -56,9 +57,10 @@
                         die professionell auftreten und neue Kunden gewinnen möchten.
                     </p>
 
-                    <p class="wa-num mb-8 text-5xl md:text-6xl">
+                    <p class="wa-num text-5xl md:text-6xl">
                         <span class="text-2xl font-semibold text-neutral-400">ab </span>2.500<span class="text-3xl text-neutral-400">€</span>
                     </p>
+                    <p class="mb-8 mt-2 text-sm text-neutral-500">exkl. 20&nbsp;% USt.</p>
 
                     <ul class="mb-10 space-y-3.5 text-neutral-100">
                         <li v-for="f in website" :key="f" class="wa-check"><CheckIcon />{{ f }}</li>

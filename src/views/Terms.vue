@@ -23,7 +23,7 @@
                     </h1>
 
                     <p class="text-neutral-400 text-lg">
-                        AGB von Korbitsch IT-Dienstleistungen – Stand: 15.08.2026
+                        AGB von Korbitsch IT-Dienstleistungen – Stand: 09.10.2026
                     </p>
 
                 </div>
@@ -42,1014 +42,360 @@
                         </h2>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für sämtliche Leistungen von
-                            Korbitsch IT-Dienstleistungen (nachfolgend „Auftragnehmer") gegenüber Unternehmern und
-                            Verbrauchern (gemeinsam „Auftraggeber").
-                        </p>
-
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Sie gelten insbesondere für folgende Leistungen:
-                        </p>
-
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
-                            <li>Entwicklung von Websites</li>
-                            <li>Entwicklung von Webanwendungen</li>
-                            <li>Prozessautomatisierung</li>
-                            <li>Webdesign</li>
-                            <li>Hosting-Dienstleistungen</li>
-                            <li>Domainregistrierung</li>
-                            <li>E-Mail-Dienste</li>
-                            <li>technische Betreuung</li>
-                            <li>Wartungs- und Supportleistungen</li>
-                            <li>IT-Hilfe (Vor-Ort- und Fernsupport für Privat- und Geschäftskunden)</li>
-                            <li>Planung, Beratung, Zusammenbau und Einrichtung von Gaming-PC-Systemen (Gaming PC
-                                Builds)</li>
-                        </ul>
-
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Enthält eine Bestimmung dieser AGB eine gesonderte Regelung für Verbraucher oder für
-                            Unternehmer, geht diese der allgemeinen Regelung vor. Fehlt eine solche Differenzierung,
-                            gilt die jeweilige Bestimmung sowohl für Verbraucher als auch für Unternehmer, soweit dem
-                            keine zwingenden gesetzlichen Verbraucherschutzbestimmungen entgegenstehen.
+                            Diese AGB gelten für alle Leistungen von Korbitsch IT-Dienstleistungen („Auftragnehmer") gegenüber Unternehmern und Verbrauchern („Auftraggeber"), insbesondere Website- und Webanwendungsentwicklung, Webdesign, Prozessautomatisierung, Hosting, Domains, E-Mail, Wartung und Support, IT-Hilfe sowie Gaming PC Builds.
                         </p>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Abweichende Geschäftsbedingungen des Auftraggebers werden nur dann Vertragsbestandteil,
-                            wenn ihrer Geltung ausdrücklich und schriftlich zugestimmt wurde.
+                            Verbraucher und Unternehmer sind im Sinne von § 1 KSchG bzw. § 1 UGB zu verstehen. Gegenüber Verbrauchern gehen die zwingenden Bestimmungen des KSchG und FAGG diesen AGB vor. Sonderregeln für Verbraucher oder Unternehmer gehen den allgemeinen Regeln vor.
                         </p>
 
-                        <p class="text-neutral-300 leading-relaxed">
-                            Individuelle Vereinbarungen zwischen den Vertragsparteien haben Vorrang vor diesen
-                            Allgemeinen Geschäftsbedingungen.
+                        <p class="text-neutral-300 leading-relaxed ">
+                            Individuelle Vereinbarungen haben Vorrang. Geschäftsbedingungen des Auftraggebers gelten nur bei ausdrücklicher schriftlicher Zustimmung.
                         </p>
                     </div>
 
-                    <!-- 2. Begriffsbestimmungen -->
+                    <!-- 2. Vertragsabschluss und Leistungsumfang -->
                     <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
                         <h2 class="text-lg font-semibold text-brand mb-4">
-                            2. Begriffsbestimmungen – Verbraucher und Unternehmer
+                            2. Vertragsabschluss und Leistungsumfang
                         </h2>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Verbraucher ist jede natürliche Person, die eine Leistung des Auftragnehmers zu einem
-                            Zweck in Anspruch nimmt, der überwiegend weder ihrer gewerblichen noch ihrer selbständigen
-                            beruflichen Tätigkeit zugerechnet werden kann (§ 1 Abs 1 Z 2 KSchG).
+                            Der Vertrag kommt durch Annahme eines Angebots, schriftliche Auftragserteilung oder eine andere eindeutig dokumentierte Beauftragung zustande. Angebote sind 30 Kalendertage ab Angebotsdatum gültig, sofern nicht anders angegeben; danach ist eine erneute Bestätigung erforderlich.
                         </p>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Unternehmer ist jede natürliche oder juristische Person oder rechtsfähige
-                            Personengesellschaft, die bei Abschluss des Vertrags in Ausübung ihrer gewerblichen oder
-                            selbständigen beruflichen Tätigkeit handelt (§ 1 Abs 1 Z 1 KSchG, § 1 UGB).
+                            Der Leistungsumfang ergibt sich ausschließlich aus Angebot, Auftragsbestätigung oder schriftlicher Vereinbarung. Nicht vereinbarte Leistungen sowie Änderungen und Erweiterungen werden gesondert vereinbart und verrechnet.
                         </p>
 
-                        <p class="text-neutral-300 leading-relaxed">
-                            Für Verträge mit Verbrauchern gelten ergänzend die zwingenden Bestimmungen des
-                            Konsumentenschutzgesetzes (KSchG) sowie, soweit anwendbar, des
-                            Fern- und Auswärtsgeschäfte-Gesetzes (FAGG). Diese gehen den Regelungen dieser AGB vor,
-                            soweit die AGB davon zulasten des Verbrauchers abweichen.
+                        <p class="text-neutral-300 leading-relaxed ">
+                            Bei Vertragsabschluss mit Verbrauchern im Fernabsatz (z. B. E-Mail, Telefon, Website, WhatsApp) erhält der Verbraucher vorab die Informationen gemäß § 4 FAGG.
                         </p>
                     </div>
 
-                    <!-- 3. Vertragsabschluss -->
+                    <!-- 3. Websites und Webanwendungen -->
                     <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
                         <h2 class="text-lg font-semibold text-brand mb-4">
-                            3. Vertragsabschluss
+                            3. Websites und Webanwendungen
                         </h2>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Ein Vertrag kommt durch die Annahme eines Angebots, durch die schriftliche
-                            Auftragserteilung oder durch eine andere eindeutig dokumentierte Beauftragung zustande.
+                            Geschuldet ist die technisch ordnungsgemäße Umsetzung der vereinbarten Anforderungen – nicht ein wirtschaftlicher Erfolg wie mehr Anfragen, bessere Suchmaschinenplatzierungen oder Umsatzsteigerungen.
                         </p>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Der konkrete Leistungsumfang ergibt sich ausschließlich aus dem jeweiligen Angebot, der
-                            Auftragsbestätigung oder einer gesonderten schriftlichen Vereinbarung.
+                            Bei bestehenden Websites oder Fremdsystemen haftet der Auftragnehmer nicht für Probleme durch veraltete Software oder Serverumgebungen, fehlerhafte Plugins, Anpassungen Dritter, fehlende Dokumentation oder technische Altlasten. Dadurch notwendiger Mehraufwand wird gesondert vereinbart und verrechnet.
                         </p>
 
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Angebote des Auftragnehmers sind, sofern im Angebot nicht ausdrücklich abweichend
-                            angegeben, 30 Kalendertage ab dem im Angebot genannten Datum freibleibend und
-                            unverbindlich. Nach Ablauf dieser Frist bedarf die Annahme des Angebots der erneuten
-                            Bestätigung durch den Auftragnehmer.
-                        </p>
+                        <h3 class="text-base font-semibold text-brand mb-2 mt-5">
+                            Projektdauer (unverbindliche Richtwerte):
+                        </h3>
 
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Leistungen, die nicht ausdrücklich vereinbart wurden, sind nicht Bestandteil des
-                            Vertrags. Änderungen oder Erweiterungen des vereinbarten Leistungsumfangs können
-                            zusätzliche Kosten verursachen und bedürfen einer gesonderten Vereinbarung.
-                        </p>
+                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
+                            <li>klassische Websites (z. B. Onepager, Business- oder Portfolio-Website): in der Regel 4 bis 6 Wochen ab vollständiger Bereitstellung aller Inhalte durch den Auftraggeber</li>
+                            <li>individuelle Webanwendungen: laut Angebot, je nach Umfang und Komplexität</li>
+                        </ul>
 
-                        <p class="text-neutral-300 leading-relaxed">
-                            Erfolgt der Vertragsabschluss mit einem Verbraucher im Wege der Fernkommunikation (z. B.
-                            per E-Mail, Telefon, Website oder WhatsApp), erhält der Verbraucher vor Vertragsabschluss
-                            die wesentlichen Informationen gemäß § 4 FAGG, insbesondere zu Leistungsumfang,
-                            Gesamtpreis und – sofern einschlägig – zum Widerrufsrecht (siehe Punkt 14).
+                        <p class="text-neutral-300 leading-relaxed ">
+                            Fixtermine gelten nur bei ausdrücklicher schriftlicher Vereinbarung. Verzögerungen durch verspätete Mitwirkung, nachträgliche Änderungswünsche oder unvorhersehbare technische Umstände verlängern die Umsetzungsdauer und begründen keinen Anspruch auf Schadenersatz oder Vertragsauflösung.
                         </p>
                     </div>
 
-                    <!-- 4. Entwicklung von Websites und Webanwendungen -->
+                    <!-- 4. Hosting, Domains und E-Mail -->
                     <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
                         <h2 class="text-lg font-semibold text-brand mb-4">
-                            4. Entwicklung von Websites und Webanwendungen
+                            4. Hosting, Domains und E-Mail
                         </h2>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Die Entwicklung von Websites und Webanwendungen erfolgt auf Grundlage der zwischen den
-                            Vertragsparteien vereinbarten Anforderungen. Der Auftragnehmer schuldet die technisch
-                            ordnungsgemäße Umsetzung der vereinbarten Leistungen.
+                            Diese Leistungen können ganz oder teilweise über externe Dienstleister erbracht werden.
                         </p>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Ein bestimmter wirtschaftlicher Erfolg, eine bestimmte Anzahl an Anfragen, eine
-                            Verbesserung von Suchmaschinenplatzierungen oder eine Umsatzsteigerung sind nicht
-                            Bestandteil des Vertrags.
+                            Eine unterbrechungsfreie Verfügbarkeit wird nicht garantiert. Keine Haftung besteht für Server- und Netzwerkausfälle, Wartungsarbeiten, Störungen bei Drittanbietern, Cyberangriffe, sonstige Störungen außerhalb des eigenen Einflussbereichs und höhere Gewalt.
                         </p>
 
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Bei Arbeiten an bestehenden Websites oder Fremdsystemen können technische Einschränkungen
-                            auftreten, die vor Beginn der Arbeiten nicht vollständig erkennbar sind. Der
-                            Auftragnehmer übernimmt keine Haftung für Probleme, die auf folgende Umstände
-                            zurückzuführen sind:
-                        </p>
-
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
-                            <li>veraltete Software</li>
-                            <li>veraltete Serverumgebungen</li>
-                            <li>fehlerhafte Plugins</li>
-                            <li>individuelle Anpassungen durch Dritte</li>
-                            <li>fehlende Dokumentationen</li>
-                            <li>technische Altlasten</li>
-                        </ul>
-
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Ohne eine gesonderte Wartungsvereinbarung besteht keine Verpflichtung zur laufenden
-                            Aktualisierung oder Anpassung einer Website oder Webanwendung. Zusätzliche Leistungen,
-                            die aufgrund unvorhersehbarer technischer Probleme erforderlich werden, werden gesondert
-                            vereinbart und verrechnet.
-                        </p>
-
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            4.1 Projektdauer
-                        </h3>
-
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Die Umsetzungsdauer eines Projekts hängt vom vereinbarten Leistungsumfang ab und wird im
-                            jeweiligen Angebot unverbindlich geschätzt. Als Richtwerte gelten:
-                        </p>
-
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
-                            <li>klassische Websites (z. B. Onepager, Business-Website, Portfolio-Website): in der
-                                Regel 4 bis 6 Wochen ab vollständiger Bereitstellung sämtlicher erforderlicher Inhalte
-                                durch den Auftraggeber (siehe Punkt 8)</li>
-                            <li>individuelle Webanwendungen (z. B. auf Basis von Laravel, Vue.js, Inertia.js oder
-                                vergleichbaren Technologien): die Umsetzungsdauer kann je nach Umfang, Komplexität und
-                                Funktionsanzahl deutlich länger dauern und wird gesondert im Angebot festgelegt</li>
-                        </ul>
-
-                        <p class="text-neutral-300 leading-relaxed">
-                            Die genannten Zeiträume sind unverbindliche Richtwerte und keine zugesicherten
-                            Fertigstellungstermine, sofern nicht ausdrücklich schriftlich ein Fixtermin vereinbart
-                            wurde. Verzögerungen durch verspätete Mitwirkung des Auftraggebers, nachträgliche
-                            Änderungswünsche oder unvorhersehbare technische Umstände gemäß diesem Punkt verlängern
-                            die Umsetzungsdauer entsprechend und begründen keinen Anspruch auf Schadenersatz oder
-                            Vertragsauflösung.
+                        <p class="text-neutral-300 leading-relaxed ">
+                            Domains werden im Auftrag des Auftraggebers registriert; für die erfolgreiche Registrierung und dauerhafte Verfügbarkeit wird nicht gehaftet. Für Inhalte, die über Hosting und E-Mail veröffentlicht oder versendet werden, ist der Auftraggeber verantwortlich; Punkt 7.2 gilt entsprechend.
                         </p>
                     </div>
 
-                    <!-- 5. Hosting, Domain, E-Mail -->
+                    <!-- 5. IT-Hilfe (Vor-Ort und Fernwartung) -->
                     <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
                         <h2 class="text-lg font-semibold text-brand mb-4">
-                            5. Hosting-, Domain- und E-Mail-Dienstleistungen
+                            5. IT-Hilfe (Vor-Ort und Fernwartung)
                         </h2>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Der Auftragnehmer bietet ergänzend Hosting-, Domain- und E-Mail-Dienstleistungen an. Die
-                            technische Bereitstellung dieser Leistungen kann ganz oder teilweise über externe
-                            Dienstleister erfolgen.
+                            <strong class="text-white font-semibold">Termine:</strong> IT-Hilfe erfolgt nach Terminvereinbarung; eine bestimmte Reaktionszeit gilt nur, wenn sie vereinbart wurde. Bei Absage weniger als 24 Stunden vorher oder wenn niemand angetroffen wird, können entstandene Kosten (z. B. Anfahrt, reservierte Zeit) verrechnet werden.
                         </p>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Für Hosting-Leistungen arbeitet der Auftragnehmer mit folgendem Partnerunternehmen
-                            zusammen:<br />
-                            SystemPro, Lodengasse 17, 9020 Klagenfurt am Wörthersee, Österreich
+                            <strong class="text-white font-semibold">Abrechnung:</strong> nach Zeitaufwand gemäß aktueller Preisliste (z. B. Pauschale für die erste halbe Stunde, danach 15-Minuten-Takt), zuzüglich allfälliger Anfahrt. Die Sätze werden vorab mitgeteilt bzw. sind auf der Website einsehbar.
                         </p>
-
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Der Auftragnehmer übernimmt keine Gewähr für die ständige und unterbrechungsfreie
-                            Verfügbarkeit der angebotenen Dienste. Eine Haftung für folgende Ereignisse wird
-                            ausgeschlossen:
-                        </p>
-
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
-                            <li>Serverausfälle</li>
-                            <li>Netzwerkausfälle</li>
-                            <li>Wartungsarbeiten</li>
-                            <li>Störungen bei Drittanbietern</li>
-                            <li>Cyberangriffe</li>
-                            <li>technische Störungen außerhalb des eigenen Einflussbereichs</li>
-                            <li>höhere Gewalt</li>
-                        </ul>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Domains werden im Auftrag des Auftraggebers registriert. Der Auftragnehmer übernimmt
-                            keine Haftung für die erfolgreiche Registrierung oder die dauerhafte Verfügbarkeit einer
-                            Domain.
+                            <strong class="text-white font-semibold">Kein Fix, kein Honorar:</strong> Kann das gemeldete Problem nicht gelöst werden, ist dafür nichts zu bezahlen. Zusätzlich erbrachte oder gewünschte Leistungen sind unabhängig davon zu vergüten. Dies gilt nicht, wenn die Lösung an fehlender Mitwirkung des Auftraggebers (z. B. verweigerter Zugriff, fehlende Zugangsdaten) oder an von ihm nachträglich verursachten Umständen scheitert.
                         </p>
 
-                        <p class="text-neutral-300 leading-relaxed">
-                            Der Auftraggeber ist für sämtliche Inhalte, die über die bereitgestellten Hosting- und
-                            E-Mail-Dienste veröffentlicht oder versendet werden, selbst verantwortlich.
+                        <p class="text-neutral-300 leading-relaxed ">
+                            <strong class="text-white font-semibold">Daten und Lizenzen:</strong> Dem Auftraggeber wird eine vorherige Datensicherung empfohlen. Für Datenverluste wird nur bei Vorsatz oder grober Fahrlässigkeit gehaftet, für vorbestehende Schäden oder Defekte gar nicht. Für gültige Softwarelizenzen ist der Auftraggeber verantwortlich, sofern nichts anderes vereinbart wurde.
                         </p>
                     </div>
 
-                    <!-- 6. IT-Hilfe -->
+                    <!-- 6. Gaming PC Builds -->
                     <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
                         <h2 class="text-lg font-semibold text-brand mb-4">
-                            6. IT-Hilfe (Vor-Ort- und Fernsupport)
+                            6. Gaming PC Builds
                         </h2>
 
+                        <h3 class="text-base font-semibold text-brand mb-2 mt-5">
+                            Leistungspakete:
+                        </h3>
+
+                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
+                            <li><strong class="text-white font-semibold">Planung &amp; Teileliste („Bastler"):</strong> reine Beratungsleistung mit individueller Konfigurationsempfehlung. Der Auftraggeber kauft die Komponenten selbst bei einem Händler seiner Wahl; mit dem Auftragnehmer kommt kein Kaufvertrag über Hardware zustande.</li>
+                            <li><strong class="text-white font-semibold">Umbau oder Einrichtung:</strong> Zusammenbau und/oder Software-Einrichtung mit vom Auftraggeber bereitgestellten Komponenten.</li>
+                        </ul>
+
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Der Auftragnehmer bietet IT-Hilfe für private und geschäftliche Kunden an, insbesondere
-                            bei Problemen mit PCs, Notebooks, Smartphones, Druckern, Netzwerken sowie bei Viren- bzw.
-                            Malware-Entfernung, Datensicherung und der Einrichtung von Geräten. Die Leistung erfolgt
-                            wahlweise vor Ort oder per Fernwartung.
+                            Gewährleistung und Garantie für Hardware bestehen ausschließlich gegenüber Händler bzw. Hersteller. Der Auftragnehmer haftet nur für eine von ihm verschuldete fehlerhafte Konfigurationsempfehlung und unterstützt auf Wunsch bei Garantiefällen (ohne Rechtspflicht, sofern nicht gesondert vereinbart).
                         </p>
 
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            6.1 Terminvereinbarung
-                        </h3>
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            IT-Hilfe erfolgt nach vorheriger Terminvereinbarung. Der Auftragnehmer ist bemüht,
-                            Termine zeitnah anzubieten, schuldet jedoch keine bestimmte Reaktionszeit, sofern diese
-                            nicht ausdrücklich vereinbart wurde. Sagt der Auftraggeber einen vereinbarten Termin
-                            nicht rechtzeitig (spätestens 24 Stunden vorher) ab oder wird der Auftragnehmer vor Ort
-                            nicht angetroffen, kann der Auftragnehmer die dadurch entstandenen Kosten (z. B.
-                            Anfahrt, reservierte Zeit) verrechnen.
+                            Keine Haftung besteht für Preisänderungen, fehlende Verfügbarkeit, geänderte Herstellerspezifikationen sowie Inkompatibilitäten durch eine eigenmächtig abweichende Bauteilwahl.
                         </p>
 
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            6.2 Abrechnung
-                        </h3>
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Die Abrechnung erfolgt, sofern nicht anders vereinbart, nach dem tatsächlichen
-                            Zeitaufwand gemäß der jeweils gültigen Preisliste des Auftragnehmers (z. B. Pauschale
-                            für die erste halbe Stunde, danach Verrechnung im 15-Minuten-Takt). Anfahrtszeiten und
-                            -wege können gesondert verrechnet werden. Die konkreten Sätze werden dem Auftraggeber vor
-                            Beginn des Einsatzes mitgeteilt bzw. sind auf der Website des Auftragnehmers einsehbar.
-                        </p>
-
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            6.3 Kein Fix, kein Honorar
-                        </h3>
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Der Auftragnehmer bemüht sich um eine fachgerechte Fehlersuche und -behebung nach bestem
-                            Wissen. Kann das ursprünglich gemeldete Problem im Rahmen des Einsatzes nicht gelöst
-                            werden, entsteht dem Auftraggeber dafür keine Zahlungspflicht.
-                        </p>
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Werden im Zuge des Einsatzes zusätzliche, vom ursprünglichen Problem unabhängige
-                            Leistungen erbracht oder vom Auftraggeber ausdrücklich gewünscht (z. B. weitere
-                            Einrichtungsarbeiten, Beratung zu anderen Themen), sind diese unabhängig vom Ausgang der
-                            ursprünglichen Problembehebung gesondert zu vergüten.
-                        </p>
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Diese Regelung gilt nicht, wenn die Problembehebung nachweislich an fehlender Mitwirkung
-                            des Auftraggebers (z. B. verweigerter Zugriff, fehlende Zugangsdaten) oder an
-                            nachträglich vom Auftraggeber verursachten Umständen scheitert.
-                        </p>
-
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            6.4 Datensicherung und Haftung
-                        </h3>
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Dem Auftraggeber wird empfohlen, vor Beginn der IT-Hilfe eine eigene Datensicherung
-                            durchzuführen. Der Auftragnehmer haftet für Datenverluste im Rahmen der IT-Hilfe nur bei
-                            Vorsatz oder grober Fahrlässigkeit. Für vorbestehende Schäden, Defekte oder
-                            Datenverluste an den überlassenen Geräten übernimmt der Auftragnehmer keine Haftung.
-                        </p>
-
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            6.5 Software und Lizenzen
-                        </h3>
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Für das Vorliegen gültiger Lizenzen der auf den Geräten des Auftraggebers installierten
-                            oder genutzten Software ist der Auftraggeber selbst verantwortlich, sofern nicht
-                            ausdrücklich vereinbart wurde, dass der Auftragnehmer Lizenzen beschafft.
-                        </p>
-
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            6.6 Widerrufsrecht bei Verbrauchern
-                        </h3>
-                        <p class="text-neutral-300 leading-relaxed">
-                            Handelt es sich beim Auftraggeber um einen Verbraucher und wünscht dieser, dass mit der
-                            IT-Hilfe (z. B. bei einem kurzfristig vereinbarten Vor-Ort- oder Fernwartungstermin)
-                            bereits vor Ablauf einer allfälligen Widerrufsfrist begonnen wird, gilt Punkt 14.2
-                            sinngemäß.
+                        <p class="text-neutral-300 leading-relaxed ">
+                            Für bereitgestellte Komponenten wird nicht für Vorschäden, Defekte oder Inkompatibilitäten gehaftet, wohl aber für beim Zusammenbau vorsätzlich oder grob fahrlässig verursachte Schäden. Komponenten sind in Originalverpackung zu übergeben. Für Betriebssystem- und Softwarelizenzen sorgt der Auftraggeber, sofern nichts anderes vereinbart wurde.
                         </p>
                     </div>
 
-                    <!-- 7. Gaming PC Builds -->
+                    <!-- 7. Mitwirkungspflichten und Inhalte des Auftraggebers -->
                     <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
                         <h2 class="text-lg font-semibold text-brand mb-4">
-                            7. Gaming PC Builds – Leistungsumfang
+                            7. Mitwirkungspflichten und Inhalte des Auftraggebers
                         </h2>
 
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            7.1 Leistungsmodelle
+                        <h3 class="text-base font-semibold text-brand mb-2 mt-5">
+                            7.1 Mitwirkungspflichten
                         </h3>
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Der Auftragnehmer bietet im Bereich Gaming PC Builds zwei unterschiedliche
-                            Leistungspakete an:
-                        </p>
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
-                            <li>Planung & Teileliste („Bastler"): Der Auftragnehmer erstellt eine individuelle
-                                Konfigurationsempfehlung samt Teileliste. Der Auftraggeber erwirbt sämtliche
-                                Komponenten eigenständig bei einem Händler seiner Wahl.</li>
-                            <li>Umbau oder Einrichtung: Der Auftragnehmer übernimmt den fachgerechten Zusammenbau
-                                und/oder die softwareseitige Einrichtung eines vom Auftraggeber bereitgestellten
-                                Systems bzw. bereitgestellter Komponenten.</li>
-                        </ul>
 
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            7.2 Kein Kaufvertrag über Hardware im Paket „Planung & Teileliste"
-                        </h3>
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Im Rahmen des Pakets „Planung & Teileliste" erbringt der Auftragnehmer ausschließlich
-                            eine Beratungsleistung. Zwischen Auftragnehmer und Auftraggeber kommt kein Kaufvertrag
-                            über Hardware-Komponenten zustande. Der Kaufvertrag über die Komponenten kommt
-                            ausschließlich zwischen dem Auftraggeber und dem jeweiligen Händler bzw. Hersteller
-                            zustande. Bestellung, Bezahlung und Lieferung der Komponenten obliegen ausschließlich dem
-                            Auftraggeber.
+                            Der Auftraggeber stellt alle erforderlichen Inhalte und Gegenstände rechtzeitig bereit, insbesondere Texte, Bilder, Videos, Grafiken, Logos, Zugangsdaten, technische Informationen und – bei PC Builds – die Hardware. Verzögerungen dadurch gehen nicht zulasten des Auftragnehmers; Mehraufwand wird gesondert verrechnet.
                         </p>
 
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            7.3 Gewährleistung und Garantie für Hardware-Komponenten
+                        <h3 class="text-base font-semibold text-brand mb-2 mt-5">
+                            7.2 Rechte an Inhalten des Auftraggebers
                         </h3>
+
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Gewährleistungs- und Garantieansprüche im Zusammenhang mit erworbenen
-                            Hardware-Komponenten (z. B. Defekte, Fabrikationsfehler) bestehen ausschließlich
-                            gegenüber dem jeweiligen Verkäufer bzw. Hersteller. Der Auftragnehmer haftet nicht für
-                            Sachmängel der Komponenten, sofern diese nicht auf eine vom Auftragnehmer zu vertretende,
-                            fehlerhafte Konfigurationsempfehlung zurückzuführen sind. Auf Wunsch unterstützt der
-                            Auftragnehmer den Auftraggeber bei der Abwicklung von Gewährleistungs- oder
-                            Garantiefällen gegenüber dem Händler; eine Rechtspflicht hierzu besteht nur bei
-                            gesonderter Vereinbarung.
+                            Der Auftraggeber sichert zu, dass er an sämtlichen von ihm bereitgestellten Inhalten (insbesondere Texte, Bilder, Grafiken, Logos, Videos, Schriftarten, Musik und Zugangsdaten) die erforderlichen Nutzungs- und Verwertungsrechte besitzt.
                         </p>
 
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            7.4 Kompatibilität, Verfügbarkeit und Preisänderungen
-                        </h3>
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Konfigurationsempfehlungen erfolgen nach bestem Wissen auf Grundlage der zum Zeitpunkt
-                            der Beratung verfügbaren Informationen. Der Auftragnehmer haftet nicht für:
-                        </p>
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
-                            <li>zwischenzeitliche Preisänderungen der empfohlenen Komponenten</li>
-                            <li>eingeschränkte oder fehlende Verfügbarkeit einzelner Komponenten beim Händler</li>
-                            <li>nachträgliche Änderungen von Produktspezifikationen durch den Hersteller</li>
-                            <li>Kompatibilitätsprobleme, die durch eine vom Auftraggeber eigenmächtig abweichende
-                                Bauteilwahl entstehen</li>
-                        </ul>
-
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            7.5 Vom Auftraggeber bereitgestellte Komponenten
-                        </h3>
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Stellt der Auftraggeber eigene oder bereits vorhandene Komponenten für Umbau,
-                            Einrichtung oder Zusammenbau zur Verfügung, haftet der Auftragnehmer nicht für bereits
-                            bestehende Defekte, Vorschäden oder Inkompatibilitäten dieser Komponenten. Der
-                            Auftragnehmer haftet für Schäden, die er im Rahmen des Zusammenbaus vorsätzlich oder
-                            grob fahrlässig an bereitgestellten Komponenten verursacht.
+                            Der Auftragnehmer ist nicht verpflichtet, diese Inhalte auf ihre rechtliche Zulässigkeit zu prüfen. Der Auftraggeber stellt den Auftragnehmer von sämtlichen Ansprüchen Dritter frei, die aufgrund der Verwendung dieser Inhalte geltend gemacht werden, und hält ihn diesbezüglich schad- und klaglos, einschließlich angemessener Kosten der Rechtsverteidigung.
                         </p>
 
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            7.6 Betriebssystem und Software
+                        <h3 class="text-base font-semibold text-brand mb-2 mt-5">
+                            7.3 KI-generierte Inhalte
                         </h3>
-                        <p class="text-neutral-300 leading-relaxed">
-                            Sofern im Rahmen der Einrichtung Betriebssysteme oder sonstige Software installiert
-                            werden, hat der Auftraggeber für das Vorliegen gültiger Lizenzen selbst zu sorgen,
-                            sofern nicht ausdrücklich vereinbart wurde, dass der Auftragnehmer Lizenzen beschafft.
+
+                        <p class="text-neutral-300 leading-relaxed ">
+                            Sofern der Auftraggeber KI-generierte Inhalte zur Verfügung stellt oder deren Erstellung beauftragt, übernimmt der Auftragnehmer, soweit gesetzlich zulässig, keine Haftung für etwaige Rechte Dritter, Lizenzfragen oder die rechtliche Zulässigkeit dieser Inhalte. Punkt 7.2 gilt entsprechend.
                         </p>
                     </div>
 
-                    <!-- 8. Mitwirkungspflichten -->
+                    <!-- 8. Abnahme -->
                     <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
                         <h2 class="text-lg font-semibold text-brand mb-4">
-                            8. Mitwirkungspflichten des Auftraggebers
+                            8. Abnahme
                         </h2>
 
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Der Auftraggeber verpflichtet sich, sämtliche für die Umsetzung des Projekts
-                            erforderlichen Informationen bzw. Gegenstände rechtzeitig bereitzustellen. Hierzu zählen
-                            insbesondere:
-                        </p>
-
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
-                            <li>Texte</li>
-                            <li>Bilder</li>
-                            <li>Videos</li>
-                            <li>Grafiken</li>
-                            <li>Logos</li>
-                            <li>Zugangsdaten</li>
-                            <li>technische Informationen</li>
-                            <li>Hardware-Komponenten (bei Umbau, Einrichtung von Gaming PC Builds)</li>
-                        </ul>
-
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Verzögerungen, die durch eine verspätete Bereitstellung dieser Informationen bzw.
-                            Gegenstände entstehen, gehen nicht zulasten des Auftragnehmers. Zusätzlicher Aufwand, der
-                            durch fehlende oder verspätete Mitwirkung entsteht, wird gesondert verrechnet.
-                        </p>
-
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Der Auftraggeber bestätigt, dass er über sämtliche erforderlichen Nutzungsrechte an den
-                            bereitgestellten Inhalten verfügt. Der Auftragnehmer übernimmt keine Haftung für die
-                            rechtliche Zulässigkeit der bereitgestellten Inhalte.
-                        </p>
-
-                        <p class="text-neutral-300 leading-relaxed">
-                            Bei KI-generierten Inhalten übernimmt der Auftragnehmer keine Haftung für mögliche
-                            Urheberrechtsverletzungen, Lizenzverstöße oder Ansprüche Dritter.
+                        <p class="text-neutral-300 leading-relaxed ">
+                            Mängel sind innerhalb von zehn Kalendertagen nach Bereitstellung schriftlich zu melden; andernfalls gilt die Leistung als abgenommen. Sie gilt ebenso als abgenommen, sobald sie veröffentlicht, produktiv genutzt oder – bei PC Builds – übernommen bzw. in Betrieb genommen wird.
                         </p>
                     </div>
 
-                    <!-- 9. Abnahme -->
+                    <!-- 9. Urheber- und Nutzungsrechte -->
                     <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
                         <h2 class="text-lg font-semibold text-brand mb-4">
-                            9. Abnahme
+                            9. Urheber- und Nutzungsrechte
                         </h2>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Nach Fertigstellung wird die Leistung dem Auftraggeber zur Prüfung bereitgestellt.
-                            Etwaige Mängel sind innerhalb von zehn Kalendertagen schriftlich mitzuteilen. Erfolgt
-                            innerhalb dieser Frist keine Rückmeldung, gilt die Leistung als abgenommen.
+                            <strong class="text-white font-semibold">Urheberrecht:</strong> Alle erstellten Leistungen (u. a. Programmcode, Design, Benutzeroberflächen, Datenbankstrukturen, Automatisierungen, Texte, Grafiken, Konzepte, Dokumentationen) sind urheberrechtlich geschützt. Das Urheberrecht verbleibt beim Auftragnehmer und wird nicht übertragen. Bei Verletzungen werden rechtliche Schritte eingeleitet und marktüblichen Pönalen verrechnet.
                         </p>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Die Leistung gilt ebenfalls als abgenommen, sobald sie veröffentlicht, produktiv genutzt
-                            oder – im Fall von Gaming PC Builds – vom Auftraggeber übernommen bzw. in Betrieb
-                            genommen wird. Teilabnahmen sind zulässig.
+                            <strong class="text-white font-semibold">Nutzungsrecht:</strong> Nach vollständiger Bezahlung erhält der Auftraggeber ein einfaches, zeitlich und räumlich unbeschränktes Nutzungsrecht für den vereinbarten Verwendungszweck. Eine Übertragung an Dritte bedarf der schriftlichen Zustimmung.
                         </p>
 
-                        <p class="text-neutral-400 text-sm leading-relaxed italic">
-                            Hinweis für Verbraucher: Auf die Bedeutung der vorstehenden Erklärungsfiktion (Zustimmung
-                            durch Schweigen) wird der Verbraucher zu Beginn der Frist gesondert hingewiesen; die
-                            Frist von zehn Kalendertagen gilt als angemessene Frist im Sinne des § 6 Abs 1 Z 2 KSchG.
+                        <p class="text-neutral-300 leading-relaxed mb-4">
+                            <strong class="text-white font-semibold">Quellcode und Know-how:</strong> Die Herausgabe des Quellcodes ist nur bei schriftlicher Vereinbarung geschuldet. Wiederverwendbare Komponenten, Module, Vorlagen, Werkzeuge sowie Konzepte, Architekturen, Datenmodelle, KI-Prompts und Arbeitsmethoden verbleiben beim Auftragnehmer und sind nicht Teil des Nutzungsrechts.
+                        </p>
+
+                        <p class="text-neutral-300 leading-relaxed mb-4">
+                            <strong class="text-white font-semibold">Öffentliches GitHub-Repository:</strong> Der Quellcode kann in einem öffentlichen GitHub-Repository versioniert werden und ist damit für jeden einsehbar; mit Auftragserteilung stimmt der Auftraggeber dem zu. Vertrauliche Geschäftsinformationen, Zugangsdaten und sonstige sensible Inhalte werden dort nicht veröffentlicht. Ein Anspruch auf Herausgabe oder Übertragung des Repositorys oder des Versionsverlaufs besteht nicht.
+                        </p>
+
+                        <p class="text-neutral-300 leading-relaxed mb-4">
+                            <strong class="text-white font-semibold">KI-Einsatz:</strong> Der Auftragnehmer darf KI-Werkzeuge einsetzen. Eine gesetzlich erforderliche Kennzeichnung nach Art. 50 KI-Verordnung (EU) 2024/1689 wird bei Übergabe einmalig umgesetzt; danach ist der Auftraggeber als Betreiber dafür verantwortlich. Rein KI-generierte Inhalte genießen unter Umständen keinen urheberrechtlichen Schutz.
+                        </p>
+
+                        <p class="text-neutral-300 leading-relaxed ">
+                            <strong class="text-white font-semibold">Open Source, Schriftarten, Icons:</strong> Komponenten Dritter werden gemäß deren Lizenzbedingungen eingesetzt. Kostenpflichtige Lizenzen werden vorab mitgeteilt und gesondert vereinbart. Lizenzänderungen durch Rechteinhaber liegen außerhalb des Einflussbereichs des Auftragnehmers.
                         </p>
                     </div>
 
-                    <!-- 10. Urheber- und Nutzungsrechte -->
+                    <!-- 10. Vertraulichkeit -->
                     <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
                         <h2 class="text-lg font-semibold text-brand mb-4">
-                            10. Urheber- und Nutzungsrechte
+                            10. Vertraulichkeit
                         </h2>
 
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            10.1 Urheberrecht
-                        </h3>
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Sämtliche durch den Auftragnehmer erstellten Leistungen unterliegen dem Urheberrecht.
-                            Dies betrifft insbesondere:
-                        </p>
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
-                            <li>Programmcode</li>
-                            <li>Designleistungen</li>
-                            <li>Benutzeroberflächen</li>
-                            <li>Datenbankstrukturen</li>
-                            <li>Automatisierungen</li>
-                            <li>Webanwendungen</li>
-                            <li>Dokumentationen</li>
-                            <li>Texte</li>
-                            <li>Grafiken</li>
-                            <li>Konzepte</li>
-                        </ul>
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Das Urheberrecht verbleibt ausschließlich beim Auftragnehmer.
-                        </p>
-
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            10.2 Nutzungsrechte
-                        </h3>
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Nach vollständiger Bezahlung erhält der Auftraggeber ein einfaches, zeitlich und räumlich
-                            unbeschränktes Nutzungsrecht an der fertiggestellten Website oder Webanwendung. Das
-                            eingeräumte Nutzungsrecht beschränkt sich ausschließlich auf den ursprünglich vereinbarten
-                            Verwendungszweck. Eine Übertragung der Nutzungsrechte auf Dritte bedarf der vorherigen
-                            schriftlichen Zustimmung des Auftragnehmers.
-                        </p>
-
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            10.3 Quellcode und Eigentumsrechte
-                        </h3>
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Der Auftraggeber erhält das Recht, die fertiggestellte Website oder Webanwendung zu
-                            nutzen. Die Herausgabe des vollständigen Quellcodes ist nicht Bestandteil des Vertrags,
-                            sofern dies nicht ausdrücklich schriftlich vereinbart wurde. Sämtliche Rechte an
-                            wiederverwendbaren Komponenten, Bibliotheken, Modulen, Skripten, Vorlagen,
-                            Entwicklungswerkzeugen und sonstigen technischen Bestandteilen verbleiben beim
-                            Auftragnehmer. Eine Übertragung der Urheberrechte erfolgt ausdrücklich nicht.
-                        </p>
-
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            10.4 GitHub-Repository und Versionsverwaltung
-                        </h3>
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Der während der Entwicklung entstehende Quellcode kann in einem öffentlichen
-                            GitHub-Repository gespeichert und versioniert werden. Das bedeutet, jeder kann den
-                            Quellcode des Projekts einsehen. Das Repository dient ausschließlich der internen
-                            Entwicklung, Dokumentation und Datensicherung.
-                        </p>
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Der Auftraggeber hat keinen Anspruch auf:
-                        </p>
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
-                            <li>die Herausgabe des GitHub-Repositorys</li>
-                            <li>die Übertragung des Repositorys</li>
-                            <li>die Herausgabe des Versionsverlaufs</li>
-                            <li>den Zugriff auf interne Entwicklungsdaten</li>
-                        </ul>
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Der Auftraggeber wird vor Projektbeginn ausdrücklich darauf hingewiesen, dass der
-                            Quellcode öffentlich einsehbar ist. Der Auftragnehmer verpflichtet sich, in das
-                            öffentliche Repository keine vertraulichen Geschäftsinformationen, Zugangsdaten oder
-                            sonstigen sensiblen Inhalte des Auftraggebers einzustellen; die
-                            Vertraulichkeitsverpflichtung gemäß Punkt 11 bleibt davon unberührt und bezieht sich auf
-                            sämtliche Inhalte außerhalb des reinen, allgemein wiederverwendbaren Quellcodes. Mit
-                            Erteilung des Auftrags stimmt der Auftraggeber der öffentlichen Bereitstellung des
-                            Quellcodes in diesem Rahmen ausdrücklich zu.
-                        </p>
-
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            10.5 KI-gestützte Entwicklung, Konzepte und Arbeitsmethoden
-                        </h3>
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Der Auftragnehmer ist berechtigt, bei der Entwicklung unterstützende KI-Technologien
-                            einzusetzen. Sämtliche Konzepte, Entwicklungsstrategien, Softwarearchitekturen,
-                            Automatisierungskonzepte, Prompts, Arbeitsabläufe und internen Methoden verbleiben
-                            ausschließlich beim Auftragnehmer. Dies gilt insbesondere für:
-                        </p>
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
-                            <li>KI-Prompts</li>
-                            <li>Softwarearchitekturen</li>
-                            <li>Datenmodelle</li>
-                            <li>Automatisierungskonzepte</li>
-                            <li>Entwicklungswerkzeuge</li>
-                            <li>technische Dokumentationen</li>
-                            <li>wiederverwendbare Softwarekomponenten</li>
-                        </ul>
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Diese Bestandteile sind nicht Teil der eingeräumten Nutzungsrechte.
-                        </p>
-
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            10.6 KI-generierte Inhalte im fertigen Produkt
-                        </h3>
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Werden im Rahmen der Leistungserbringung KI-generierte Inhalte (insbesondere Bilder,
-                            Grafiken oder Texte) Teil der fertiggestellten Website oder Webanwendung, gilt ergänzend
-                            Folgendes:
-                        </p>
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-2 mb-4">
-                            <li>Der Auftragnehmer unterzieht KI-generierte Bildinhalte vor Fertigstellung einer
-                                redaktionellen Prüfung und Freigabe durch eine natürliche Person; damit soll die
-                                Ausnahme von der Kennzeichnungspflicht für offensichtlich künstlerische, kreative,
-                                satirische, fiktionale oder analoge Werke gemäß Art. 50 Abs. 2 KI-Verordnung
-                                (Verordnung (EU) 2024/1689) unterstützt werden, sofern die dortigen Voraussetzungen
-                                im Einzelfall vorliegen.</li>
-                            <li>Soweit eine Kennzeichnung KI-generierter Bildinhalte bei Übergabe gesetzlich
-                                erforderlich ist, wird diese im Rahmen der Projektumsetzung einmalig umgesetzt.</li>
-                            <li>Die laufende, über die Projektumsetzung hinausgehende Einhaltung der
-                                Kennzeichnungspflicht nach Art. 50 KI-Verordnung als Betreiber der Website obliegt ab
-                                Übergabe ausschließlich dem Auftraggeber.</li>
-                            <li>Der Auftraggeber wird darauf hingewiesen, dass rein KI-generierte Inhalte nach
-                                derzeitiger Rechtslage unter Umständen keinen oder nur eingeschränkten
-                                urheberrechtlichen Schutz genießen.</li>
-                            <li>Setzt der Auftragnehmer zur Erstellung von KI-generierten Inhalten externe
-                                KI-Dienste ein, die dabei personenbezogene Daten des Auftraggebers oder Dritter
-                                verarbeiten, gelten hierfür ergänzend die Regelungen zur Auftragsverarbeitung gemäß
-                                Punkt 17.</li>
-                        </ul>
-
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            10.7 Open-Source-Komponenten, Schriftarten und Icons
-                        </h3>
-                        <p class="text-neutral-300 leading-relaxed">
-                            Bei der Umsetzung von Websites und Webanwendungen setzt der Auftragnehmer regelmäßig
-                            Open-Source-Komponenten, Bibliotheken, Frameworks, Schriftarten (Fonts) und Icon-Sets
-                            Dritter ein. Diese unterliegen den jeweiligen Lizenzbedingungen der Rechteinhaber. Der
-                            Auftragnehmer setzt diese Bestandteile im Rahmen der jeweils geltenden
-                            Lizenzbedingungen ein und achtet auf deren Einhaltung. Sollte für das Projekt der Einsatz
-                            kostenpflichtiger oder gesondert zu lizenzierender Komponenten erforderlich oder
-                            sinnvoll sein, wird dies dem Auftraggeber vorab mitgeteilt und gesondert vereinbart.
-                            Etwaige Änderungen der Lizenzbedingungen durch die jeweiligen Rechteinhaber liegen
-                            außerhalb des Einflussbereichs des Auftragnehmers.
+                        <p class="text-neutral-300 leading-relaxed ">
+                            Vertrauliche Informationen des Auftraggebers werden nur zur Projektdurchführung verwendet – auch über das Vertragsende hinaus. Ausgenommen sind öffentlich bekannte oder gesetzlich offenzulegende Informationen.
                         </p>
                     </div>
 
-                    <!-- 11. Vertraulichkeit -->
+                    <!-- 11. Vergütung und Zahlung -->
                     <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
                         <h2 class="text-lg font-semibold text-brand mb-4">
-                            11. Vertraulichkeit
+                            11. Vergütung und Zahlung
                         </h2>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Der Auftragnehmer verpflichtet sich, sämtliche vertraulichen Informationen des
-                            Auftraggebers ausschließlich zur Durchführung des jeweiligen Projekts zu verwenden. Die
-                            Vertraulichkeitsverpflichtung bleibt auch nach Beendigung des Vertragsverhältnisses
-                            bestehen.
+                            Sofern nicht anders vereinbart, erfolgt die Leistung gegen Vorauskasse; Teilzahlungen können vereinbart werden.
                         </p>
 
-                        <p class="text-neutral-300 leading-relaxed">
-                            Ausgenommen sind Informationen, die bereits öffentlich bekannt sind oder aufgrund
-                            gesetzlicher Verpflichtungen offengelegt werden müssen.
+                        <p class="text-neutral-300 leading-relaxed ">
+                            Der Auftragnehmer ist umsatzsteuerpflichtig. Sofern nichts anderes angegeben oder vereinbart wurde, verstehen sich alle Preise als Bruttopreise inklusive der gesetzlichen Umsatzsteuer (derzeit 20 %). Die Umsatzsteuer wird auf der Rechnung gesondert ausgewiesen. Bei Zahlungsverzug gelten die gesetzlichen Verzugszinsen (Unternehmer: § 456 UGB, Verbraucher: § 1000 Abs 1 ABGB). Der Auftragnehmer darf laufende Arbeiten einstellen und Websites vorübergehend deaktivieren – gegenüber Verbrauchern erst nach Setzung einer angemessenen Nachfrist. Bereits erbrachte Leistungen bleiben voll zahlungspflichtig.
                         </p>
                     </div>
 
-                    <!-- 12. Vergütung -->
+                    <!-- 12. Laufzeit, Kündigung und Wartung -->
                     <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
                         <h2 class="text-lg font-semibold text-brand mb-4">
-                            12. Vergütung und Zahlungsbedingungen
+                            12. Laufzeit, Kündigung und Wartung
                         </h2>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Sofern nichts anderes vereinbart wurde, erfolgt die Leistungserbringung gegen
-                            Vorauskasse.
+                            Projekte enden mit vollständiger Leistungserbringung; Hosting-, Domain- und Wartungsleistungen laufen für die vereinbarte Laufzeit. Kündigungen bedürfen der Schriftform.
                         </p>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Der Auftragnehmer ist Kleinunternehmer im Sinne des § 6 Abs 1 Z 27 UStG. Die angegebenen
-                            bzw. vereinbarten Preise verstehen sich daher als Endpreise ohne gesonderten Ausweis der
-                            Umsatzsteuer. Sollte diese Kleinunternehmerregelung im Zeitpunkt der Rechnungslegung
-                            nicht mehr zutreffen, wird die gesetzliche Umsatzsteuer zusätzlich verrechnet.
+                            Nach Vertragsende wird die Website gelöscht; in Datenbanken vorhandene Kundendaten werden dem Auftraggeber vorher übermittelt. Im Übrigen ist der Auftraggeber für die Sicherung seiner Daten selbst verantwortlich.
                         </p>
 
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Teilzahlungen können individuell vereinbart werden. Bei Zahlungsverzug gelten, sofern
-                            nichts anderes vereinbart wurde, folgende gesetzliche Verzugszinsen:
+                        <p class="text-neutral-300 leading-relaxed mb-4">
+                            Wartung und Support sind nur bei schriftlicher Vereinbarung geschuldet und richten sich nach deren Umfang. Ohne Wartungsvertrag besteht kein Anspruch auf (Sicherheits-)Updates, Fehlerbehebungen, Überwachung, Datensicherung oder -wiederherstellung sowie Anpassungen an neue Browser-, Betriebssystem- oder Drittanbieterversionen.
                         </p>
 
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
-                            <li>gegenüber Unternehmern: der Verzugszinssatz gemäß § 456 UGB</li>
-                            <li>gegenüber Verbrauchern: der gesetzliche Verzugszinssatz gemäß § 1000 Abs 1 ABGB</li>
-                        </ul>
-
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Bei Zahlungsverzug behält sich der Auftragnehmer das Recht vor:
-                        </p>
-
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
-                            <li>laufende Arbeiten einzustellen</li>
-                            <li>Websites vorübergehend zu deaktivieren</li>
-                        </ul>
-
-                        <p class="text-neutral-300 leading-relaxed">
-                            Handelt es sich beim Auftraggeber um einen Verbraucher, wird ihm vor einer solchen
-                            Maßnahme eine angemessene Nachfrist zur Zahlung gesetzt. Bereits erbrachte Leistungen
-                            bleiben unabhängig davon vollständig zahlungspflichtig.
+                        <p class="text-neutral-300 leading-relaxed ">
+                            Notwendige Wartungsarbeiten darf der Auftragnehmer jederzeit durchführen; daraus resultierende kurzfristige Einschränkungen begründen keine Ansprüche. Reaktions- oder Lösungszeiten gelten nur, wenn sie vereinbart wurden. Erweiterungen über die vereinbarte Wartung hinaus werden gesondert verrechnet.
                         </p>
                     </div>
 
-                    <!-- 13. Laufzeit und Kündigung -->
+                    <!-- 13. Widerrufsrecht für Verbraucher -->
                     <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
                         <h2 class="text-lg font-semibold text-brand mb-4">
-                            13. Laufzeit und Kündigung
+                            13. Widerrufsrecht für Verbraucher
                         </h2>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Projektbezogene Leistungen enden mit der vollständigen Erfüllung des vereinbarten
-                            Leistungsumfangs. Hosting-, Domain- und Wartungsleistungen werden für die jeweils
-                            vereinbarte Vertragslaufzeit erbracht. Die Kündigung bedarf der Schriftform.
+                            Bei Verträgen mit Verbrauchern, die im Fernabsatz oder außerhalb der Geschäftsräume geschlossen wurden (§ 1 FAGG), kann der Verbraucher binnen 14 Tagen ab Vertragsabschluss ohne Angabe von Gründen zurücktreten. Der Widerruf ist mittels eindeutiger Erklärung (z. B. Post oder E-Mail) zu richten an: Korbitsch IT-Dienstleistungen, Ing. Lukas Korbitsch, Kiesweg 19, 9500 Villach, info@korbitsch.at.
                         </p>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Nach Vertragsende ist der Auftraggeber für die Sicherung seiner Daten selbst
-                            verantwortlich.
+                            Verlangt der Verbraucher ausdrücklich, dass vor Ablauf der Widerrufsfrist mit der Leistung (auch IT-Hilfe) begonnen wird, hat er bei Widerruf einen anteiligen Betrag für die bis dahin erbrachten Leistungen zu zahlen. Das Widerrufsrecht erlischt, wenn die Leistung vollständig erbracht wurde und der Verbraucher dem vorzeitigen Beginn zugestimmt sowie den Verlust seines Widerrufsrechts bestätigt hat.
                         </p>
 
-                        <p class="text-neutral-400 text-sm leading-relaxed italic mb-6">
-                            Hinweis für Verbraucher: Bei Dauerschuldverhältnissen mit Verbrauchern (z. B. Wartungs-
-                            oder Hostingverträge) gelten ergänzend die zwingenden Bestimmungen des § 15 KSchG,
-                            insbesondere zu Kündigungsfristen bei stillschweigender Vertragsverlängerung.
-                        </p>
-
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            13.1 Wartungs- und Supportleistungen
-                        </h3>
-
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Wartungs- und Supportleistungen sind ausschließlich dann Bestandteil des Vertrags, wenn
-                            sie ausdrücklich und schriftlich vereinbart wurden. Ohne einen gesonderten
-                            Wartungsvertrag besteht insbesondere kein Anspruch auf:
-                        </p>
-
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
-                            <li>Software-Updates</li>
-                            <li>Sicherheitsupdates</li>
-                            <li>Funktionsanpassungen</li>
-                            <li>Fehlerbehebungen</li>
-                            <li>technische Überwachung</li>
-                            <li>Datensicherungen</li>
-                            <li>die Wiederherstellung von Daten</li>
-                            <li>die Anpassung an neue Browser- oder Betriebssystemversionen</li>
-                            <li>die Aktualisierung von Drittanbieter-Software</li>
-                        </ul>
-
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Der Umfang der Wartungsleistungen richtet sich ausschließlich nach der jeweiligen
-                            Vereinbarung zwischen dem Auftragnehmer und dem Auftraggeber. Der Auftragnehmer ist
-                            berechtigt, Wartungsarbeiten durchzuführen, wenn diese für die Sicherheit, Stabilität
-                            oder Funktionsfähigkeit der bereitgestellten Dienste erforderlich sind.
-                        </p>
-
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Geplante Wartungsarbeiten können zu einer vorübergehenden Einschränkung der
-                            Verfügbarkeit führen. Daraus können keine Ansprüche gegenüber dem Auftragnehmer
-                            abgeleitet werden. Supportanfragen werden innerhalb angemessener Fristen bearbeitet. Eine
-                            bestimmte Reaktions- oder Lösungszeit wird nur geschuldet, wenn diese ausdrücklich
-                            vereinbart wurde.
-                        </p>
-
-                        <p class="text-neutral-300 leading-relaxed">
-                            Änderungswünsche, Funktionserweiterungen sowie Anpassungen, die über die vereinbarten
-                            Wartungsleistungen hinausgehen, gelten als gesonderte Leistungen und werden separat
-                            verrechnet. Der Abschluss eines Wartungsvertrags begründet keine Verpflichtung des
-                            Auftragnehmers zur Weiterentwicklung der Website oder Webanwendung über den vereinbarten
-                            Leistungsumfang hinaus.
+                        <p class="text-neutral-300 leading-relaxed ">
+                            Nach wirksamem Widerruf werden erhaltene Zahlungen binnen 14 Tagen erstattet, abzüglich eines allfälligen anteiligen Betrags gemäß vorigem Absatz.
                         </p>
                     </div>
 
-                    <!-- 14. Widerrufsrecht -->
+                    <!-- 14. Haftung und Gewährleistung -->
                     <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
                         <h2 class="text-lg font-semibold text-brand mb-4">
-                            14. Widerrufsrecht für Verbraucher
+                            14. Haftung und Gewährleistung
                         </h2>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Die folgenden Bestimmungen gelten ausschließlich für Verträge mit Verbrauchern, die im
-                            Wege des Fernabsatzes (z. B. per E-Mail, Telefon, Website, WhatsApp) oder außerhalb der
-                            Geschäftsräume des Auftragnehmers abgeschlossen wurden (§ 1 FAGG).
+                            Der Auftragnehmer haftet nur für Vorsatz und grobe Fahrlässigkeit. Die Haftung für leichte Fahrlässigkeit ist, soweit gesetzlich zulässig, ausgeschlossen – ausgenommen Personenschäden und Ansprüche nach dem Produkthaftungsgesetz. Insbesondere wird nicht gehaftet für wirtschaftliche Verluste, entgangenen Gewinn, Umsatzeinbußen, Verlust von Suchmaschinenrankings oder Reichweite, Datenverluste, Serverausfälle, Cyberangriffe und Störungen bei Drittanbietern.
                         </p>
 
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            14.1 Widerrufsrecht
-                        </h3>
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Verbraucher haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen
-                            Vertrag zu widerrufen. Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag des
-                            Vertragsabschlusses.
-                        </p>
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Um das Widerrufsrecht auszuüben, muss der Verbraucher den Auftragnehmer (Korbitsch
-                            IT-Dienstleistungen, Ing. Lukas Korbitsch, Kiesweg 19, 9500 Villach, E-Mail:
-                            <a href="mailto:info@korbitsch.at" class="text-brand hover:underline">info@korbitsch.at</a>)
-                            mittels einer eindeutigen Erklärung (z. B. per Post oder E-Mail) über den Entschluss,
-                            diesen Vertrag zu widerrufen, informieren.
-                        </p>
-
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            14.2 Ausschluss bzw. vorzeitiges Erlöschen des Widerrufsrechts
-                        </h3>
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Das Widerrufsrecht besteht unter anderem nicht bzw. erlischt vorzeitig bei:
-                        </p>
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
-                            <li>Dienstleistungsverträgen, wenn der Auftragnehmer die Dienstleistung vollständig
-                                erbracht hat und mit der Ausführung erst begonnen hat, nachdem der Verbraucher dazu
-                                seine ausdrückliche Zustimmung gegeben und gleichzeitig seine Kenntnis davon
-                                bestätigt hat, dass er das Widerrufsrecht bei vollständiger Vertragserfüllung durch
-                                den Auftragnehmer verliert</li>
-                        </ul>
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Wünscht der Verbraucher, dass mit der Ausführung der Leistung bereits vor Ablauf der
-                            Widerrufsfrist begonnen wird, hat er dies gegenüber dem Auftragnehmer ausdrücklich zu
-                            erklären. Widerruft der Verbraucher in diesem Fall dennoch, hat er dem Auftragnehmer
-                            einen angemessenen Betrag zu zahlen, der dem Anteil der bis zum Widerruf bereits
-                            erbrachten Leistungen im Vergleich zum Gesamtumfang der vertraglich vereinbarten
-                            Leistung entspricht.
-                        </p>
-
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            14.3 Folgen des Widerrufs
-                        </h3>
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Widerruft der Verbraucher diesen Vertrag wirksam, hat der Auftragnehmer alle vom
-                            Verbraucher erhaltenen Zahlungen unverzüglich und spätestens binnen vierzehn Tagen ab
-                            dem Tag zurückzuzahlen, an dem die Widerrufserklärung beim Auftragnehmer eingegangen
-                            ist, abzüglich eines allfälligen Wertersatzes gemäß Punkt 14.2.
-                        </p>
-
-                        <p class="text-neutral-400 text-sm leading-relaxed italic">
-                            Hinweis: Diese Widerrufsbelehrung stellt eine allgemeine Information dar und ersetzt
-                            keine individuelle rechtliche Prüfung. Es wird empfohlen, die konkrete Ausgestaltung des
-                            Widerrufsrechts sowie ein Muster-Widerrufsformular anwaltlich prüfen und final
-                            formulieren zu lassen (siehe auch Punkt 16).
+                        <p class="text-neutral-300 leading-relaxed ">
+                            Gewährleistungsfrist: gegenüber Unternehmern zwölf Monate ab Abnahme bzw. Übergabe; gegenüber Verbrauchern die gesetzliche Frist gemäß § 933 ABGB (grundsätzlich zwei Jahre).
                         </p>
                     </div>
 
-                    <!-- 15. Haftung und Gewährleistung -->
+                    <!-- 15. Rechtstexte und Datenschutz -->
                     <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
                         <h2 class="text-lg font-semibold text-brand mb-4">
-                            15. Haftung und Gewährleistung
+                            15. Rechtstexte und Datenschutz
                         </h2>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Der Auftragnehmer haftet ausschließlich für vorsätzlich oder grob fahrlässig verursachte
-                            Schäden. Eine Haftung für leichte Fahrlässigkeit wird, soweit gesetzlich zulässig,
-                            ausgeschlossen. Ausgenommen von diesem Haftungsausschluss sind Schäden aus der
-                            Verletzung des Lebens, des Körpers oder der Gesundheit sowie zwingende Ansprüche nach
-                            dem Produkthaftungsgesetz.
+                            Der Auftragnehmer erbringt keine Rechtsberatung. Erstellung und Prüfung von Impressum, Datenschutzerklärung, AGB und sonstigen Rechtstexten obliegen dem Auftraggeber; übermittelte Mustertexte sind keine Rechtsberatung.
                         </p>
 
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Eine Haftung besteht insbesondere nicht für:
+                        <p class="text-neutral-300 leading-relaxed mb-4">
+                            Der Auftraggeber ist für die Einhaltung des Datenschutzes verantwortlich (u. a. Datenschutzerklärung, Cookies, Einwilligungen, Einbindung externer Dienste). Der Auftragnehmer haftet nicht für datenschutzrechtliche Verstöße des Auftraggebers.
+                        </p>
+
+                        <p class="text-neutral-300 leading-relaxed mb-4">
+                            <strong class="text-white font-semibold">Auftragsverarbeitung:</strong> Verarbeitet der Auftragnehmer bei Hosting, Domain, E-Mail oder Wartung personenbezogene Daten, die über die Website oder Webanwendung des Auftraggebers erhoben werden (z. B. Kontaktformulare, Nutzerkonten), handelt er als Auftragsverarbeiter gemäß Art. 28 DSGVO. Gegenstand und Dauer ergeben sich aus dem Leistungsvertrag. Der Auftragnehmer
                         </p>
 
                         <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
-                            <li>wirtschaftliche Verluste</li>
-                            <li>entgangenen Gewinn</li>
-                            <li>Umsatzeinbußen</li>
-                            <li>Suchmaschinenrankings</li>
-                            <li>Reichweitenverluste</li>
-                            <li>Datenverluste</li>
-                            <li>Serverausfälle</li>
-                            <li>Cyberangriffe</li>
-                            <li>Störungen bei Drittanbietern</li>
+                            <li>verarbeitet Daten nur auf dokumentierte Weisung des Auftraggebers, sofern keine gesetzliche Pflicht besteht,</li>
+                            <li>verpflichtet alle befugten Personen zur Vertraulichkeit und trifft Maßnahmen gemäß Art. 32 DSGVO,</li>
+                            <li>unterstützt bei Betroffenenrechten und Meldepflichten (Art. 33, 34 DSGVO) und meldet Datenschutzverletzungen unverzüglich,</li>
+                            <li>löscht oder retourniert die Daten nach Vertragsende nach Wahl des Auftraggebers, sofern keine Aufbewahrungspflicht besteht.</li>
                         </ul>
-
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Die Gewährleistungsfrist für vom Auftragnehmer erbrachte Leistungen beträgt:
-                        </p>
-
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1">
-                            <li>gegenüber Unternehmern zwölf Monate ab Abnahme bzw. Übergabe</li>
-                            <li>gegenüber Verbrauchern die gesetzliche Gewährleistungsfrist gemäß § 933 ABGB
-                                (grundsätzlich zwei Jahre ab Übergabe bei beweglichen Sachen); diese Frist kann
-                                gegenüber Verbrauchern nicht vertraglich verkürzt werden</li>
-                        </ul>
-                    </div>
-
-                    <!-- 16. Rechtliche Inhalte -->
-                    <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
-                        <h2 class="text-lg font-semibold text-brand mb-4">
-                            16. Rechtliche Inhalte und Rechtsberatung
-                        </h2>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Der Auftragnehmer erbringt keine Rechtsberatung. Die Erstellung und rechtliche Prüfung
-                            von Impressum, Datenschutzerklärung, Allgemeinen Geschäftsbedingungen,
-                            Widerrufsbelehrungen oder sonstigen Rechtstexten obliegt ausschließlich dem
-                            Auftraggeber.
+                            <strong class="text-white font-semibold">Server:</strong> Der Auftragnehmer administriert den Server im Auftrag des Auftraggebers. Weitere Sub-Auftragsverarbeiter (z. B. Backup- oder KI-Dienste) werden dem Auftraggeber mitgeteilt; dieser kann aus wichtigem Grund widersprechen.
                         </p>
 
-                        <p class="text-neutral-300 leading-relaxed">
-                            Übermittelte Mustertexte oder Formulierungsvorschläge stellen keine Rechtsberatung dar.
+                        <p class="text-neutral-300 leading-relaxed ">
+                            Auf Wunsch oder wenn gesetzlich erforderlich wird ein gesonderter Auftragsverarbeitungsvertrag geschlossen, der diesen Regelungen vorgeht.
                         </p>
                     </div>
 
-                    <!-- 17. Datenschutz -->
+                    <!-- 16. Referenzen -->
                     <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
                         <h2 class="text-lg font-semibold text-brand mb-4">
-                            17. Datenschutz
+                            16. Referenzen
                         </h2>
 
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Der Auftraggeber ist für die Einhaltung sämtlicher datenschutzrechtlicher Vorschriften
-                            verantwortlich. Dies betrifft insbesondere:
-                        </p>
-
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
-                            <li>Datenschutzerklärungen</li>
-                            <li>Cookie-Richtlinien</li>
-                            <li>Einwilligungen</li>
-                            <li>die Verarbeitung personenbezogener Daten</li>
-                            <li>die Einbindung externer Dienste</li>
-                        </ul>
-
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Der Auftragnehmer übernimmt keine Haftung für datenschutzrechtliche Verstöße.
-                        </p>
-
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            17.1 Auftragsverarbeitung
-                        </h3>
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Verarbeitet der Auftragnehmer im Rahmen der Erbringung von Hosting-, Domain-, E-Mail-
-                            oder Wartungsleistungen personenbezogene Daten, die über die vom Auftraggeber betriebene
-                            Website oder Webanwendung erhoben werden (z. B. Kontaktformulardaten, Nutzerkonten),
-                            handelt der Auftragnehmer insoweit als Auftragsverarbeiter im Sinne des Art. 28 DSGVO für
-                            den Auftraggeber als Verantwortlichen. Es gilt Folgendes:
-                        </p>
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-2 mb-4">
-                            <li>Gegenstand und Dauer der Verarbeitung ergeben sich aus dem jeweiligen
-                                Leistungsvertrag zwischen Auftragnehmer und Auftraggeber.</li>
-                            <li>Der Auftragnehmer verarbeitet personenbezogene Daten ausschließlich auf
-                                dokumentierte Weisung des Auftraggebers, es sei denn, er ist nach dem Recht der
-                                Europäischen Union oder eines Mitgliedstaats zu einer anderweitigen Verarbeitung
-                                verpflichtet.</li>
-                            <li>Der Auftragnehmer gewährleistet, dass die zur Verarbeitung befugten Personen zur
-                                Vertraulichkeit verpflichtet wurden.</li>
-                            <li>Der Auftragnehmer trifft angemessene technische und organisatorische Maßnahmen
-                                gemäß Art. 32 DSGVO zum Schutz der verarbeiteten Daten.</li>
-                            <li>Nach Abschluss der Leistungserbringung löscht oder retourniert der Auftragnehmer
-                                sämtliche personenbezogenen Daten nach Wahl des Auftraggebers, sofern keine
-                                gesetzliche Aufbewahrungspflicht entgegensteht.</li>
-                            <li>Der Auftragnehmer unterstützt den Auftraggeber im Rahmen des Zumutbaren bei der
-                                Erfüllung von Betroffenenrechten sowie bei der Einhaltung der Meldepflichten nach
-                                Art. 33 und 34 DSGVO und informiert den Auftraggeber unverzüglich über eine ihm
-                                bekannt gewordene Verletzung des Schutzes personenbezogener Daten.</li>
-                        </ul>
-
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            17.2 Serverinfrastruktur und Sub-Auftragsverarbeiter
-                        </h3>
-                        <p class="text-neutral-300 leading-relaxed mb-4">
-                            Die Serverinfrastruktur, auf der Kundenprojekte betrieben werden, stellt SystemPro,
-                            Lodengasse 17, 9020 Klagenfurt am Wörthersee, Österreich, bereit. Der Auftraggeber
-                            schließt hierfür einen eigenen Vertrag mit SystemPro ab; SystemPro ist insoweit nicht
-                            Sub-Auftragsverarbeiter des Auftragnehmers, sondern eigenständiger Auftragsverarbeiter
-                            des Auftraggebers, mit dem der Auftraggeber selbst einen den Anforderungen des Art. 28
-                            DSGVO entsprechenden Auftragsverarbeitungsvertrag abzuschließen hat. Der Auftragnehmer
-                            administriert den Server im Auftrag des Auftraggebers eigenständig und hat dabei
-                            technischen Zugriff auf die dort verarbeiteten personenbezogenen Daten; insoweit gilt
-                            der Auftragnehmer selbst als Auftragsverarbeiter gemäß Punkt 17.1. Setzt der
-                            Auftragnehmer darüber hinaus eigene Sub-Auftragsverarbeiter ein (z. B. Backup- oder
-                            KI-Dienste), wird der Auftraggeber hierüber informiert und kann dem innerhalb
-                            angemessener Frist aus wichtigem Grund widersprechen; im Fall eines berechtigten
-                            Widerspruchs suchen die Vertragsparteien eine einvernehmliche Lösung.
-                        </p>
-
-                        <h3 class="text-base font-semibold text-brand mb-2">
-                            17.3 Gesonderter Auftragsverarbeitungsvertrag
-                        </h3>
-                        <p class="text-neutral-300 leading-relaxed">
-                            Auf Wunsch des Auftraggebers oder soweit gesetzlich erforderlich, schließen die
-                            Vertragsparteien einen gesonderten, den Anforderungen des Art. 28 DSGVO vollständig
-                            entsprechenden Auftragsverarbeitungsvertrag ab, der diese Regelungen im Detail
-                            ausgestaltet und im Kollisionsfall dieser Bestimmung vorgeht.
+                        <p class="text-neutral-300 leading-relaxed ">
+                            Der Auftragnehmer darf abgeschlossene Projekte als Referenz verwenden (Unternehmensname, Screenshots, Projektbeschreibung, erbrachte Leistungen, Quellcode). Der Auftraggeber kann dem schriftlich widersprechen.
                         </p>
                     </div>
 
-                    <!-- 18. Referenznutzung -->
+                    <!-- 17. Schlussbestimmungen -->
                     <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
                         <h2 class="text-lg font-semibold text-brand mb-4">
-                            18. Referenznutzung
-                        </h2>
-
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Der Auftragnehmer ist berechtigt, abgeschlossene Projekte als Referenz zu verwenden.
-                            Dies umfasst insbesondere:
-                        </p>
-
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
-                            <li>die Nennung des Unternehmensnamens</li>
-                            <li>die Veröffentlichung von Screenshots</li>
-                            <li>die Beschreibung des Projekts</li>
-                            <li>die Darstellung der erbrachten Leistungen</li>
-                            <li>die Veröffentlichung des Sourcecodes</li>
-                        </ul>
-
-                        <p class="text-neutral-300 leading-relaxed">
-                            Der Auftraggeber kann dieser Nutzung schriftlich widersprechen.
-                        </p>
-                    </div>
-
-                    <!-- 19. Schlussbestimmungen -->
-                    <div class="border border-neutral-800 rounded-2xl p-6 bg-neutral-900/50">
-                        <h2 class="text-lg font-semibold text-brand mb-4">
-                            19. Schlussbestimmungen
+                            17. Schlussbestimmungen
                         </h2>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Es gilt österreichisches Recht unter Ausschluss der Verweisungsnormen des
-                            internationalen Privatrechts sowie des UN-Kaufrechts (CISG).
+                            Es gilt österreichisches Recht unter Ausschluss der Verweisungsnormen und des UN-Kaufrechts. Gegenüber Verbrauchern aus anderen EU-Staaten bleiben deren zwingende Verbraucherschutzbestimmungen unberührt (Art 6 Rom I-VO).
                         </p>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Gegenüber Verbrauchern mit gewöhnlichem Aufenthalt in einem anderen EU-Mitgliedstaat
-                            bleiben die zwingenden verbraucherschutzrechtlichen Bestimmungen dieses Staates von der
-                            Rechtswahl unberührt (Art 6 Rom I-VO).
+                            Gerichtsstand gegenüber Unternehmern ist, soweit zulässig, das sachlich zuständige Gericht am Sitz des Auftragnehmers. Gegenüber Verbrauchern gelten die gesetzlichen Zuständigkeiten, insbesondere § 14 KSchG.
                         </p>
-
-                        <p class="text-neutral-300 leading-relaxed mb-3">
-                            Gerichtsstand:
-                        </p>
-
-                        <ul class="list-disc list-inside text-neutral-300 leading-relaxed space-y-1 mb-4">
-                            <li>gegenüber Unternehmern ist, soweit gesetzlich zulässig, das sachlich zuständige
-                                Gericht am Sitz des Auftragnehmers vereinbart</li>
-                            <li>gegenüber Verbrauchern gelten die gesetzlichen Zuständigkeitsbestimmungen,
-                                insbesondere der Verbrauchergerichtsstand gemäß § 14 KSchG bzw. die einschlägigen
-                                unionsrechtlichen Zuständigkeitsvorschriften</li>
-                        </ul>
 
                         <p class="text-neutral-300 leading-relaxed mb-4">
-                            Sollte eine Bestimmung dieser Allgemeinen Geschäftsbedingungen unwirksam sein, bleibt die
-                            Wirksamkeit der übrigen Bestimmungen davon unberührt.
+                            Sollte eine Bestimmung unwirksam sein, bleiben die übrigen Bestimmungen wirksam.
                         </p>
 
-                        <p class="text-neutral-300 leading-relaxed">
-                            Mit der Beauftragung bestätigt der Auftraggeber, diese Allgemeinen Geschäftsbedingungen
-                            gelesen und akzeptiert zu haben.
+                        <p class="text-neutral-300 leading-relaxed ">
+                            Mit der Beauftragung bestätigt der Auftraggeber, diese AGB gelesen und akzeptiert zu haben.
                         </p>
                     </div>
 
@@ -1070,7 +416,7 @@ useHead({
     meta: [
         {
             name: 'description',
-            content: 'Allgemeine Geschäftsbedingungen von Korbitsch IT-Dienstleistungen, Villach: Webentwicklung, IT-Hausbesuche und Gaming PC Builds.'
+            content: 'Allgemeine Geschäftsbedingungen von Korbitsch IT-Dienstleistungen, Villach: Webentwicklung, IT-Hilfe und Gaming PC Builds.'
         },
         { name: 'robots', content: 'index, follow' }
     ],

@@ -45,7 +45,7 @@
                             Ing. Lukas Korbitsch<br />
                             Webentwicklung & IT Dienstleistungen<br />
                             Kiesweg 19<br />
-                            Villach, Kärnten<br />
+                            9500 Villach, Kärnten<br />
                             Österreich
                         </p>
                     </div>

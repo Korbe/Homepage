@@ -32,7 +32,7 @@ export const homevisitsFaqs = [
   },
   {
     q: 'Was kostet ein Hausbesuch?',
-    a: 'Die erste halbe Stunde kostet 50€ und beinhaltet Analyse sowie Problemlösung vor Ort. Danach werden 20€ pro angefangene 15 Minuten berechnet.\n\nDie Abrechnung erfolgt fair im 15-Minuten-Takt.\nBeispiel: 1h 26min → 1h 30min = 50€ + 4 x 20€ = 130€.\n\nDer Preis gilt ausschließlich für IT-Hausbesuche. Webentwicklung wird individuell kalkuliert.'
+    a: 'Die erste halbe Stunde kostet 50€ und beinhaltet Analyse sowie Problemlösung vor Ort. Danach werden 20€ pro angefangene 15 Minuten berechnet.\n\nDie Abrechnung erfolgt fair im 15-Minuten-Takt.\nBeispiel: 1h 26min → 1h 30min = 50€ + 4 x 20€ = 130€.\n\nDer Preis gilt ausschließlich für IT-Hausbesuche. Webentwicklung wird individuell kalkuliert.\n\nAlle Preise verstehen sich inklusive 20 % USt.'
   },
   {
     q: 'Reparierst du auch Hardware oder rettest Daten?',
@@ -51,7 +51,7 @@ export const homevisitsFaqs = [
 export const pcBuildFaqs = [
   {
     q: 'Was kostet ein Gaming PC Build?',
-    a: 'Die Kosten hängen davon ab, wie viel du selbst übernehmen möchtest. Eine individuelle Planung bekommst du ab 199€. Für Umbau oder Einrichtung berechne ich 199€.'
+    a: 'Die Kosten hängen davon ab, wie viel du selbst übernehmen möchtest. Eine individuelle Planung bekommst du ab 199€. Für Umbau oder Einrichtung berechne ich 199€ (inkl. 20 % USt).'
   },
   {
     q: 'Kann ich die Teile selbst kaufen?',

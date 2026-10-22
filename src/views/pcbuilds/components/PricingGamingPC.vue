@@ -26,9 +26,10 @@
 
           <h3 class="pg-font mb-5 text-2xl font-bold uppercase italic leading-tight">{{ p.title }}</h3>
 
-          <p class="pg-font mb-5 text-6xl font-bold italic leading-none">
+          <p class="pg-font text-6xl font-bold italic leading-none">
             <span class="pg-grad">{{ p.price }}</span><span class="text-3xl text-neutral-500">€</span>
           </p>
+          <p class="mb-5 mt-2 text-sm text-neutral-500">inkl. 20&nbsp;% USt.</p>
 
           <p class="mb-7 leading-relaxed text-neutral-300">{{ p.text }}</p>
 
